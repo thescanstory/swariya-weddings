@@ -957,6 +957,402 @@ DESTINATION_VENUES = [
         "faqs": [
             ("What kind of wedding experience does Ananda in the Himalayas offer?", "A spiritual, ultra-exclusive wellness sanctuary wedding combining yoga, spa rejuvenation, and sacred Vedic ceremonies.")
         ]
+    },
+    {
+        "slug": "the-oberoi-rajvilas-jaipur-wedding",
+        "name": "The Oberoi Rajvilas Jaipur",
+        "city": "Goner Road, Jaipur",
+        "state": "Rajasthan",
+        "tagline": "32-acre tranquil luxury oasis set amidst landscaped gardens, reflection pools, and an authentic 280-year-old Shiva temple.",
+        "capacity": "100 – 350 Guests",
+        "rooms": "71 Luxury Rooms, Luxury Tents with clawfoot tubs & Private Pool Villas",
+        "spaces": "Temple Pavilion Lawns (350 pax), Surya Mahal (150 pax), Courtyard (120 pax)",
+        "pricing": "₹50,00,000 – ₹1.3 Crores / day",
+        "catering": "Legendary Oberoi master chefs with silver-service Rajput banquets and global fine dining",
+        "decor": "Traditional Rajasthani royal marigold mandaps, floating lotuses, and royal torchlight entrances",
+        "lead_time": "10 – 16 months in advance",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("Can wedding pheras take place at the 280-year-old on-site temple?", "Yes, the historic Shiva temple within the resort grounds provides an authentic, spiritual setting for sacred Vedic pheras.")
+        ]
+    },
+    {
+        "slug": "le-meridien-jaipur-resort-wedding",
+        "name": "Le Méridien Jaipur Resort & Spa",
+        "city": "Kukas, Jaipur",
+        "state": "Rajasthan",
+        "tagline": "Grand palatial resort at the base of the Amer hills, featuring one of Jaipur's largest pillarless grand ballrooms and sweeping garden lawns.",
+        "capacity": "250 – 1500 Guests",
+        "rooms": "126 Luxury Rooms, Private Villas & Suites",
+        "spaces": "Amer Ballroom (800 pax), Central Pool Lawns (1500 pax), Courtyard (300 pax)",
+        "pricing": "₹25,00,000 – ₹65,00,000 / day",
+        "catering": "Expansive Marwari, Punjabi, and international multi-cuisine banqueting",
+        "decor": "Grand royal stage setups, illuminated pool walkways, and fireworks across the Aravalli hills",
+        "lead_time": "8 – 14 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("What is the maximum outdoor capacity at Le Méridien Jaipur?", "The central lawns can accommodate up to 1,500 guests for large-scale royal wedding receptions.")
+        ]
+    },
+    {
+        "slug": "radisson-blu-udaipur-palace-resort-wedding",
+        "name": "Radisson Blu Udaipur Palace Resort & Spa",
+        "city": "Fateh Sagar Lake, Udaipur",
+        "state": "Rajasthan",
+        "tagline": "Perched on the banks of Fateh Sagar Lake, boasting multi-tier dome architecture and massive lakeside banqueting decks.",
+        "capacity": "200 – 1000 Guests",
+        "rooms": "245 Palatial Rooms & Lake-Facing Suites",
+        "spaces": "Fateh Sagar Ballroom (600 pax), Udai Chowk Lawns (1000 pax), Aravalli Terrace (300 pax)",
+        "pricing": "₹25,00,000 – ₹60,00,000 / day",
+        "catering": "Authentic Rajasthani Mewari delicacies, live Asian street counters, and gourmet spreads",
+        "decor": "Opulent palace dome lighting, floral lake-view mandaps, and boat arrival logistics",
+        "lead_time": "8 – 12 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("Can guests arrive by boat at Radisson Blu Udaipur?", "Yes, private shikara boat transfers across Fateh Sagar Lake can be organized for the bridal party.")
+        ]
+    },
+    {
+        "slug": "raas-devigarh-delwara-wedding",
+        "name": "RAAS Devigarh Delwara",
+        "city": "Delwara, NH8, Udaipur",
+        "state": "Rajasthan",
+        "tagline": "An 18th-century hilltop fortress palace transformed into an internationally acclaimed minimalist luxury design hotel.",
+        "capacity": "100 – 350 Guests",
+        "rooms": "39 Luxury All-Suite Heritage Palace Buyout",
+        "spaces": "Main Palace Courtyard (350 pax), Darbar Terrace (200 pax), Pool Deck (150 pax)",
+        "pricing": "₹45,00,000 – ₹1.1 Crores / day buyout",
+        "catering": "Modern organic Mewari gastronomy, curated wellness menus, and international silver service",
+        "decor": "Minimalist architectural stone illumination, white floral elegance, and dramatic mountain valley views",
+        "lead_time": "10 – 15 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("Why is RAAS Devigarh renowned globally for destination weddings?", "Its juxtaposition of raw 18th-century stone fortifications with ultra-chic contemporary luxury interiors makes it truly one of a kind.")
+        ]
+    },
+    {
+        "slug": "aurika-udaipur-lemon-tree-wedding",
+        "name": "Aurika, Udaipur (Luxury by Lemon Tree)",
+        "city": "Kala Rohi, Rani Road, Udaipur",
+        "state": "Rajasthan",
+        "tagline": "Sprawling across 5 acres of undulating hills near Lake Pichola with majestic palatial architecture and grand banquet ballrooms.",
+        "capacity": "150 – 600 Guests",
+        "rooms": "139 Luxury Rooms, Suites & Plunge Pool Villas",
+        "spaces": "Ekaara Ballroom (450 pax), Ekaara Lawn (600 pax), Mirasa Terrace (200 pax)",
+        "pricing": "₹20,00,000 – ₹52,00,000 / day",
+        "catering": "Royal Rajasthani banquets, live culinary stations, and contemporary global dining",
+        "decor": "Rich palatial lighting, carved stone archways, and sunset hilltop pheras",
+        "lead_time": "7 – 12 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("What makes Aurika Udaipur a top choice for modern destination weddings?", "Its expansive ballroom, elevated hill views of Udaipur, and large room inventory provide 5-star palatial scale.")
+        ]
+    },
+    {
+        "slug": "raas-jodhpur-wedding",
+        "name": "RAAS Jodhpur",
+        "city": "Makrana Mohalla, Jodhpur",
+        "state": "Rajasthan",
+        "tagline": "Boutique heritage palace hotel located directly at the foot of the monumental Mehrangarh Fort in the historic walled Blue City.",
+        "capacity": "80 – 250 Guests",
+        "rooms": "40 Luxury Heritage & Contemporary Haveli Rooms",
+        "spaces": "Fort View Courtyard (250 pax), Stepwell Deck (120 pax), Darikhana Terrace (100 pax)",
+        "pricing": "₹30,00,000 – ₹70,00,000 / day buyout",
+        "catering": "Refined Jodhpuri royal cuisine, authentic tandoori grills, and artisanal cocktails",
+        "decor": "Rose-red sandstone lighting, candlelit courtyards beneath illuminated Mehrangarh Fort",
+        "lead_time": "9 – 14 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("What is the backdrop for wedding pheras at RAAS Jodhpur?", "The massive Mehrangarh Fort towers directly above the wedding courtyard, creating one of the world's most dramatic backdrops.")
+        ]
+    },
+    {
+        "slug": "welcomhotel-jodhpur-wedding",
+        "name": "Welcomhotel by ITC Hotels Jodhpur",
+        "city": "Karni Chetanya, Shikargarh, Jodhpur",
+        "state": "Rajasthan",
+        "tagline": "Spread across 10 acres of desert oasis landscape reflecting the indigenous culture, stepwells, and royal palaces of Marwar.",
+        "capacity": "200 – 1200 Guests",
+        "rooms": "98 Palatial Rooms & Private Pool Villas",
+        "spaces": "Marwar Ballroom (500 pax), Sand Dune Lawns (1200 pax), Baori Courtyard (300 pax)",
+        "pricing": "₹22,00,000 – ₹55,00,000 / day",
+        "catering": "Legendary ITC Marwari culinary heritage, Peshawri kebabs, and live desert banquets",
+        "decor": "Traditional desert lanterns, folk Manganiyar musicians, and grand royal tenting",
+        "lead_time": "8 – 12 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("Can desert camel caravans be integrated into the Baraat procession at Welcomhotel Jodhpur?", "Yes, royal camel processions, horse cavalries, and Dholak troupes are easily coordinated on the expansive hotel grounds.")
+        ]
+    },
+    {
+        "slug": "fort-rajwada-jaisalmer-wedding",
+        "name": "Fort Rajwada Jaisalmer",
+        "city": "Hotel Complex, Jodhpur Barmer Link Road, Jaisalmer",
+        "state": "Rajasthan",
+        "tagline": "6 acres of handcrafted yellow sandstone carving showcasing the timeless craftsmanship of Jaisalmer's master stone artisans.",
+        "capacity": "150 – 600 Guests",
+        "rooms": "90 Luxury Sandstone Rooms & Royal Suites",
+        "spaces": "Palace Lawns (600 pax), Royal Courtyard (300 pax), Poolside Terrace (200 pax)",
+        "pricing": "₹18,00,000 – ₹45,00,000 / day",
+        "catering": "Traditional Rajasthani desert delicacies, ker sangri, laal maas, and authentic thalis",
+        "decor": "Golden yellow sandstone backdrops, brass mashaal torches, and desert floral styling",
+        "lead_time": "7 – 12 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("Why is Fort Rajwada a favorite for Golden City weddings?", "Its authentic sandstone architecture offers the royal feeling of Jaisalmer Fort with modern 5-star amenities.")
+        ]
+    },
+    {
+        "slug": "ananta-spa-resort-pushkar-wedding",
+        "name": "Ananta Spa & Resort Pushkar",
+        "city": "Ajmer-Pushkar Road, Pushkar",
+        "state": "Rajasthan",
+        "tagline": "Sprawling Balinese-inspired luxury retreat surrounded by the majestic Aravalli hills with expansive banqueting amphitheaters.",
+        "capacity": "200 – 1500 Guests",
+        "rooms": "180 Contemporary Cottages & Luxury Tents",
+        "spaces": "Aravalli Grand Lawn (1500 pax), Aravali Ballroom (700 pax), Pool Deck (400 pax)",
+        "pricing": "₹20,00,000 – ₹55,00,000 / day",
+        "catering": "Pure vegetarian and multi-cuisine banquets with live chaat street counters",
+        "decor": "Balinese tropical structures, bohemian fairy light canopies, and mountain-view mandaps",
+        "lead_time": "8 – 12 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("Can strictly pure-vegetarian and Jain wedding catering be arranged at Ananta Pushkar?", "Yes, Pushkar is a sacred vegetarian holy city, and Ananta specializes in dedicated pure vegetarian and Jain kitchens.")
+        ]
+    },
+    {
+        "slug": "coconut-lagoon-kumarakom-wedding",
+        "name": "Coconut Lagoon (CGH Earth) Kumarakom",
+        "city": "Kavanattinkara, Kumarakom, Kerala",
+        "state": "Kerala",
+        "tagline": "Accessible only by boat, a world-celebrated heritage retreat built from reconstructed 150-year-old Kerala wooden mansions (Tharavads).",
+        "capacity": "80 – 250 Guests",
+        "rooms": "50 Heritage Wooden Mansions & Lake Villas",
+        "spaces": "Vembanad Lake Lawn (250 pax), Heritage Courtyard (150 pax), Poolside Grove (120 pax)",
+        "pricing": "₹22,00,000 – ₹55,00,000 / day buyout",
+        "catering": "Authentic Kerala Sadhya served on banana leaves, backwater karimeen pollichathu, and organic farm dishes",
+        "decor": "Chenda Melam drumming, lotus flower ponds, brass oil lamps, and coconut leaf weaving",
+        "lead_time": "9 – 14 months",
+        "hero_img": "images/12.jpg",
+        "faqs": [
+            ("How do wedding guests arrive at Coconut Lagoon Kumarakom?", "Guests arrive via scenic traditional motorboats gliding across the shimmering waters of Vembanad Lake.")
+        ]
+    },
+    {
+        "slug": "taj-green-cove-resort-kovalam-wedding",
+        "name": "Taj Green Cove Resort & Spa Kovalam",
+        "city": "G.V. Raja Vattappara Road, Kovalam, Kerala",
+        "state": "Kerala",
+        "tagline": "Hilltop luxury resort overlooking the Arabian Sea and a tranquil backwater lagoon, featuring Balinese villas and seaside lawns.",
+        "capacity": "100 – 400 Guests",
+        "rooms": "59 Hillside Cottages & Ocean Villas",
+        "spaces": "Seaside Cliff Lawns (400 pax), Grand Ballroom (200 pax), Lagoon Deck (150 pax)",
+        "pricing": "₹22,00,000 – ₹50,00,000 / day",
+        "catering": "Signature Taj coastal dining, Kerala seafood delicacies, and international gourmet banquets",
+        "decor": "Coastal sunset mandap on seaside cliffs, tropical foliage, and fairy light canopies",
+        "lead_time": "8 – 12 months",
+        "hero_img": "images/10.jpg",
+        "faqs": [
+            ("What makes Taj Green Cove Kovalam unique for destination weddings?", "It offers both cliffside ocean views of the Arabian Sea and a private backwater lagoon in a single luxury resort.")
+        ]
+    },
+    {
+        "slug": "carnoustie-ayurveda-wellness-resort-wedding",
+        "name": "Carnoustie Ayurveda & Wellness Resort",
+        "city": "Mararikulam, Alleppey, Kerala",
+        "state": "Kerala",
+        "tagline": "Exclusive boutique luxury eco-retreat on the shores of the Arabian Sea featuring private pool villas and wellness pavilions.",
+        "capacity": "60 – 200 Guests",
+        "rooms": "32 Luxury Private Pool Thatched Villas",
+        "spaces": "Private Beachfront Lawns (200 pax), Bamboo Pavilion (120 pax), Lotus Pool Deck (80 pax)",
+        "pricing": "₹25,00,000 – ₹60,00,000 / day buyout",
+        "catering": "Gourmet coastal seafood, organic Ayurvedic wellness cuisine, and international banquets",
+        "decor": "Barefoot beach luxury, driftwood mandaps, hanging marigold canopies, and gentle ocean waves",
+        "lead_time": "8 – 14 months",
+        "hero_img": "images/12.jpg",
+        "faqs": [
+            ("Is Carnoustie ideal for celebrity or ultra-private buyouts?", "Yes, with only 32 private pool villas, it is designed for intimate VIP buyouts requiring complete security and seclusion.")
+        ]
+    },
+    {
+        "slug": "taj-krishna-hyderabad-wedding",
+        "name": "Taj Krishna Hyderabad",
+        "city": "Road No. 1, Banjara Hills, Hyderabad",
+        "state": "Telangana",
+        "tagline": "Prestigious luxury hotel set in 9 acres of manicured gardens in the heart of Banjara Hills with legendary Nizam banqueting.",
+        "capacity": "250 – 1500 Guests",
+        "rooms": "260 Luxury Rooms & Royal Presidential Suites",
+        "spaces": "Grand Ballroom (600 pax), Sprawling Lawns (1500 pax), Garden Room (250 pax)",
+        "pricing": "₹30,00,000 – ₹80,00,000 / day",
+        "catering": "Iconic Firdaus Nizami cuisine, authentic Hyderabadi biryani, and global multi-cuisine banquets",
+        "decor": "Nizami royal gold drapes, crystal chandeliers, floral waterfalls, and classical live instrumentalists",
+        "lead_time": "9 – 14 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("What is the capacity of Taj Krishna's outdoor garden lawns?", "The outdoor lawns can comfortably host up to 1,500 guests for grand Hyderabadi wedding receptions.")
+        ]
+    },
+    {
+        "slug": "golconda-resorts-spa-hyderabad-wedding",
+        "name": "The Golconda Resorts & Spa Hyderabad",
+        "city": "Sagar Mahal Complex, Gandipet, Hyderabad",
+        "state": "Telangana",
+        "tagline": "37 lush green acres adjacent to Osman Sagar lake featuring private luxury villas and expansive outdoor amphitheaters.",
+        "capacity": "200 – 1200 Guests",
+        "rooms": "44 Private Luxury Villas & Suites",
+        "spaces": "Lakeside Lawns (1200 pax), Rendezvous Ballroom (400 pax), Palm Grove Deck (300 pax)",
+        "pricing": "₹18,00,000 – ₹45,00,000 / day",
+        "catering": "Deccani feasts, live barbecue stations, and multi-cuisine royal banquets",
+        "decor": "Lakeside sunset mandaps, illuminated palm groves, and grand Baraat paths",
+        "lead_time": "7 – 12 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("Is Golconda Resorts ideal for destination-style residential weddings in Hyderabad?", "Yes, its private villa accommodations and peaceful lakefront surroundings provide a true resort getaway within the city.")
+        ]
+    },
+    {
+        "slug": "taj-coromandel-chennai-wedding",
+        "name": "Taj Coromandel Chennai",
+        "city": "Nungambakkam, Chennai",
+        "state": "Tamil Nadu",
+        "tagline": "Chennai's timeless hospitality benchmark blending traditional South Indian design with modern luxury ballrooms.",
+        "capacity": "150 – 700 Guests",
+        "rooms": "212 Palatial Rooms & Luxury Suites",
+        "spaces": "Grand Ballroom (500 pax), Clive & Dupleix Halls (250 pax), Poolside Terrace (200 pax)",
+        "pricing": "₹25,00,000 – ₹65,00,000 / day",
+        "catering": "Southern Spice authentic South Indian masterpieces, Golden Dragon Pan-Asian, and international banquets",
+        "decor": "Traditional brass Kuthuvilakku lamps, mallipoo jasmine garlands, and opulent royal drapes",
+        "lead_time": "8 – 14 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("What culinary legacy does Taj Coromandel offer for traditional South Indian weddings?", "Its iconic restaurant Southern Spice provides award-winning regional recipes from Tamil Nadu, Kerala, Karnataka, and Andhra.")
+        ]
+    },
+    {
+        "slug": "the-leela-palace-chennai-wedding",
+        "name": "The Leela Palace Chennai",
+        "city": "Adyar Seaface, MRC Nagar, Chennai",
+        "state": "Tamil Nadu",
+        "tagline": "Chennai's only modern sea-facing palace hotel inspired by the grand Chettinad royal architecture overlooking the Bay of Bengal.",
+        "capacity": "200 – 1200 Guests",
+        "rooms": "326 Sea-Facing Rooms & Royal Suites",
+        "spaces": "Grand Ballroom (1000 pax), Royal Ballroom (400 pax), Sea-Facing Lawns (800 pax)",
+        "pricing": "₹35,00,000 – ₹90,00,000 / day",
+        "catering": "Spectacular multi-cuisine spreads curated by Leela master chefs with live experiential counters",
+        "decor": "Chettinad carved woodwork, crystal chandeliers, floral cascades, and grand bridal entries",
+        "lead_time": "9 – 15 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("What is the ballroom capacity at The Leela Palace Chennai?", "The Grand Ballroom spans over 14,000 sq.ft, making it one of South India's largest and most opulent indoor wedding venues.")
+        ]
+    },
+    {
+        "slug": "angsana-oasis-resort-bangalore-wedding",
+        "name": "Angsana Oasis Resort & Spa Bangalore",
+        "city": "Main Doddaballapur Road, Rajankunte, Bengaluru",
+        "state": "Karnataka",
+        "tagline": "Tranquil green sanctuary on the outskirts of Bangalore featuring Balinese pavilions, infinity pools, and sprawling lawns.",
+        "capacity": "150 – 800 Guests",
+        "rooms": "79 Luxury Rooms & Private Pool Suites",
+        "spaces": "Amphitheatre Lawns (800 pax), Banyan Ballroom (300 pax), Pool Deck (250 pax)",
+        "pricing": "₹16,00,000 – ₹40,00,000 / day",
+        "catering": "Multi-cuisine regional South Indian, North Indian royal, and Pan-Asian spreads",
+        "decor": "Tropical botanical styling, fairy lights on ancient trees, and floating pool mandaps",
+        "lead_time": "6 – 10 months",
+        "hero_img": "images/15.jpg",
+        "faqs": [
+            ("How far is Angsana Oasis Resort from Kempegowda International Airport (BLR)?", "It is just 35 minutes from BLR Airport, making it highly convenient for out-of-town guests.")
+        ]
+    },
+    {
+        "slug": "clarks-exotica-resort-bangalore-wedding",
+        "name": "Clarks Exotica Convention Resort & Spa",
+        "city": "Devanahalli Road, Swiss Town, Bengaluru",
+        "state": "Karnataka",
+        "tagline": "70 acres of manicured greens right beside Bangalore International Airport featuring massive convention facilities and garden lawns.",
+        "capacity": "250 – 2500 Guests",
+        "rooms": "150 Luxury Rooms, Suites & Club Villas",
+        "spaces": "Ocean Convention Hall (1500 pax), Sprawling Lawns (2500 pax), Oasis Poolside (400 pax)",
+        "pricing": "₹25,00,000 – ₹65,00,000 / day",
+        "catering": "Extensive Indian banqueting, live street food counters, and gourmet desserts",
+        "decor": "Monumental wedding sets, drone light shows, fireworks, and lavish floral architecture",
+        "lead_time": "8 – 12 months",
+        "hero_img": "images/15.jpg",
+        "faqs": [
+            ("Can Clarks Exotica host mega weddings with over 2,000 guests?", "Yes, its massive open-air lawns and pillarless convention halls easily accommodate large scale 2,000+ guest celebrations.")
+        ]
+    },
+    {
+        "slug": "rosetta-by-ferns-sakleshpur-wedding",
+        "name": "Rosetta by Ferns Sakleshpur",
+        "city": "Dindagadu, Sakleshpur, Karnataka",
+        "state": "Karnataka",
+        "tagline": "100-acre luxury coffee plantation sanctuary with private pool villas and elevated Western Ghats valley views.",
+        "capacity": "100 – 400 Guests",
+        "rooms": "125 Luxury Plantation Villas with plunge pools",
+        "spaces": "Plantation Lawns (400 pax), Grand Ballroom (250 pax), Valley Deck (150 pax)",
+        "pricing": "₹20,00,000 – ₹48,00,000 / day",
+        "catering": "Authentic Malnad plantation feasts, coastal Mangalorean dishes, and gourmet international buffets",
+        "decor": "Coffee blossom florals, rustic wooden arches, fairy lights, and misty valley backdrops",
+        "lead_time": "7 – 12 months",
+        "hero_img": "images/15.jpg",
+        "faqs": [
+            ("What makes Rosetta Sakleshpur popular for intimate coffee estate weddings?", "The blend of private luxury villas with private plunge pools, fresh mountain air, and lush coffee groves creates an unforgettable holiday wedding.")
+        ]
+    },
+    {
+        "slug": "the-corinthians-resort-pune-wedding",
+        "name": "The Corinthians Resort & Club Pune",
+        "city": "Undri, Pune",
+        "state": "Maharashtra",
+        "tagline": "25 acres of grand Egyptian-inspired architecture featuring massive open-air amphitheaters and Greek-style colonnades.",
+        "capacity": "200 – 1500 Guests",
+        "rooms": "146 Luxury Egyptian-Themed Rooms & Suites",
+        "spaces": "Grand Amphitheatre Lawn (1500 pax), Alexandria Ballroom (400 pax), Colosseum Deck (300 pax)",
+        "pricing": "₹20,00,000 – ₹50,00,000 / day",
+        "catering": "Maharashtrian traditional feasts, North Indian royal cuisine, and live Mediterranean barbecue",
+        "decor": "Dramatic stone colonnade lighting, grand stage sets, and poolside cocktail styling",
+        "lead_time": "7 – 12 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("What is the outdoor capacity of the Grand Amphitheatre at Corinthians Pune?", "The amphitheatre lawn comfortably accommodates up to 1,500 guests for Sangeet concerts and grand receptions.")
+        ]
+    },
+    {
+        "slug": "fariyas-resort-lonavala-wedding",
+        "name": "Fariyas Resort Lonavala",
+        "city": "Frichley Hills, Tungarli, Lonavala",
+        "state": "Maharashtra",
+        "tagline": "Hilltop luxury resort nestled in the Sahyadri mountains with indoor water parks, green valley lawns, and grand banqueting.",
+        "capacity": "150 – 600 Guests",
+        "rooms": "163 Luxury Hill-View Rooms & Suites",
+        "spaces": "Frichley Lawns (600 pax), Connoisseur Ballroom (300 pax), Pool Deck (200 pax)",
+        "pricing": "₹18,00,000 – ₹42,00,000 / day",
+        "catering": "Multi-cuisine experiential dining, live chaat bazaars, and traditional Gujarati/Maharashtrian spreads",
+        "decor": "Misty mountain hill backdrops, glass mandaps, and evening fairy light canopies",
+        "lead_time": "6 – 10 months",
+        "hero_img": "images/15.jpg",
+        "faqs": [
+            ("Why is Fariyas Resort Lonavala popular for Mumbai and Pune destination weddings?", "Located just 90 minutes from both Mumbai and Pune via the expressway, it provides easy mountain resort connectivity.")
+        ]
+    },
+    {
+        "slug": "madhubhan-resort-spa-gujarat-wedding",
+        "name": "Madhubhan Resort & Spa Anand Gujarat",
+        "city": "Anand-Sojitra Road, Vallabh Vidyanagar, Gujarat",
+        "state": "Gujarat",
+        "tagline": "25 acres of verdant Gujarati luxury surrounded by mango orchards, featuring signature stepwell architecture and royal mandaps.",
+        "capacity": "250 – 1500 Guests",
+        "rooms": "100 Luxury Cottages, Tents & Heritage Suites",
+        "spaces": "Madhubhan Lawns (1500 pax), Sanskar Ballroom (500 pax), Mango Orchard Deck (300 pax)",
+        "pricing": "₹22,00,000 – ₹55,00,000 / day",
+        "catering": "Authentic Gujarati Royal Thali, dedicated pure Jain kitchens, and live multi-cuisine counters",
+        "decor": "Traditional Gujarati Toran styling, floral swings, stepwell lighting, and grand fireworks",
+        "lead_time": "8 – 14 months",
+        "hero_img": "images/11.jpg",
+        "faqs": [
+            ("Does Madhubhan Resort specialize in pure vegetarian and Jain wedding catering?", "Yes, Madhubhan is world-renowned for its strictly pure vegetarian and Jain gastronomic excellence and live counters.")
+        ]
     }
 ]
 
