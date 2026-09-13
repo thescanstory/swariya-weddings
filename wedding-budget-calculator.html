@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) - GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SKRDGSHGF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4SKRDGSHGF');
+      gtag('config', 'AW-16941717881');
+    </script>
+    <meta name="google-site-verification" content="yzEXJ6aZqKbrVXZNEsuVjiSuXGsZAGy4ZLqUfqFkjzY" />
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PGH8WNPW');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India & Bengaluru Wedding Budget Calculator 2026 | Swariya Weddings</title>
+    <meta name="description" content="Calculate your customized wedding budget in real-time for Bengaluru, Goa, Rajasthan, Kerala, and Coorg. Estimate venue, catering, decor, photography and planning costs instantly.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://swariyaweddings.com/wedding-budget-calculator.html">
+
+    <!-- Fonts & CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=26">
+
+    <style>
+        .calc-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; margin-top: 40px; margin-bottom: 70px; }
+        @media (max-width: 850px) { .calc-grid { grid-template-columns: 1fr; } }
+
+        .calc-card { background: linear-gradient(180deg, #FFFFFF 0%, #FAF6F0 100%); border-radius: var(--radius-md); padding: 38px; box-shadow: var(--shadow-luxury); border: 1px solid var(--border-gold); }
+        .control-group { margin-bottom: 25px; }
+        .control-group label { display: block; font-weight: 600; color: var(--dark-luxury); margin-bottom: 10px; font-size: 1rem; }
+        .range-slider { width: 100%; accent-color: var(--primary); height: 8px; border-radius: 4px; }
+        .val-badge { display: inline-block; background: rgba(212, 175, 55, 0.15); color: var(--accent-dark); border: 1px solid rgba(212, 175, 55, 0.35); padding: 3px 12px; border-radius: 20px; font-weight: 700; font-size: 0.9rem; margin-left: 10px; }
+        
+        select.calc-select { width: 100%; padding: 13px 16px; border-radius: var(--radius-sm); border: 1px solid var(--border-gold); font-size: 0.98rem; font-family: inherit; background: white; color: var(--text); outline: none; }
+        select.calc-select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15); }
+
+        .results-card { background: radial-gradient(circle at 50% 20%, #15382e 0%, #0a1c18 70%, #050f0c 100%); color: white; border-radius: var(--radius-md); padding: 38px; box-shadow: var(--shadow-hover); border: 1.5px solid var(--border-gold); position: sticky; top: 100px; }
+        .results-card h3 { color: #FFF8F0; margin-bottom: 5px; font-size: 1.8rem; }
+        .est-total { font-size: 2.6rem; font-weight: 700; color: var(--accent-light); margin: 15px 0 25px; font-family: var(--font-heading); }
+        
+        .breakdown-row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 0.95rem; }
+        .breakdown-row:last-child { border-bottom: none; }
+        .breakdown-val { font-weight: 700; color: #fff; }
+
+        .btn-wa-export { display: flex; align-items: center; justify-content: center; gap: 10px; background: #25d366; color: white; padding: 16px; border-radius: 30px; text-decoration: none; font-weight: 700; font-size: 1.05rem; margin-top: 25px; box-shadow: 0 6px 20px rgba(37,211,102,0.35); transition: 0.3s; }
+        .btn-wa-export:hover { background: #1eb956; transform: translateY(-2px); }
+
+        .transparency-pill {
+            background: rgba(212, 175, 55, 0.15);
+            border: 1px dashed var(--accent);
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 0.85rem;
+            color: #FAF6F0;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "India & Bengaluru Wedding Cost & Budget Calculator 2026",
+      "url": "https://swariyaweddings.com/wedding-budget-calculator.html",
+      "applicationCategory": "CalculatorApplication",
+      "operatingSystem": "All",
+      "description": "Interactive wedding budget estimation calculator for Bengaluru, Goa, Rajasthan, Kerala, and Pan-India weddings across venue, decor, catering and planning tiers."
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".section-label", ".hero p", "main p", ".methodology-text"]
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGH8WNPW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><a href="index.html">SWARIYA</a></div>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">&#9776;</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="destination-wedding-planner-india.html">Destinations</a></li>
+                <li><a href="venues.html">Our Venues</a></li>
+                <li><a href="client-portal.html">Wedding OS</a></li>
+                <li><a href="wedding-budget-calculator.html" class="active" style="color: var(--accent); font-weight: 500;">Budget Tool</a></li>
+                <li><a href="wedding-brief-builder.html">Brief Builder</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html" class="btn-contact">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <p class="section-label">✦ FINANCIAL CLARITY & BENCHMARKING</p>
+        <h1>Pan-India Wedding Budget Calculator 2026</h1>
+        <p class="subtitle">Customize your destination, guest count, celebration duration, venue tier, and floral scale to receive an instant itemized cost estimate with 0% vendor markup transparency.</p>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Budget Calculator</li>
+        </ul>
+    </div>
+
+    <main class="container">
+        <div class="calc-grid">
+            <div class="calc-card">
+                <h2>Configure Your Celebration</h2>
+
+                <div class="control-group">
+                    <label>Destination & Geography</label>
+                    <select id="locationTier" class="calc-select" onchange="updateCalculator()">
+                        <option value="bengaluru">Bengaluru (Heritage Villas, 5-Star Luxury & Palace Grounds)</option>
+                        <option value="goa">Goa (Beachfront Luxury 5-Star Resorts & Portuguese Villas)</option>
+                        <option value="rajasthan">Rajasthan (Udaipur Lake Palaces, Jaipur & Jodhpur Havelis)</option>
+                        <option value="kerala">Kerala (Kumarakom Backwater Resorts & Kochi Coastal Venues)</option>
+                        <option value="coorg">Coorg & Western Ghats (Luxury Coffee Plantation Resorts)</option>
+                        <option value="metro">Metro Pan-India (Mumbai, Delhi NCR, Hyderabad, Chennai)</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label>Guest Count: <span id="guestBadge" class="val-badge">250 Guests</span></label>
+                    <input type="range" id="guestInput" class="range-slider" min="50" max="1500" step="25" value="250" oninput="updateCalculator()">
+                </div>
+
+                <div class="control-group">
+                    <label>Celebration Duration: <span id="daysBadge" class="val-badge">2 Days</span></label>
+                    <input type="range" id="daysInput" class="range-slider" min="1" max="4" step="1" value="2" oninput="updateCalculator()">
+                </div>
+
+                <div class="control-group">
+                    <label>Venue Style & Property Tier</label>
+                    <select id="venueTier" class="calc-select" onchange="updateCalculator()">
+                        <option value="fivestar">5-Star Luxury Resort / Hotel (e.g. Taj, Leela, ITC, W, Alila)</option>
+                        <option value="heritage">Heritage Villa / Boutique Courtyard (e.g. Tamarind Tree, Samavana)</option>
+                        <option value="palace">Royal Palace / Grand Hall (e.g. Palace Grounds, Chomu Palace)</option>
+                        <option value="nature">Eco-Luxury Nature & Backwater Resort (e.g. Kumarakom, Coorg)</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label>Decor & Floral Production Tier</label>
+                    <select id="decorTier" class="calc-select" onchange="updateCalculator()">
+                        <option value="elegant">Elegant Artisanal (Brass Urulis, Marigold, Temple Torans & Minimalist)</option>
+                        <option value="premium" selected>Premium Designer (Imported Florals, Custom Truss, Canopy Lighting)</option>
+                        <option value="royal">Grand Royal & Thematic (Monumental Sets, 3D Sculpted Pillars, Crystal Mandap)</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label>Catering & Food Curation</label>
+                    <select id="cateringTier" class="calc-select" onchange="updateCalculator()">
+                        <option value="south_veg">Traditional South Indian Banana Leaf Feast / Authentic Regional (Pure Veg)</option>
+                        <option value="multi_veg">Multi-Cuisine Pure Veg Feast (North Indian, Coastal, Live Chaat Stations)</option>
+                        <option value="multi_nv" selected>Gourmet Multi-Cuisine Live Grill, Global Stations & Non-Veg</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="results-card">
+                <h3>Estimated Investment</h3>
+                <p style="opacity: 0.8; font-size: 0.9rem;" id="locationMarketLabel">Bengaluru Market Benchmark (2026)</p>
+                <div class="est-total" id="totalEstimate">₹42,50,000</div>
+
+                <div style="margin-top: 20px;">
+                    <div class="breakdown-row">
+                        <span>Venue Rental & Hospitality:</span>
+                        <span class="breakdown-val" id="bVenue">₹14,00,000</span>
+                    </div>
+                    <div class="breakdown-row">
+                        <span>Catering & Beverage Service:</span>
+                        <span class="breakdown-val" id="bCatering">₹15,00,000</span>
+                    </div>
+                    <div class="breakdown-row">
+                        <span>Decor, Mandap & Production:</span>
+                        <span class="breakdown-val" id="bDecor">₹8,50,000</span>
+                    </div>
+                    <div class="breakdown-row">
+                        <span>Photography & Cinematography:</span>
+                        <span class="breakdown-val" id="bPhoto">₹3,50,000</span>
+                    </div>
+                    <div class="breakdown-row">
+                        <span>Sound, DJ, Tech & Entertainment:</span>
+                        <span class="breakdown-val" id="bMusic">₹1,50,000</span>
+                    </div>
+                    <div class="breakdown-row">
+                        <span>Swariya Planning (0% Markups):</span>
+                        <span class="breakdown-val" id="bPlanning">₹2,00,000</span>
+                    </div>
+                </div>
+
+                <div class="transparency-pill">
+                    ✨ <strong>The Swariya Advantage:</strong> 100% Zero Vendor Markups. You pay exact vendor costs directly with zero hidden commissions, saving an estimated 15–20% on market quotes.
+                </div>
+
+                <a id="waExportBtn" href="#" class="btn-wa-export" target="_blank" rel="noopener">
+                    💬 Export Estimate to WhatsApp
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" style="background:#1a1a1a; color:#fff; padding:60px 0 30px; margin-top:80px;">
+        <div class="container" style="text-align:center;">
+            <p><strong>Swariya Weddings</strong> — Pan-India Luxury & Destination Wedding Planners. Headquartered in Bengaluru with nationwide execution across Goa, Rajasthan, Kerala, Coorg & beyond.</p>
+            <p style="font-size:0.9rem; color:#aaa; margin-top: 10px;">© 2026 Swariya Weddings. 150+ Weddings Planned | 100% Financial Transparency | 0% Vendor Markups.</p>
+        </div>
+    </footer>
+
+    <script>
+        function updateCalculator() {
+            const location = document.getElementById("locationTier").value;
+            const guests = parseInt(document.getElementById("guestInput").value);
+            const days = parseInt(document.getElementById("daysInput").value);
+            const venueTier = document.getElementById("venueTier").value;
+            const decorTier = document.getElementById("decorTier").value;
+            const cateringTier = document.getElementById("cateringTier").value;
+
+            document.getElementById("guestBadge").innerText = guests + " Guests";
+            document.getElementById("daysBadge").innerText = days + (days === 1 ? " Day" : " Days");
+
+            // Location multiplier & labels
+            let locMultiplier = 1.0;
+            let locLabel = "Bengaluru Market Benchmark (2026)";
+            let locName = "Bengaluru";
+
+            if (location === "goa") {
+                locMultiplier = 1.25;
+                locLabel = "Goa Destination Benchmark (2026)";
+                locName = "Goa";
+            } else if (location === "rajasthan") {
+                locMultiplier = 1.45;
+                locLabel = "Rajasthan Heritage & Palace Benchmark (2026)";
+                locName = "Rajasthan (Udaipur/Jaipur)";
+            } else if (location === "kerala") {
+                locMultiplier = 1.15;
+                locLabel = "Kerala Backwater Benchmark (2026)";
+                locName = "Kerala (Kumarakom/Kochi)";
+            } else if (location === "coorg") {
+                locMultiplier = 1.10;
+                locLabel = "Coorg & Hill Estate Benchmark (2026)";
+                locName = "Coorg / Western Ghats";
+            } else if (location === "metro") {
+                locMultiplier = 1.20;
+                locLabel = "Pan-India Metro Benchmark (2026)";
+                locName = "Metro Pan-India";
+            }
+
+            document.getElementById("locationMarketLabel").innerText = locLabel;
+
+            // Venue Cost
+            let venueBaseDaily = 450000;
+            if (venueTier === "fivestar") venueBaseDaily = 700000;
+            else if (venueTier === "palace") venueBaseDaily = 950000;
+            else if (venueTier === "nature") venueBaseDaily = 400000;
+            else if (venueTier === "heritage") venueBaseDaily = 500000;
+
+            let venueCost = venueBaseDaily * days * locMultiplier;
+
+            // Catering Cost
+            let plateCost = (cateringTier === "south_veg") ? 950 : (cateringTier === "multi_veg" ? 1500 : 2200);
+            let mealsCount = days * 2; // avg 2 major meals per day
+            let cateringCost = guests * plateCost * mealsCount * (location === "goa" || location === "rajasthan" ? 1.15 : 1.0);
+
+            // Decor Cost
+            let decorBase = (decorTier === "elegant") ? 450000 : (decorTier === "premium" ? 900000 : 1600000);
+            let decorCost = decorBase * (1 + (days - 1) * 0.45);
+            if (location !== "bengaluru") {
+                decorCost += 80000; // Logistical dispatch of in-house lead craftsmen
+            }
+
+            // Photography & Tech
+            let photoCost = (250000 + (days - 1) * 120000) * (location !== "bengaluru" ? 1.2 : 1.0);
+            let musicCost = (120000 + (days - 1) * 60000);
+            let planningCost = 150000 + (days - 1) * 50000 + (location !== "bengaluru" ? 40000 : 0);
+
+            let total = venueCost + cateringCost + decorCost + photoCost + musicCost + planningCost;
+
+            function formatINR(n) {
+                return "₹" + Math.round(n).toLocaleString('en-IN');
+            }
+
+            document.getElementById("totalEstimate").innerText = formatINR(total);
+            document.getElementById("bVenue").innerText = formatINR(venueCost);
+            document.getElementById("bCatering").innerText = formatINR(cateringCost);
+            document.getElementById("bDecor").innerText = formatINR(decorCost);
+            document.getElementById("bPhoto").innerText = formatINR(photoCost);
+            document.getElementById("bMusic").innerText = formatINR(musicCost);
+            document.getElementById("bPlanning").innerText = formatINR(planningCost);
+
+            const msg = `Hi Swariya Weddings, I used your Pan-India Budget Calculator! Here is my estimated plan:
+- Destination/City: ${locName}
+- Guests: ${guests}
+- Duration: ${days} Day(s)
+- Estimated Investment: ${formatINR(total)}
+- Zero Markup Guarantee Requested: Yes
+
+Can we connect to discuss date availability, venue shortlisting, and detailed line-item costing?`;
+            
+            document.getElementById("waExportBtn").href = "https://wa.me/918050573382?text=" + encodeURIComponent(msg);
+        }
+
+        window.onload = updateCalculator;
+    </script>
+    <script src="nav.js"></script>
+</body>
+</html>

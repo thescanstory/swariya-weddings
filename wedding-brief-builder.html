@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) - GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SKRDGSHGF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4SKRDGSHGF');
+      gtag('config', 'AW-16941717881');
+    </script>
+    <meta name="google-site-verification" content="yzEXJ6aZqKbrVXZNEsuVjiSuXGsZAGy4ZLqUfqFkjzY" />
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PGH8WNPW');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Wedding Brief & Moodboard Builder | Swariya Weddings</title>
+    <meta name="description" content="Build your custom wedding moodboard & brief in 3 minutes across Bengaluru, Goa, Rajasthan, Kerala, and Pan-India. Curate aesthetic, functions, and send directly to Swariya.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://swariyaweddings.com/wedding-brief-builder.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Interactive Wedding Brief & Moodboard Builder | Swariya Weddings">
+    <meta property="og:description" content="Create your personalized wedding decor brief and moodboard in 3 minutes. Align your destination, aesthetic, ceremonies, and color story with Swariya.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://swariyaweddings.com/wedding-brief-builder.html">
+    <meta property="og:image" content="https://swariyaweddings.com/images/11.jpg">
+
+    <!-- Fonts & CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=26">
+
+    <style>
+        .builder-container {
+            max-width: 1050px;
+            margin: 50px auto 80px;
+        }
+        .builder-card {
+            background: linear-gradient(180deg, #FFFFFF 0%, #FAF6F0 100%);
+            border-radius: var(--radius-md);
+            padding: 38px 40px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-luxury);
+            border: 1px solid var(--border-gold);
+            transition: all 0.3s ease;
+        }
+        .builder-card:hover {
+            box-shadow: var(--shadow-hover);
+            border-color: var(--border-gold-hover);
+        }
+        .step-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+            padding-bottom: 18px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+        }
+        .step-num-badge {
+            width: 36px;
+            height: 36px;
+            background: var(--primary);
+            color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.95rem;
+            flex-shrink: 0;
+            font-family: var(--font-heading);
+            border: 1px solid var(--accent);
+            box-shadow: 0 2px 8px rgba(139, 26, 26, 0.25);
+        }
+        .step-title {
+            font-size: 1.35rem;
+            color: var(--primary);
+            margin: 0;
+            font-family: var(--font-heading);
+        }
+        .step-subtitle {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin: 3px 0 0;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+        .opt-card {
+            border: 1.5px solid rgba(212, 175, 55, 0.25);
+            border-radius: var(--radius-sm);
+            padding: 18px 20px;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+            background: #FFFFFF;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            user-select: none;
+        }
+        .opt-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(212, 175, 55, 0.15);
+        }
+        .opt-card.selected {
+            background: #FAF6F0;
+            border-color: var(--primary);
+            color: var(--primary);
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(139, 26, 26, 0.12);
+        }
+        .check-circle {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            border: 1.5px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: transparent;
+            flex-shrink: 0;
+            transition: all 0.2s;
+        }
+        .opt-card.selected .check-circle {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: #fff;
+        }
+
+        .color-dot-group {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+        .color-dot {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        }
+
+        /* Saved References Box */
+        .saved-refs-box {
+            background: #FAF6F0;
+            border: 1.5px dashed var(--accent);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 30px;
+        }
+        .saved-refs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+            gap: 12px;
+            margin-top: 15px;
+        }
+        .saved-thumb-wrap {
+            position: relative;
+            aspect-ratio: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .saved-thumb-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .saved-thumb-remove {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            border: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Final Output Summary Card */
+        .brief-summary-card {
+            background: #0a1c18;
+            color: #ffffff;
+            border-radius: 16px;
+            padding: 45px 40px;
+            border: 1px solid var(--accent);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        .brief-summary-card h3 {
+            color: var(--accent);
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+        }
+        .brief-output-box {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 10px;
+            padding: 22px;
+            font-size: 1rem;
+            line-height: 1.8;
+            margin: 20px 0 30px;
+            font-family: var(--font-body);
+        }
+        .btn-whatsapp-brief {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #25D366;
+            color: #ffffff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.35);
+            transition: all 0.3s;
+        }
+        .btn-whatsapp-brief:hover {
+            background: #20ba5a;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(37, 211, 102, 0.45);
+        }
+
+        @media (max-width: 768px) {
+            .builder-card {
+                padding: 26px 20px;
+            }
+            .brief-summary-card {
+                padding: 30px 20px;
+            }
+            .options-grid {
+                grid-template-columns: 1fr;
+            }
+            .btn-whatsapp-brief {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+
+    <!-- Schema.org WebApplication & BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://swariyaweddings.com/wedding-brief-builder.html#app",
+          "name": "Swariya Wedding Brief & Moodboard Builder",
+          "applicationCategory": "DesignApplication",
+          "operatingSystem": "All modern browsers",
+          "description": "Interactive wedding design brief and moodboard builder for luxury and destination celebrations across India."
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://swariyaweddings.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Wedding Brief Builder",
+              "item": "https://swariyaweddings.com/wedding-brief-builder.html"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGH8WNPW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Header Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><a href="index.html">SWARIYA</a></div>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">&#9776;</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="destination-wedding-planner-india.html">Destinations</a></li>
+                <li><a href="venues.html">Our Venues</a></li>
+                <li><a href="client-portal.html">Wedding OS</a></li>
+                <li><a href="wedding-budget-calculator.html">Budget Tool</a></li>
+                <li><a href="wedding-brief-builder.html" class="active" style="color: var(--accent); font-weight: 500;">Brief Builder</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html" class="btn-contact">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <p class="section-label">✦ INTERACTIVE DESIGN ATELIER</p>
+        <h1>Wedding Brief & Moodboard Builder</h1>
+        <p class="subtitle">Curate your destination, signature design aesthetic, ceremony lineup, and color palette in 3 minutes. Generate an instant concept brief ready for Swariya's creative design team.</p>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Wedding Brief Builder</li>
+        </ul>
+    </div>
+
+    <!-- Main Builder Form -->
+    <main class="container builder-container">
+
+        <!-- SAVED MOODBOARD REFERENCES SECTION -->
+        <div id="savedRefsContainer" class="saved-refs-box" style="display: none;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <strong style="color: #8B1A1A; font-size: 1.1rem; font-family: var(--font-heading);">✦ Your Saved Decor References</strong>
+                    <p style="font-size: 0.85rem; color: #666; margin: 2px 0 0;">Images added while browsing Swariya's portfolio and venue pages.</p>
+                </div>
+                <button onclick="clearSavedRefs()" style="background: none; border: 1px solid #c9bda9; color: #888; padding: 4px 10px; border-radius: 4px; font-size: 0.78rem; cursor: pointer;">Clear All</button>
+            </div>
+            <div id="savedRefsGrid" class="saved-refs-grid"></div>
+        </div>
+
+        <!-- STEP 1: DESTINATION & GEOGRAPHY -->
+        <div class="builder-card">
+            <div class="step-header">
+                <div class="step-num-badge">1</div>
+                <div>
+                    <h2 class="step-title">Select Your Desired Destination / City</h2>
+                    <p class="step-subtitle">Where will your multi-day celebration take place?</p>
+                </div>
+            </div>
+            <div class="options-grid">
+                <div class="opt-card selected" onclick="selectLocation(this, 'Bengaluru (Heritage Villas, 5-Star Luxury & Palace Grounds)')">
+                    <span class="check-circle">✓</span>
+                    <span>🏛️ Bengaluru (Heritage & Luxury)</span>
+                </div>
+                <div class="opt-card" onclick="selectLocation(this, 'Goa (Beachfront 5-Star Resort & Portuguese Heritage)')">
+                    <span class="check-circle">✓</span>
+                    <span>🌊 Goa Beachfront Luxury</span>
+                </div>
+                <div class="opt-card" onclick="selectLocation(this, 'Rajasthan (Udaipur Lake Palaces, Jaipur & Jodhpur Havelis)')">
+                    <span class="check-circle">✓</span>
+                    <span>👑 Rajasthan (Udaipur / Jaipur Palaces)</span>
+                </div>
+                <div class="opt-card" onclick="selectLocation(this, 'Kerala (Kumarakom Backwaters & Kochi Waterfront)')">
+                    <span class="check-circle">✓</span>
+                    <span>🌴 Kerala Backwaters & Heritage</span>
+                </div>
+                <div class="opt-card" onclick="selectLocation(this, 'Coorg & Western Ghats (Coffee Plantation & Rainforest Resorts)')">
+                    <span class="check-circle">✓</span>
+                    <span>☕ Coorg & Coffee Plantation Resorts</span>
+                </div>
+                <div class="opt-card" onclick="selectLocation(this, 'Metro Pan-India (Mumbai, Delhi NCR, Hyderabad, Chennai)')">
+                    <span class="check-circle">✓</span>
+                    <span>🏙️ Metro Pan-India / Other Cities</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- STEP 2: PRIMARY DESIGN AESTHETIC -->
+        <div class="builder-card">
+            <div class="step-header">
+                <div class="step-num-badge">2</div>
+                <div>
+                    <h2 class="step-title">Choose Your Primary Design Aesthetic</h2>
+                    <p class="step-subtitle">What atmosphere and visual mood best defines your dream wedding?</p>
+                </div>
+            </div>
+            <div class="options-grid">
+                <div class="opt-card selected" onclick="selectTheme(this, 'Traditional Temple Heritage & Brass Florals')">
+                    <span class="check-circle">✓</span>
+                    <span>🌺 Temple Heritage & Brass Florals</span>
+                </div>
+                <div class="opt-card" onclick="selectTheme(this, 'Rustic Garden & Heritage Banyan Courtyard')">
+                    <span class="check-circle">✓</span>
+                    <span>🌿 Rustic Garden & Banyan Tree Estate</span>
+                </div>
+                <div class="opt-card" onclick="selectTheme(this, 'Royal Palace & Antique Gold Opulence')">
+                    <span class="check-circle">✓</span>
+                    <span>👑 Royal Palace & Golden Grandeur</span>
+                </div>
+                <div class="opt-card" onclick="selectTheme(this, 'Modern Minimalist Pastel & Bohemian Chic')">
+                    <span class="check-circle">✓</span>
+                    <span>✨ Modern Pastel & Bohemian Luxe</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- STEP 3: CELEBRATIONS & CEREMONIES (MULTI-SELECT) -->
+        <div class="builder-card">
+            <div class="step-header">
+                <div class="step-num-badge">3</div>
+                <div>
+                    <h2 class="step-title">Select Your Functions & Ceremonies</h2>
+                    <p class="step-subtitle">Select all the events you would like Swariya to design and coordinate.</p>
+                </div>
+            </div>
+            <div class="options-grid">
+                <div class="opt-card selected" onclick="toggleFunction(this, 'Haldi / Pellikuturu')">
+                    <span class="check-circle">✓</span>
+                    <span>💛 Haldi / Pellikuturu</span>
+                </div>
+                <div class="opt-card selected" onclick="toggleFunction(this, 'Mehendi Ceremony')">
+                    <span class="check-circle">✓</span>
+                    <span>💚 Mehendi Ceremony</span>
+                </div>
+                <div class="opt-card selected" onclick="toggleFunction(this, 'High-Energy Sangeet')">
+                    <span class="check-circle">✓</span>
+                    <span>🎉 High-Energy Sangeet</span>
+                </div>
+                <div class="opt-card selected" onclick="toggleFunction(this, 'Auspicious Muhurtham')">
+                    <span class="check-circle">✓</span>
+                    <span>🪔 Auspicious Muhurtham</span>
+                </div>
+                <div class="opt-card selected" onclick="toggleFunction(this, 'Grand Evening Reception')">
+                    <span class="check-circle">✓</span>
+                    <span>🥂 Grand Evening Reception</span>
+                </div>
+                <div class="opt-card" onclick="toggleFunction(this, 'Nandi Pooja / Devakarya')">
+                    <span class="check-circle">✓</span>
+                    <span>🥥 Nandi Pooja / Devakarya</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- STEP 4: SIGNATURE COLOR STORY -->
+        <div class="builder-card">
+            <div class="step-header">
+                <div class="step-num-badge">4</div>
+                <div>
+                    <h2 class="step-title">Select Your Signature Color Palette</h2>
+                    <p class="step-subtitle">The primary floral and fabric tones for your central mandap and stage.</p>
+                </div>
+            </div>
+            <div class="options-grid">
+                <div class="opt-card selected" onclick="selectColor(this, 'Temple Marigold & Sindoor Crimson')">
+                    <div class="color-dot-group">
+                        <span class="color-dot" style="background: #FFB703;"></span>
+                        <span class="color-dot" style="background: #8B1A1A;"></span>
+                    </div>
+                    <span>Marigold Gold & Crimson</span>
+                </div>
+                <div class="opt-card" onclick="selectColor(this, 'Raw Silk Ivory & Royal Antique Gold')">
+                    <div class="color-dot-group">
+                        <span class="color-dot" style="background: #FFFDF9; border: 1px solid #ccc;"></span>
+                        <span class="color-dot" style="background: #D4AF37;"></span>
+                    </div>
+                    <span>Ivory & Antique Gold</span>
+                </div>
+                <div class="opt-card" onclick="selectColor(this, 'Blush Rose & Sage Eucalyptus Green')">
+                    <div class="color-dot-group">
+                        <span class="color-dot" style="background: #F8D7DA;"></span>
+                        <span class="color-dot" style="background: #2D5A43;"></span>
+                    </div>
+                    <span>Blush Rose & Sage Green</span>
+                </div>
+                <div class="opt-card" onclick="selectColor(this, 'Royal Emerald Green & Saffron Mustard')">
+                    <div class="color-dot-group">
+                        <span class="color-dot" style="background: #0A2F24;"></span>
+                        <span class="color-dot" style="background: #E5A93C;"></span>
+                    </div>
+                    <span>Emerald & Saffron Mustard</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- STEP 5: GUEST SCALE & TARGET TIMELINE -->
+        <div class="builder-card">
+            <div class="step-header">
+                <div class="step-num-badge">5</div>
+                <div>
+                    <h2 class="step-title">Guest Scale & Planning Horizon</h2>
+                    <p class="step-subtitle">Approximate guest count for spatial flow, hospitality and dining choreography.</p>
+                </div>
+            </div>
+            <div class="options-grid">
+                <div class="opt-card" onclick="selectGuestScale(this, 'Intimate (50–150 guests)')">
+                    <span class="check-circle">✓</span>
+                    <span>🌿 50 – 150 (Intimate Destination)</span>
+                </div>
+                <div class="opt-card selected" onclick="selectGuestScale(this, 'Mid-Luxury (150–350 guests)')">
+                    <span class="check-circle">✓</span>
+                    <span>🏰 150 – 350 (Mid-Luxury)</span>
+                </div>
+                <div class="opt-card" onclick="selectGuestScale(this, 'Grand (350–700 guests)')">
+                    <span class="check-circle">✓</span>
+                    <span>👑 350 – 700 (Grand Scale)</span>
+                </div>
+                <div class="opt-card" onclick="selectGuestScale(this, 'Royal Scale (700+ guests)')">
+                    <span class="check-circle">✓</span>
+                    <span>🏛️ 700+ (Royal Palace Scale)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- STEP 6: FINAL OUTPUT SUMMARY & WHATSAPP SUBMISSION -->
+        <div class="brief-summary-card">
+            <span style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent); font-weight: 700;">Generated Output</span>
+            <h3>Your Custom Wedding Design Brief</h3>
+            <p style="opacity: 0.85; font-size: 0.95rem; margin-bottom: 15px;">
+                Review your personalized vision summary below. Send it directly to Swariya via WhatsApp for an initial feasibility check, venue shortlisting, and zero-commission budget plan.
+            </p>
+
+            <div id="briefOutputBox" class="brief-output-box">
+                <!-- Dynamically populated -->
+            </div>
+
+            <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap;">
+                <a id="sendWhatsAppBtn" href="#" target="_blank" rel="noopener" class="btn-whatsapp-brief">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.534 1.776.818 2.796.818 3.182 0 5.768-2.587 5.768-5.768.001-3.18-2.585-5.602-5.768-5.602zm3.394 8.085c-.144.405-.837.774-1.17.824-.312.045-.694.06-2.12-.533-1.498-.621-2.437-2.137-2.512-2.237-.074-.1-2.123-2.825-1.192-3.879.444-.503.974-.537 1.298-.537.112 0 .209.006.299.011.255.011.383.027.551.431.21.503.719 1.758.783 1.888.064.13.107.283.021.454-.085.171-.128.277-.255.426-.128.149-.269.333-.384.448-.128.128-.261.267-.112.523.149.256.662 1.092 1.42 1.767.974.869 1.794 1.139 2.051 1.268.256.128.406.107.555-.064.15-.171.64-.747.811-1.003.171-.256.342-.213.576-.128.235.085 1.494.704 1.75 1.045.256.341.256.639.112 1.044z"/>
+                    </svg>
+                    <span>Send Brief to Swariya Design Studio via WhatsApp</span>
+                </a>
+                <a href="/wedding-budget-calculator.html" style="color: #fff; text-decoration: underline; font-size: 0.9rem; opacity: 0.9;">Or calculate detailed budget &rarr;</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" style="margin-top: 80px;">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="/" class="footer-logo">Swariya <span>Weddings</span></a>
+                <p>Pan-India Luxury & Destination Wedding Planners. Headquartered in Bengaluru with nationwide execution across Goa, Rajasthan, Kerala, Coorg & beyond. 150+ weddings planned with zero vendor markups.</p>
+                <p style="margin-top: 10px; font-size: 0.85rem; color: #888;">📍 Atelier: HSR Layout, Bengaluru | 📞 +91 80505 73382</p>
+            </div>
+            <div class="footer-col">
+                <h4>Interactive Planning Tools</h4>
+                <ul>
+                    <li><a href="/wedding-brief-builder.html">Wedding Brief Builder</a></li>
+                    <li><a href="/client-portal.html">Wedding OS Workspace</a></li>
+                    <li><a href="/wedding-budget-calculator.html">Budget Calculator</a></li>
+                    <li><a href="/venue-finder.html">Bangalore Venue Comparator</a></li>
+                    <li><a href="/bengaluru-wedding-cost-guide-2026.html">2026 Cost Benchmark</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Destinations & Verticals</h4>
+                <ul>
+                    <li><a href="/destination-wedding-planner-india.html">Pan-India Destination Hub</a></li>
+                    <li><a href="/kannada-wedding-planner-bengaluru.html">Kannada Weddings</a></li>
+                    <li><a href="/telugu-wedding-planner-bengaluru.html">Telugu Weddings</a></li>
+                    <li><a href="/tamil-wedding-planner-bengaluru.html">Tamil Weddings</a></li>
+                    <li><a href="/marwari-wedding-planner-bengaluru.html">Marwari Weddings</a></li>
+                    <li><a href="/nri-destination-wedding-planner-bangalore.html">NRI Destination Weddings</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Swariya Weddings. All Rights Reserved. • <a href="/sitemap.xml">Sitemap</a> • <a href="/reviews.html">Verified Reviews</a></p>
+        </div>
+    </footer>
+
+    <!-- Interactive Brief Script -->
+    <script>
+        let currentLocation = 'Bengaluru (Heritage Villas, 5-Star Luxury & Palace Grounds)';
+        let currentTheme = 'Traditional Temple Heritage & Brass Florals';
+        let currentFunctions = ['Haldi / Pellikuturu', 'Mehendi Ceremony', 'High-Energy Sangeet', 'Auspicious Muhurtham', 'Grand Evening Reception'];
+        let currentColor = 'Temple Marigold & Sindoor Crimson';
+        let currentGuestScale = 'Mid-Luxury (150–350 guests)';
+
+        document.addEventListener('DOMContentLoaded', function() {
+            loadSavedReferences();
+            updateBriefSummary();
+        });
+
+        function selectLocation(el, locName) {
+            el.closest('.options-grid').querySelectorAll('.opt-card').forEach(c => c.classList.remove('selected'));
+            el.classList.add('selected');
+            currentLocation = locName;
+            updateBriefSummary();
+        }
+
+        function selectTheme(el, themeName) {
+            el.closest('.options-grid').querySelectorAll('.opt-card').forEach(c => c.classList.remove('selected'));
+            el.classList.add('selected');
+            currentTheme = themeName;
+            updateBriefSummary();
+        }
+
+        function toggleFunction(el, fnName) {
+            el.classList.toggle('selected');
+            if (el.classList.contains('selected')) {
+                if (!currentFunctions.includes(fnName)) currentFunctions.push(fnName);
+            } else {
+                currentFunctions = currentFunctions.filter(f => f !== fnName);
+            }
+            updateBriefSummary();
+        }
+
+        function selectColor(el, colorName) {
+            el.closest('.options-grid').querySelectorAll('.opt-card').forEach(c => c.classList.remove('selected'));
+            el.classList.add('selected');
+            currentColor = colorName;
+            updateBriefSummary();
+        }
+
+        function selectGuestScale(el, scaleName) {
+            el.closest('.options-grid').querySelectorAll('.opt-card').forEach(c => c.classList.remove('selected'));
+            el.classList.add('selected');
+            currentGuestScale = scaleName;
+            updateBriefSummary();
+        }
+
+        function updateBriefSummary() {
+            const savedRefs = JSON.parse(localStorage.getItem('swariya_brief_images') || '[]');
+            const refsCountText = savedRefs.length > 0 ? ` (${savedRefs.length} moodboard reference images attached)` : '';
+
+            const summaryHtml = `
+                <div style="margin-bottom: 8px;"><strong>📍 Destination / Region:</strong> ${currentLocation}</div>
+                <div style="margin-bottom: 8px;"><strong>🎨 Aesthetic Theme:</strong> ${currentTheme}</div>
+                <div style="margin-bottom: 8px;"><strong>🎉 Selected Functions:</strong> ${currentFunctions.join(', ') || 'Custom Lineup'}</div>
+                <div style="margin-bottom: 8px;"><strong>🌸 Signature Color Palette:</strong> ${currentColor}</div>
+                <div style="margin-bottom: 8px;"><strong>👥 Expected Guest Scale:</strong> ${currentGuestScale}</div>
+                ${savedRefs.length > 0 ? `<div style="color: #D4AF37; margin-top: 10px;"><strong>📸 Attached Decor References:</strong> ${savedRefs.length} images from Swariya portfolio</div>` : ''}
+            `;
+
+            document.getElementById('briefOutputBox').innerHTML = summaryHtml;
+
+            // Generate WhatsApp message
+            const waText = `Hi Swariya Weddings! I just built our custom Wedding Brief on your website:
+- Destination/Location: ${currentLocation}
+- Aesthetic Theme: ${currentTheme}
+- Functions: ${currentFunctions.join(', ')}
+- Color Story: ${currentColor}
+- Guest Scale: ${currentGuestScale}${refsCountText}
+
+I would love to discuss this concept with you and check date availability!`;
+
+            document.getElementById('sendWhatsAppBtn').href = `https://wa.me/918050573382?text=${encodeURIComponent(waText)}`;
+        }
+
+        function loadSavedReferences() {
+            const savedRefs = JSON.parse(localStorage.getItem('swariya_brief_images') || '[]');
+            const container = document.getElementById('savedRefsContainer');
+            const grid = document.getElementById('savedRefsGrid');
+
+            if (savedRefs.length === 0) {
+                container.style.display = 'none';
+                return;
+            }
+
+            container.style.display = 'block';
+            grid.innerHTML = '';
+
+            savedRefs.forEach((item, idx) => {
+                const thumb = document.createElement('div');
+                thumb.className = 'saved-thumb-wrap';
+                thumb.innerHTML = `
+                    <img src="${item.src}" alt="${item.alt}">
+                    <button class="saved-thumb-remove" onclick="removeSavedRef(${idx})" title="Remove">✕</button>
+                `;
+                grid.appendChild(thumb);
+            });
+        }
+
+        function removeSavedRef(index) {
+            let savedRefs = JSON.parse(localStorage.getItem('swariya_brief_images') || '[]');
+            savedRefs.splice(index, 1);
+            localStorage.setItem('swariya_brief_images', JSON.stringify(savedRefs));
+            loadSavedReferences();
+            updateBriefSummary();
+        }
+
+        function clearSavedRefs() {
+            localStorage.removeItem('swariya_brief_images');
+            loadSavedReferences();
+            updateBriefSummary();
+        }
+    </script>
+    <script src="nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swariya Wedding OS — Transparent Client Workspace & Planning Portal</title>
+    <meta name="description" content="Experience Swariya Wedding OS: our proprietary digital workspace for modern couples. Track budgets with zero vendor commissions, approve quotes, customize day-of timelines, and manage seating in real time.">
+    <link rel="canonical" href="https://swariyaweddings.com/client-portal.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Swariya Wedding OS — Transparent Client Workspace & Planning Portal">
+    <meta property="og:description" content="Digital wedding management with 100% financial transparency: live budget tracker, zero vendor markups, real-time approvals, and run-sheet planning.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://swariyaweddings.com/client-portal.html">
+    <meta property="og:image" content="https://swariyaweddings.com/images/1.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Fonts & CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://swariyaweddings.com/client-portal.html#app",
+          "name": "Swariya Wedding OS",
+          "applicationCategory": "EventManagementApplication",
+          "operatingSystem": "All modern browsers (Web, iOS, Android)",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "INR",
+            "description": "Included with all Swariya flat-fee wedding planning packages"
+          },
+          "featureList": [
+            "Real-time zero-commission budget tracking",
+            "Direct-to-vendor contract & invoice approvals",
+            "Interactive Day-of Muhurtham run-sheet generator",
+            "Live guest RSVP and seating layout visualizer",
+            "Dedicated WhatsApp-linked lead planner desk"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://swariyaweddings.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Wedding OS Workspace",
+              "item": "https://swariyaweddings.com/client-portal.html"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Swariya Wedding OS?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Swariya Wedding OS is our proprietary couple workspace and management system provided to every client. It gives you 24/7 visibility over your budget, vendor quotes without commissions, milestone checklists, and day-of timeline coordination."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does Swariya ensure zero vendor commissions in the workspace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Every vendor quote and invoice in the workspace is uploaded directly from the vendor without markups. You pay vendors directly with original invoices attached for complete transparency."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <style>
+        .portal-hero {
+            background: linear-gradient(135deg, #0a1c18 0%, #153e34 100%);
+            color: #fff;
+            padding: 120px 20px 70px;
+            text-align: center;
+            position: relative;
+        }
+        .portal-badge {
+            display: inline-block;
+            background: rgba(212, 175, 55, 0.15);
+            border: 1px solid rgba(212, 175, 55, 0.4);
+            color: var(--accent);
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .portal-container {
+            max-width: 1200px;
+            margin: -40px auto 80px;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        .portal-nav-bar {
+            display: flex;
+            background: #fcfbfa;
+            border-bottom: 1px solid var(--border);
+            overflow-x: auto;
+        }
+        .portal-tab-btn {
+            flex: 1;
+            padding: 18px 24px;
+            border: none;
+            background: none;
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #666;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        .portal-tab-btn:hover, .portal-tab-btn.active {
+            color: #0a1c18;
+            background: #fff;
+            border-bottom-color: var(--accent);
+        }
+        .portal-body {
+            padding: 40px;
+        }
+        .portal-view {
+            display: none;
+        }
+        .portal-view.active {
+            display: block;
+            animation: fadeIn 0.4s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .dash-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            margin-bottom: 35px;
+        }
+        .stat-card {
+            background: #fdfbf7;
+            border: 1px solid #efe8da;
+            padding: 24px;
+            border-radius: 12px;
+        }
+        .stat-card .label {
+            font-size: 0.85rem;
+            color: #777;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 500;
+        }
+        .stat-card .value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #0a1c18;
+            margin: 8px 0 4px;
+            font-family: var(--font-heading);
+        }
+        .stat-card .sub {
+            font-size: 0.82rem;
+            color: #27ae60;
+            font-weight: 600;
+        }
+        .table-responsive {
+            overflow-x: auto;
+        }
+        .workspace-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .workspace-table th {
+            background: #f7f5f0;
+            padding: 14px 16px;
+            text-align: left;
+            font-size: 0.85rem;
+            color: #555;
+            font-weight: 600;
+            border-bottom: 2px solid #e2ded5;
+        }
+        .workspace-table td {
+            padding: 16px;
+            border-bottom: 1px solid #eee;
+            font-size: 0.92rem;
+        }
+        .badge-verified {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: #e8f7ee;
+            color: #1e7e34;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 600;
+        }
+        .badge-pending {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: #fff8e1;
+            color: #b78103;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 600;
+        }
+        .timeline-step {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 24px;
+            position: relative;
+        }
+        .timeline-step::before {
+            content: '';
+            position: absolute;
+            left: 55px;
+            top: 36px;
+            bottom: -20px;
+            width: 2px;
+            background: #e0d8cc;
+        }
+        .timeline-step:last-child::before {
+            display: none;
+        }
+        .timeline-time {
+            width: 110px;
+            font-weight: 700;
+            color: var(--accent);
+            font-size: 0.95rem;
+        }
+        .timeline-card {
+            flex: 1;
+            background: #fbf9f5;
+            border: 1px solid #eee5d8;
+            padding: 18px 24px;
+            border-radius: 10px;
+        }
+        .timeline-card h4 {
+            color: #0a1c18;
+            margin-bottom: 6px;
+        }
+        .cta-box-os {
+            background: #0a1c18;
+            color: #fff;
+            padding: 50px 30px;
+            border-radius: 16px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .cta-box-os h3 {
+            font-size: 2rem;
+            color: var(--accent);
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".section-label", ".hero p", "main p", ".methodology-text"]
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><a href="index.html">SWARIYA</a></div>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">&#9776;</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="venues.html">Our Venues</a></li>
+                <li><a href="client-portal.html" class="active" style="color: var(--accent); font-weight: 500;">Wedding OS</a></li>
+                <li><a href="wedding-budget-calculator.html">Budget Tool</a></li>
+                <li><a href="wedding-brief-builder.html">Brief Builder</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html" class="btn-contact">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <p class="section-label">✦ INTERACTIVE CLIENT WORKSPACE</p>
+        <h1>Swariya Wedding OS</h1>
+        <p class="subtitle">100% financial transparency. Zero vendor markups. Real-time budget tracking, timeline runsheets, and vendor contract approvals — all in one unified workspace.</p>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Wedding OS Workspace</li>
+        </ul>
+    </div>
+
+    <!-- Interactive Portal Demo Container -->
+    <main class="container" style="padding-top: 40px;">
+        <div class="portal-container" style="border: 1px solid var(--border-gold); box-shadow: var(--shadow-luxury); border-radius: var(--radius-md); margin-top: 0;">
+            <!-- Navigation Tabs -->
+            <div class="portal-nav-bar">
+                <button class="portal-tab-btn active" onclick="switchView('budget', this)">
+                    📊 Live Budget & Invoices
+                </button>
+                <button class="portal-tab-btn" onclick="switchView('timeline', this)">
+                    ⏱️ Day-Of Runsheet (Muhurtham)
+                </button>
+                <button class="portal-tab-btn" onclick="switchView('vendors', this)">
+                    🤝 0% Commission Vendors
+                </button>
+                <button class="portal-tab-btn" onclick="switchView('seating', this)">
+                    🗺️ Venue Layout & RSVP
+                </button>
+            </div>
+
+            <div class="portal-body">
+                <!-- VIEW 1: BUDGET & FINANCIAL TRANSPARENCY -->
+                <div id="view-budget" class="portal-view active">
+                    <div class="dash-grid">
+                        <div class="stat-card">
+                            <div class="label">Total Approved Budget</div>
+                            <div class="value">₹45,00,000</div>
+                            <div class="sub">350 Guests • Bengaluru Palace Ground</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="label">Actual Vendor Commitments</div>
+                            <div class="value">₹38,40,000</div>
+                            <div class="sub">₹6,60,000 Buffer Remaining</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="label">Swariya Planning Fee</div>
+                            <div class="value">₹3,50,000</div>
+                            <div class="sub">Flat Fee • Zero Commissions</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="label">Vendor Kickbacks / Markups</div>
+                            <div class="value" style="color: #27ae60;">₹0 (0.00%)</div>
+                            <div class="sub">Direct Vendor Invoicing Verified</div>
+                        </div>
+                    </div>
+
+                    <h3 style="margin: 25px 0 10px; font-size: 1.3rem;">Real-Time Itemized Allocations</h3>
+                    <p style="color: #666; font-size: 0.9rem; margin-bottom: 15px;">Every invoice is paid directly to vendors by the couple with verified Swariya audits.</p>
+                    
+                    <div class="table-responsive">
+                        <table class="workspace-table">
+                            <thead>
+                                <tr>
+                                    <th>Category</th>
+                                    <th>Selected Vendor</th>
+                                    <th>Negotiated Quote</th>
+                                    <th>Markup Status</th>
+                                    <th>Invoice Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Venue Rental</strong></td>
+                                    <td>The Tamarind Tree (2 Days)</td>
+                                    <td>₹16,00,000</td>
+                                    <td><span class="badge-verified">✓ 0% Markup</span></td>
+                                    <td><span class="badge-verified">Verified & Paid</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Royal Decor & Floral</strong></td>
+                                    <td>Swariya Master Florals & Production</td>
+                                    <td>₹12,50,000</td>
+                                    <td><span class="badge-verified">✓ Direct Cost</span></td>
+                                    <td><span class="badge-verified">Verified (50% Advance)</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>South Indian Fine Catering</strong></td>
+                                    <td>Sri Sagar Traditional Catering (350 pax)</td>
+                                    <td>₹5,25,000 (₹1,500/plate)</td>
+                                    <td><span class="badge-verified">✓ 0% Commission</span></td>
+                                    <td><span class="badge-pending">Pending Final Tasting</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Cinematography & Photo</strong></td>
+                                    <td>Candid Visuals Studio (3 Crew)</td>
+                                    <td>₹4,65,000</td>
+                                    <td><span class="badge-verified">✓ 0% Commission</span></td>
+                                    <td><span class="badge-verified">Contract Signed</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- VIEW 2: DAY-OF RUNSHEET -->
+                <div id="view-timeline" class="portal-view">
+                    <h3 style="margin-bottom: 8px;">Synchronized Day-Of Wedding Runsheet</h3>
+                    <p style="color: #666; margin-bottom: 25px;">Down-to-the-minute coordinator dispatch for pandits, guests, bridal entry, and catering services.</p>
+
+                    <div class="timeline-step">
+                        <div class="timeline-time">05:30 AM</div>
+                        <div class="timeline-card">
+                            <h4>Devakarya & Nandi Pooja Setup</h4>
+                            <p style="color: #666; font-size: 0.9rem;">Lead Pandit arrival; fresh lotus, jasmine, and ritual vessels arranged at mandap.</p>
+                            <span class="badge-verified">Lead Coordinator: Ritual Director</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-time">07:45 AM</div>
+                        <div class="timeline-card">
+                            <h4>Kashi Yatra & Groom's Arrival Procession</h4>
+                            <p style="color: #666; font-size: 0.9rem;">Nadaswaram musicians seated; floral umbrella and coconut plate presented by bride's family.</p>
+                            <span class="badge-verified">Lead Coordinator: Hospitality Lead</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-time">09:18 AM</div>
+                        <div class="timeline-card">
+                            <h4>Auspicious Muhurtham & Talambralu</h4>
+                            <p style="color: #666; font-size: 0.9rem;">Flower shower petal blast synchronized with Mangalsutra tying. Live classical violin orchestra.</p>
+                            <span class="badge-verified">Production Crew Active (4 Staff)</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-time">12:30 PM</div>
+                        <div class="timeline-card">
+                            <h4>Traditional Banana Leaf Feast (Sadya)</h4>
+                            <p style="color: #666; font-size: 0.9rem;">350 guests seated in 2 staggered dining halls. Warm Mysore Pak and Elaneer Payasam served.</p>
+                            <span class="badge-verified">Hospitality Desk (6 Ushers)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW 3: 0% COMMISSION VENDORS -->
+                <div id="view-vendors" class="portal-view">
+                    <h3 style="margin-bottom: 8px;">Curated Vendor Selection Matrix</h3>
+                    <p style="color: #666; margin-bottom: 25px;">Compare 3 vetted vendors per category with transparent portfolio reviews and direct contracts.</p>
+
+                    <div class="dash-grid">
+                        <div class="stat-card" style="border-top: 4px solid var(--accent);">
+                            <h4 style="margin-bottom: 8px;">Catering: Traditional South Indian</h4>
+                            <p style="font-size: 0.88rem; color: #555; margin-bottom: 12px;">3 Vetted Vendors shortlisted for 350 guests. Direct tasting scheduled for Saturday.</p>
+                            <a href="https://wa.me/919900000000?text=Hi%20Swariya,%20I'd%20like%20to%20view%20caterer%20menus%20for%20my%20wedding" class="badge-verified" style="text-decoration: none;">View 3 Menu Options &rarr;</a>
+                        </div>
+                        <div class="stat-card" style="border-top: 4px solid var(--accent);">
+                            <h4 style="margin-bottom: 8px;">Decor: Sustainable Temple Florals</h4>
+                            <p style="font-size: 0.88rem; color: #555; margin-bottom: 12px;">Eco-conscious zero-foam marigold and tuberose mandap concept approved in 3D.</p>
+                            <a href="https://wa.me/919900000000?text=Hi%20Swariya,%20I'd%20like%20to%20review%20decor%20moodboards" class="badge-verified" style="text-decoration: none;">View Moodboards &rarr;</a>
+                        </div>
+                        <div class="stat-card" style="border-top: 4px solid var(--accent);">
+                            <h4 style="margin-bottom: 8px;">Photography & Drone</h4>
+                            <p style="font-size: 0.88rem; color: #555; margin-bottom: 12px;">Pre-wedding film + 4K HDR drone coverage + same-day teaser edit package.</p>
+                            <a href="https://wa.me/919900000000?text=Hi%20Swariya,%20I'd%20like%20photographer%20quotes" class="badge-verified" style="text-decoration: none;">Review Reel Samples &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW 4: SEATING & VENUE LAYOUT -->
+                <div id="view-seating" class="portal-view">
+                    <h3 style="margin-bottom: 8px;">Interactive Seating Layout & Guest RSVP</h3>
+                    <p style="color: #666; margin-bottom: 25px;">Track out-of-town guests, hotel room allocations, airport shuttles, and VIP family seating.</p>
+
+                    <div class="dash-grid">
+                        <div class="stat-card">
+                            <div class="label">Total Invited</div>
+                            <div class="value">420 Guests</div>
+                            <div class="sub">350 Confirmed (83% RSVP)</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="label">Out-of-Town Rooms</div>
+                            <div class="value">34 Rooms</div>
+                            <div class="sub">Allocated at Venue Guest Villa</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="label">Airport Shuttles</div>
+                            <div class="value">6 Vans</div>
+                            <div class="sub">BLR Kempegowda Airport Scheduled</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action Box -->
+        <div class="cta-box-os">
+            <h3>Get Your Custom Wedding OS Workspace</h3>
+            <p style="max-width: 650px; margin: 0 auto 25px; opacity: 0.9; font-size: 1.05rem;">
+                Every Swariya couple gets an exclusive Wedding OS dashboard, transparent zero-markup billing, and our dedicated planning team on direct WhatsApp priority.
+            </p>
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="https://wa.me/919900000000?text=Hi%20Swariya%20Weddings,%20I'd%20like%20to%20set%20up%20a%20discovery%20call%20and%20Wedding%20OS%20demo." class="btn-primary" style="background: var(--accent); color: #0a1c18; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">Book Discovery Call</a>
+                <a href="/wedding-budget-calculator.html" class="btn-secondary" style="background: rgba(255,255,255,0.15); color: #fff; border: 1px solid rgba(255,255,255,0.4); padding: 14px 28px; border-radius: 8px; font-weight: 600; text-decoration: none;">Try Budget Estimator</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" style="margin-top: 80px;">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="/" class="footer-logo">Swariya <span>Weddings</span></a>
+                <p>Luxury & Destination Wedding Planners in Bengaluru, Mysuru & Hyderabad. Over 150+ weddings planned with zero vendor markups and 100% financial transparency.</p>
+                <p style="margin-top: 10px; font-size: 0.85rem; color: #888;">📍 Indiranagar, Bengaluru, Karnataka 560038 | 📞 +91 99000 00000</p>
+            </div>
+            <div class="footer-col">
+                <h4>Interactive Tools</h4>
+                <ul>
+                    <li><a href="/client-portal.html">Wedding OS Workspace</a></li>
+                    <li><a href="/wedding-budget-calculator.html">Wedding Budget Calculator</a></li>
+                    <li><a href="/venue-finder.html">Bangalore Venue Comparator</a></li>
+                    <li><a href="/wedding-brief-builder.html">Wedding Brief Builder</a></li>
+                    <li><a href="/bengaluru-wedding-cost-guide-2026.html">2026 Wedding Cost Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Cultural Verticals</h4>
+                <ul>
+                    <li><a href="/kannada-wedding-planner-bengaluru.html">Kannada Weddings</a></li>
+                    <li><a href="/telugu-wedding-planner-bengaluru.html">Telugu Weddings</a></li>
+                    <li><a href="/tamil-wedding-planner-bengaluru.html">Tamil Weddings</a></li>
+                    <li><a href="/marwari-wedding-planner-bengaluru.html">Marwari Weddings</a></li>
+                    <li><a href="/nri-destination-wedding-planner-bangalore.html">NRI Destination Weddings</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Swariya Weddings. All Rights Reserved. • <a href="/privacy-policy.html">Privacy</a> • <a href="/sitemap.xml">Sitemap</a></p>
+        </div>
+    </footer>
+
+    <!-- Interactive Portal Script -->
+    <script>
+        function switchView(viewName, btn) {
+            document.querySelectorAll('.portal-view').forEach(function(v) {
+                v.classList.remove('active');
+            });
+            document.querySelectorAll('.portal-tab-btn').forEach(function(b) {
+                b.classList.remove('active');
+            });
+            
+            const target = document.getElementById('view-' + viewName);
+            if (target) {
+                target.classList.add('active');
+            }
+            if (btn) {
+                btn.classList.add('active');
+            }
+        }
+    </script>
+    <script src="nav.js"></script>
+</body>
+</html>
