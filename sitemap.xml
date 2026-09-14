@@ -7,6 +7,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://swariyaweddings.com/404.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://swariyaweddings.com/about.html</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -68,6 +74,12 @@
   </url>
   <url>
     <loc>https://swariyaweddings.com/blog/case-studies/amita-rasa-wedding-case-study.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://swariyaweddings.com/blog/case-studies/index.html</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -847,6 +859,18 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://swariyaweddings.com/blog/guides/wedding-planner-chennai.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://swariyaweddings.com/blog/guides/wedding-planner-hyderabad.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://swariyaweddings.com/blog/guides/wedding-planner-vs-diy-planning.html</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -941,6 +965,12 @@
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://swariyaweddings.com/blog/index.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://swariyaweddings.com/blog/stress-free-wedding-planning-tips.html</loc>
@@ -1562,6 +1592,12 @@
   </url>
   <url>
     <loc>https://swariyaweddings.com/venues/grand-hyatt-kochi-bolgatty-wedding.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://swariyaweddings.com/venues/index.html</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
