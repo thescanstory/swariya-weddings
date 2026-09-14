@@ -284,6 +284,30 @@
             color: var(--accent);
             margin-bottom: 15px;
         }
+
+        @media print {
+            .navbar, .portal-tabs-nav, .cta-box-os, .portal-actions-bar, .site-footer, .breadcrumb, a {
+                display: none !important;
+            }
+            body {
+                background: #FFFFFF !important;
+                color: #111111 !important;
+            }
+            .portal-container {
+                box-shadow: none !important;
+                border: 1px solid #ddd !important;
+            }
+            .portal-view {
+                display: block !important;
+                margin-bottom: 40px !important;
+                page-break-inside: avoid;
+            }
+            .portal-header {
+                background: #0a1c18 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
     </style>
 
     <script type="application/ld+json">
@@ -345,6 +369,9 @@
                 </button>
                 <button class="portal-tab-btn" onclick="switchView('seating', this)">
                     🗺️ Venue Layout & RSVP
+                </button>
+                <button type="button" class="portal-tab-btn" onclick="window.print()" style="margin-left: auto; background: var(--accent); color: var(--primary); font-weight: 700;">
+                    📄 Export / Print PDF
                 </button>
             </div>
 

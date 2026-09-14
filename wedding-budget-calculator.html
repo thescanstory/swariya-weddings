@@ -57,8 +57,12 @@
         .breakdown-row:last-child { border-bottom: none; }
         .breakdown-val { font-weight: 700; color: #fff; }
 
-        .btn-wa-export { display: flex; align-items: center; justify-content: center; gap: 10px; background: #25d366; color: white; padding: 16px; border-radius: 30px; text-decoration: none; font-weight: 700; font-size: 1.05rem; margin-top: 25px; box-shadow: 0 6px 20px rgba(37,211,102,0.35); transition: 0.3s; }
+        .btn-wa-export { display: flex; align-items: center; justify-content: center; gap: 10px; background: #25d366; color: white; padding: 14px; border-radius: 30px; text-decoration: none; font-weight: 700; font-size: 1rem; margin-top: 15px; box-shadow: 0 6px 20px rgba(37,211,102,0.35); transition: 0.3s; }
         .btn-wa-export:hover { background: #1eb956; transform: translateY(-2px); }
+        .btn-pdf-export { display: flex; align-items: center; justify-content: center; gap: 10px; background: var(--accent); color: var(--primary); padding: 14px; border-radius: 30px; text-decoration: none; font-weight: 700; font-size: 1rem; margin-top: 12px; cursor: pointer; border: none; width: 100%; transition: 0.3s; }
+        .btn-pdf-export:hover { background: #e5c358; transform: translateY(-2px); }
+        .btn-email-export { display: flex; align-items: center; justify-content: center; gap: 10px; background: rgba(255,255,255,0.12); color: #FAF6F0; border: 1px solid rgba(212,175,55,0.4); padding: 12px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 0.95rem; margin-top: 10px; transition: 0.3s; }
+        .btn-email-export:hover { background: rgba(255,255,255,0.2); }
 
         .transparency-pill {
             background: rgba(212, 175, 55, 0.15);
@@ -69,6 +73,40 @@
             color: #FAF6F0;
             margin-top: 20px;
             line-height: 1.5;
+        }
+
+        @media print {
+            .navbar, .btn-wa-export, .btn-pdf-export, .btn-email-export, .range-slider, .footer, .calc-select, .breadcrumb {
+                display: none !important;
+            }
+            body {
+                background: #FFFFFF !important;
+                color: #111111 !important;
+            }
+            .calc-grid {
+                display: block !important;
+            }
+            .results-card {
+                background: #F9F9F9 !important;
+                color: #111111 !important;
+                border: 2px solid #8B1A1A !important;
+                box-shadow: none !important;
+                padding: 30px !important;
+                border-radius: 8px !important;
+            }
+            .results-card h3, .est-total, .breakdown-val, #locationMarketLabel {
+                color: #8B1A1A !important;
+            }
+            .breakdown-row {
+                border-bottom: 1px solid #ddd !important;
+            }
+            .page-header {
+                padding: 20px 0 !important;
+            }
+            .page-header h1 {
+                font-size: 24pt !important;
+                color: #8B1A1A !important;
+            }
         }
     </style>
     <script type="application/ld+json">
@@ -224,6 +262,12 @@
                 <a id="waExportBtn" href="#" class="btn-wa-export" target="_blank" rel="noopener">
                     💬 Export Estimate to WhatsApp
                 </a>
+                <button type="button" onclick="window.print()" class="btn-pdf-export">
+                    📄 Download / Print PDF Estimate
+                </button>
+                <a id="emailExportBtn" href="#" class="btn-email-export">
+                    ✉️ Email Itemized Estimate
+                </a>
             </div>
         </div>
     </main>
@@ -326,6 +370,7 @@
 Can we connect to discuss date availability, venue shortlisting, and detailed line-item costing?`;
             
             document.getElementById("waExportBtn").href = "https://wa.me/918050573382?text=" + encodeURIComponent(msg);
+            document.getElementById("emailExportBtn").href = `mailto:swariyaweddings@gmail.com?subject=${encodeURIComponent("Wedding Estimate Inquiry: " + locName + " (" + guests + " Guests)")}&body=${encodeURIComponent(msg)}`;
         }
 
         window.onload = updateCalculator;

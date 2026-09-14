@@ -1,5 +1,6 @@
 import os
 import glob
+from datetime import datetime
 
 def build_sitemap():
     base_url = "https://swariyaweddings.com"
@@ -10,14 +11,14 @@ def build_sitemap():
             continue
         for f in files:
             if f.endswith(".html"):
-                path = os.path.join(root, f).replace("./", "")
+                path = os.path.join(root, f).replace("./", "").replace("\\", "/")
                 if path == "venues/template.html":
                     continue
                 html_files.append(path)
 
     html_files.sort()
     
-    today = "2026-09-13"
+    today = datetime.now().strftime("%Y-%m-%d")
     
     xml_lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
@@ -29,7 +30,7 @@ def build_sitemap():
             loc = f"{base_url}/"
             priority = "1.0"
             changefreq = "weekly"
-        elif page in ["bengaluru-wedding-cost-guide-2026.html", "reviews.html", "ask.html", "venue-finder.html", "wedding-budget-calculator.html", "wedding-brief-builder.html"]:
+        elif page in ["bengaluru-wedding-cost-guide-2026.html", "reviews.html", "ask.html", "venue-finder.html", "wedding-budget-calculator.html", "wedding-brief-builder.html", "client-portal.html"]:
             loc = f"{base_url}/{page}"
             priority = "0.95"
             changefreq = "weekly"
@@ -40,6 +41,10 @@ def build_sitemap():
         elif page.startswith("venues/"):
             loc = f"{base_url}/{page}"
             priority = "0.85"
+            changefreq = "weekly"
+        elif page.startswith("blog/guides/"):
+            loc = f"{base_url}/{page}"
+            priority = "0.80"
             changefreq = "weekly"
         elif page in ["about.html", "services.html", "venues.html", "gallery.html", "contact.html"]:
             loc = f"{base_url}/{page}"
@@ -63,4 +68,5 @@ def build_sitemap():
         f.write("\n".join(xml_lines) + "\n")
     print(f"Generated sitemap.xml with {len(html_files)} URLs!")
 
-build_sitemap()
+if __name__ == "__main__":
+    build_sitemap()

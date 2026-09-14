@@ -247,6 +247,41 @@
             transform: translateY(-2px);
             box-shadow: 0 12px 30px rgba(37, 211, 102, 0.45);
         }
+        .btn-pdf-brief {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--accent);
+            color: var(--primary);
+            padding: 16px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s;
+        }
+        .btn-pdf-brief:hover {
+            background: #e5c358;
+            transform: translateY(-2px);
+        }
+        .btn-email-brief {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+            border: 1px solid rgba(212,175,55,0.4);
+            padding: 14px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .btn-email-brief:hover {
+            background: rgba(255,255,255,0.2);
+        }
 
         @media (max-width: 768px) {
             .builder-card {
@@ -258,9 +293,41 @@
             .options-grid {
                 grid-template-columns: 1fr;
             }
-            .btn-whatsapp-brief {
+            .btn-whatsapp-brief, .btn-pdf-brief, .btn-email-brief {
                 width: 100%;
                 justify-content: center;
+            }
+        }
+
+        @media print {
+            .navbar, .site-header, .step-header, .options-grid, .btn-whatsapp-brief, .btn-pdf-brief, .btn-email-brief, .saved-refs-box, .site-footer, .breadcrumb, a {
+                display: none !important;
+            }
+            body {
+                background: #FFFFFF !important;
+                color: #111111 !important;
+            }
+            .builder-card {
+                display: none !important;
+            }
+            .brief-summary-card {
+                background: #FFFFFF !important;
+                color: #111111 !important;
+                border: 2px solid #8B1A1A !important;
+                box-shadow: none !important;
+                padding: 40px !important;
+                border-radius: 8px !important;
+                margin-top: 0 !important;
+            }
+            .brief-summary-card h3 {
+                color: #8B1A1A !important;
+                font-size: 24pt !important;
+            }
+            .brief-output-box {
+                background: #F9F9F9 !important;
+                color: #111111 !important;
+                border: 1px solid #CCC !important;
+                font-size: 12pt !important;
             }
         }
     </style>
@@ -536,14 +603,20 @@
                 <!-- Dynamically populated -->
             </div>
 
-            <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap;">
+            <div style="display: flex; gap: 14px; align-items: center; flex-wrap: wrap;">
                 <a id="sendWhatsAppBtn" href="#" target="_blank" rel="noopener" class="btn-whatsapp-brief">
                     <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
                         <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.534 1.776.818 2.796.818 3.182 0 5.768-2.587 5.768-5.768.001-3.18-2.585-5.602-5.768-5.602zm3.394 8.085c-.144.405-.837.774-1.17.824-.312.045-.694.06-2.12-.533-1.498-.621-2.437-2.137-2.512-2.237-.074-.1-2.123-2.825-1.192-3.879.444-.503.974-.537 1.298-.537.112 0 .209.006.299.011.255.011.383.027.551.431.21.503.719 1.758.783 1.888.064.13.107.283.021.454-.085.171-.128.277-.255.426-.128.149-.269.333-.384.448-.128.128-.261.267-.112.523.149.256.662 1.092 1.42 1.767.974.869 1.794 1.139 2.051 1.268.256.128.406.107.555-.064.15-.171.64-.747.811-1.003.171-.256.342-.213.576-.128.235.085 1.494.704 1.75 1.045.256.341.256.639.112 1.044z"/>
                     </svg>
-                    <span>Send Brief to Swariya Design Studio via WhatsApp</span>
+                    <span>Send Brief via WhatsApp</span>
                 </a>
-                <a href="/wedding-budget-calculator.html" style="color: #fff; text-decoration: underline; font-size: 0.9rem; opacity: 0.9;">Or calculate detailed budget &rarr;</a>
+                <button type="button" onclick="window.print()" class="btn-pdf-brief">
+                    📄 Download / Print Brief PDF
+                </button>
+                <a id="emailBriefBtn" href="#" class="btn-email-brief">
+                    ✉️ Email Brief to Studio
+                </a>
+                <a href="/wedding-budget-calculator.html" style="color: var(--accent); text-decoration: underline; font-size: 0.95rem; margin-left: 8px;">Or calculate detailed budget &rarr;</a>
             </div>
         </div>
     </main>
@@ -660,6 +733,7 @@
 I would love to discuss this concept with you and check date availability!`;
 
             document.getElementById('sendWhatsAppBtn').href = `https://wa.me/918050573382?text=${encodeURIComponent(waText)}`;
+            document.getElementById('emailBriefBtn').href = `mailto:swariyaweddings@gmail.com?subject=${encodeURIComponent("Custom Wedding Brief Submission: " + currentLocation)}&body=${encodeURIComponent(waText)}`;
         }
 
         function loadSavedReferences() {

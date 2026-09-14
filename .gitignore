@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 .gsc_playwright_profile/
 *.log
+.vercel
