@@ -1,0 +1,41 @@
+# Swariya Weddings — Netlify Redirect & Clean URL Rules
+
+# Alias Redirects
+/pricing                        /wedding-budget-calculator.html         301
+/calculator                     /wedding-budget-calculator.html         301
+/brief-builder                  /wedding-brief-builder.html             301
+/moodboard                      /wedding-brief-builder.html             301
+/portal                         /client-portal.html                     301
+/os                             /client-portal.html                     301
+/destinations                   /destination-wedding-planner-india.html 301
+/destination-weddings           /destination-wedding-planner-india.html 301
+/cost-guide                     /bengaluru-wedding-cost-guide-2026.html 301
+/bangalore-cost-guide           /bengaluru-wedding-cost-guide-2026.html 301
+/venue-comparison               /venue-finder.html                      301
+/compare-venues                 /venue-finder.html                      301
+/guides                         /blog/guides/index.html                 301
+/wedding-guides                 /blog/guides/index.html                 301
+
+# Subdirectory Clean URLs
+/venues/:slug                   /venues/:slug.html                      200
+/blog/:slug                     /blog/:slug.html                        200
+/blog/guides/:slug              /blog/guides/:slug.html                 200
+
+# Root Pages Clean URLs
+/about                          /about.html                             200
+/services                       /services.html                          200
+/venues                         /venues.html                            200
+/gallery                        /gallery.html                           200
+/reviews                        /reviews.html                           200
+/ask                            /ask.html                               200
+/contact                        /contact.html                           200
+/blog                           /blog.html                              200
+/client-portal                  /client-portal.html                     200
+/wedding-budget-calculator      /wedding-budget-calculator.html         200
+/wedding-brief-builder          /wedding-brief-builder.html             200
+/venue-finder                   /venue-finder.html                      200
+/destination-wedding-planner-india  /destination-wedding-planner-india.html 200
+/bengaluru-wedding-cost-guide-2026  /bengaluru-wedding-cost-guide-2026.html 200
+
+# Custom 404 Fallback
+/*                              /404.html                               404

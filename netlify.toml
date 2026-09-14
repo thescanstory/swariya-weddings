@@ -1,24 +1,76 @@
-plugins = []
-headers = []
-redirects = []
-
-[functions]
-
-  [functions."*"]
-
 [build]
-publish = "."
+  publish = "."
 
-  [build.environment]
+# Clean URL and Alias Redirects
+[[redirects]]
+  from = "/pricing"
+  to = "/wedding-budget-calculator.html"
+  status = 301
 
-  [build.processing]
+[[redirects]]
+  from = "/calculator"
+  to = "/wedding-budget-calculator.html"
+  status = 301
 
-    [build.processing.css]
+[[redirects]]
+  from = "/brief-builder"
+  to = "/wedding-brief-builder.html"
+  status = 301
 
-    [build.processing.html]
+[[redirects]]
+  from = "/moodboard"
+  to = "/wedding-brief-builder.html"
+  status = 301
 
-    [build.processing.images]
+[[redirects]]
+  from = "/portal"
+  to = "/client-portal.html"
+  status = 301
 
-    [build.processing.js]
+[[redirects]]
+  from = "/destinations"
+  to = "/destination-wedding-planner-india.html"
+  status = 301
 
-  [build.services]
+[[redirects]]
+  from = "/destination-weddings"
+  to = "/destination-wedding-planner-india.html"
+  status = 301
+
+[[redirects]]
+  from = "/cost-guide"
+  to = "/bengaluru-wedding-cost-guide-2026.html"
+  status = 301
+
+[[redirects]]
+  from = "/guides"
+  to = "/blog/guides/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/venues/:slug"
+  to = "/venues/:slug.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/:slug"
+  to = "/blog/:slug.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/guides/:slug"
+  to = "/blog/guides/:slug.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
