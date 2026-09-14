@@ -1,7 +1,7 @@
 [build]
   publish = "."
 
-# Clean URL and Alias Redirects
+# Alias Redirects
 [[redirects]]
   from = "/pricing"
   to = "/wedding-budget-calculator.html"
@@ -47,6 +47,7 @@
   to = "/blog/guides/index.html"
   status = 301
 
+# Clean URLs for subdirectories
 [[redirects]]
   from = "/venues/:slug"
   to = "/venues/:slug.html"
@@ -61,11 +62,6 @@
   from = "/blog/guides/:slug"
   to = "/blog/guides/:slug.html"
   status = 200
-
-[[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
 
 [[headers]]
   for = "/*"

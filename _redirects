@@ -20,22 +20,3 @@
 /venues/:slug                   /venues/:slug.html                      200
 /blog/:slug                     /blog/:slug.html                        200
 /blog/guides/:slug              /blog/guides/:slug.html                 200
-
-# Root Pages Clean URLs
-/about                          /about.html                             200
-/services                       /services.html                          200
-/venues                         /venues.html                            200
-/gallery                        /gallery.html                           200
-/reviews                        /reviews.html                           200
-/ask                            /ask.html                               200
-/contact                        /contact.html                           200
-/blog                           /blog.html                              200
-/client-portal                  /client-portal.html                     200
-/wedding-budget-calculator      /wedding-budget-calculator.html         200
-/wedding-brief-builder          /wedding-brief-builder.html             200
-/venue-finder                   /venue-finder.html                      200
-/destination-wedding-planner-india  /destination-wedding-planner-india.html 200
-/bengaluru-wedding-cost-guide-2026  /bengaluru-wedding-cost-guide-2026.html 200
-
-# Custom 404 Fallback
-/*                              /404.html                               404
