@@ -1,4 +1,33 @@
-swariya pictures/
-scripts/
-.git/
+.git
+.gemini
+.agents
+.netlify
+node_modules
+scratch
+docs
+swariya pictures
+*inspect*.png
+*preview*.png
+*desktop*.png
+*test*.png
+*submitted*.png
+*status*.png
+*state*.png
+google_*.png
+reviews_*.png
+calculator_*.png
+venues_*.png
+services_*.png
+about_*.png
+client_portal_*.png
+brief_builder_*.png
+final_*.png
+clean_*.png
+gsc_*.png
+*.py
+*.pyc
 *.log
+*.tmp
+*.zip
+*.tar.gz
+*.DS_Store

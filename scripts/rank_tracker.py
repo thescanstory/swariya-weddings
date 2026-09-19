@@ -10,14 +10,24 @@ KEYWORD_TARGETS = [
     "Swariya Weddings Bangalore",
     "Luxury Wedding Planners in Bangalore",
     "Destination Wedding Planner in Bangalore",
-    "Wedding Planners in HSR Layout",
-    "Wedding Planners in Indiranagar",
+    "Wedding Planners in Sadashivanagar Bangalore",
+    "Wedding Planners in Palace Grounds Bangalore",
+    "Wedding Planners in Lavelle Road Bangalore",
+    "Wedding Planners in Indiranagar Bangalore",
     "Wedding Planners in Whitefield Bangalore",
-    "Kannada Wedding Planner Bengaluru",
-    "Brahmin Wedding Planner Bengaluru",
+    "Wedding Planners in HSR Layout",
+    "Wedding Planners in Koramangala Bangalore",
+    "Destination Wedding Planner in Udaipur",
+    "Destination Wedding Planner in Goa",
+    "Destination Wedding Planner in Kerala",
+    "Destination Wedding Planner in Coorg",
+    "NRI Destination Wedding Planner India",
+    "Marwari Wedding Planner Bangalore",
+    "Telugu Wedding Planner Bangalore",
+    "Tamil Brahmin Wedding Planner Bangalore",
     "Cost of Destination Wedding in Goa 2026",
     "Palace Grounds Wedding Planners Bangalore",
-    "The Tamarind Tree Wedding Cost Swariya"
+    "The Tamarind Tree Wedding Cost"
 ]
 
 async def run_rank_audit():

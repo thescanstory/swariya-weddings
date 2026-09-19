@@ -1,0 +1,478 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+High-Speed Programmatic Batch HTML5 Generator for Swariya Weddings (3,000 Luxury Landing Pages).
+Generates penalty-proof, schema-validated static pages with rich responsive CSS, WhatsApp CTA, and 2026 pricing.
+"""
+
+import os
+import json
+import urllib.parse
+from concurrent.futures import ThreadPoolExecutor
+from micromarkets_3000_data import get_3000_micromarkets
+
+HERO_IMAGES = [
+    "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg",
+    "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg"
+]
+
+def generate_single_page(args):
+    data, idx, root_dir = args
+    slug = data["slug"]
+    category = data.get("category", "bengaluru-corridors")
+    title = data["title"]
+    meta_desc = data["meta_description"]
+    h1 = data["h1"]
+    subtitle = data["subtitle"]
+    loc_name = data["location_name"]
+    city = data["city"]
+    state = data["state"]
+    budget = data["budget"]
+    capacity = data["capacity"]
+    venues = data["venues"]
+    logistics = data["logistics"]
+    hero_img = HERO_IMAGES[idx % len(HERO_IMAGES)]
+
+    # Dynamic bespoke FAQs
+    faqs = [
+        {
+            "q": f"What is the average cost of planning a wedding in {loc_name} with Swariya Weddings?",
+            "a": f"Weddings planned in {loc_name} typically range from {budget} depending on guest count ({capacity}), venue buyout, and bespoke decor scale. Swariya operates on a 100% transparent zero-markup fiduciary pricing model."
+        },
+        {
+            "q": f"How early should we book our luxury wedding planner for {loc_name}?",
+            "a": f"For premier luxury venues and peak muhurtham/destination dates in {loc_name}, we advise locking your planning team and venue reservations 6 to 12 months in advance to secure top dates and vendor blocks."
+        },
+        {
+            "q": f"What venues do you recommend in and around {loc_name}?",
+            "a": f"Top recommended properties for {loc_name} include {', '.join(venues[:3])}, offering pristine settings for multi-day celebrations, sangeet galas, and intimate ceremonies."
+        },
+        {
+            "q": f"Does Swariya Weddings handle complete day-of logistics and vendor management in {loc_name}?",
+            "a": f"Yes. Swariya delivers end-to-end management including 3D spatial decor visualization, artist coordination, sound and municipal clearances, guest hospitality, and day-of runsheet execution in {loc_name}."
+        }
+    ]
+
+    canonical_url = f"https://swariyaweddings.com/{slug}.html"
+    wa_msg = f"Hi Swariya Weddings, I'm planning a luxury wedding in {loc_name} (Budget: {budget}). I'd like to check date availability and venue options."
+    wa_url = f"https://wa.me/918050573382?text={urllib.parse.quote(wa_msg)}"
+
+    # Schema 1: Service / LocalBusiness
+    service_schema = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": f"{canonical_url}#service",
+        "name": h1,
+        "serviceType": "Luxury Wedding Planning & Turnkey Concierge",
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": "Swariya Weddings",
+            "url": "https://swariyaweddings.com/",
+            "telephone": "+91-8050573382",
+            "priceRange": budget,
+            "image": f"https://swariyaweddings.com/{hero_img}",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": city,
+                "addressRegion": state,
+                "addressCountry": "IN"
+            }
+        },
+        "areaServed": {
+            "@type": "Place",
+            "name": loc_name
+        },
+        "description": meta_desc
+    }
+
+    # Schema 2: Breadcrumb
+    breadcrumb_schema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://swariyaweddings.com/"},
+            {"@type": "ListItem", "position": 2, "name": "Destinations & Corridors", "item": "https://swariyaweddings.com/destination-wedding-planner-india.html"},
+            {"@type": "ListItem", "position": 3, "name": loc_name, "item": canonical_url}
+        ]
+    }
+
+    # Schema 3: FAQPage
+    faq_schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": f["q"],
+                "acceptedAnswer": {"@type": "Answer", "text": f["a"]}
+            } for f in faqs
+        ]
+    }
+
+    venues_list_html = "".join([f"<li><i class='fa-solid fa-hotel' style='color:#c5a059;margin-right:8px;'></i> <strong>{v}</strong></li>" for v in venues])
+
+    faq_cards_html = "".join([f"""
+        <div class="faq-item" style="margin-bottom: 20px; padding: 20px; background: rgba(255,255,255,0.03); border: 1px solid rgba(197,160,89,0.2); border-radius: 8px;">
+            <h3 style="font-family: 'Cinzel', serif; font-size: 1.15rem; color: #fff; margin-bottom: 10px;">{f['q']}</h3>
+            <p style="color: #ccc; font-size: 0.95rem; line-height: 1.6; margin: 0;">{f['a']}</p>
+        </div>
+    """ for f in faqs])
+
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) - GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SKRDGSHGF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-4SKRDGSHGF');
+      gtag('config', 'AW-16941717881');
+    </script>
+    <meta name="google-site-verification" content="yzEXJ6aZqKbrVXZNEsuVjiSuXGsZAGy4ZLqUfqFkjzY" />
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':
+    new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    }})(window,document,'script','dataLayer','GTM-PGH8WNPW');</script>
+    <!-- End Google Tag Manager -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <meta name="description" content="{meta_desc}">
+    <link rel="canonical" href="{canonical_url}" />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="{title}" />
+    <meta property="og:description" content="{meta_desc}" />
+    <meta property="og:url" content="{canonical_url}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://swariyaweddings.com/{hero_img}" />
+    <meta property="og:site_name" content="Swariya Weddings" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{title}" />
+    <meta name="twitter:description" content="{meta_desc}" />
+    <meta name="twitter:image" content="https://swariyaweddings.com/{hero_img}" />
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Schema 1: Service -->
+    <script type="application/ld+json">
+    {json.dumps(service_schema, indent=4)}
+    </script>
+
+    <!-- Schema 2: BreadcrumbList -->
+    <script type="application/ld+json">
+    {json.dumps(breadcrumb_schema, indent=4)}
+    </script>
+
+    <!-- Schema 3: FAQPage -->
+    <script type="application/ld+json">
+    {json.dumps(faq_schema, indent=4)}
+    </script>
+
+    <style>
+        .hero-banner {{
+            background: linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.85)), url('/{hero_img}') center/cover no-repeat;
+            padding: 140px 20px 80px;
+            text-align: center;
+            border-bottom: 2px solid rgba(197, 160, 89, 0.3);
+        }}
+        .hero-title {{
+            font-family: 'Cinzel', serif;
+            font-size: 2.8rem;
+            color: #fff;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            line-height: 1.2;
+        }}
+        .hero-subtitle {{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.15rem;
+            color: #c5a059;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+        }}
+        .luxury-badge {{
+            display: inline-block;
+            padding: 6px 16px;
+            background: rgba(197, 160, 89, 0.15);
+            border: 1px solid #c5a059;
+            color: #c5a059;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }}
+        .content-card {{
+            background: #141414;
+            border: 1px solid rgba(197, 160, 89, 0.2);
+            border-radius: 12px;
+            padding: 35px;
+            margin-bottom: 30px;
+        }}
+        .spec-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }}
+        .spec-item {{
+            background: rgba(255,255,255,0.02);
+            border-left: 3px solid #c5a059;
+            padding: 15px 20px;
+        }}
+        .spec-label {{
+            font-size: 0.8rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }}
+        .spec-value {{
+            font-size: 1.1rem;
+            color: #fff;
+            font-weight: 600;
+        }}
+        .cta-btn-gold {{
+            background: linear-gradient(135deg, #c5a059 0%, #dfba73 100%);
+            color: #000;
+            padding: 16px 36px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(197, 160, 89, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }}
+        .cta-btn-gold:hover {{
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(197, 160, 89, 0.5);
+            color: #000;
+        }}
+        .venues-list {{
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 12px;
+        }}
+        .venues-list li {{
+            background: rgba(255,255,255,0.03);
+            padding: 12px 16px;
+            border-radius: 6px;
+            color: #e0e0e0;
+            font-size: 0.95rem;
+        }}
+    </style>
+</head>
+<body style="background-color: #0a0a0a; color: #e0e0e0; font-family: 'Montserrat', sans-serif;">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGH8WNPW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Header Navigation -->
+    <header class="luxury-header" style="position: sticky; top: 0; z-index: 1000; background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(197,160,89,0.2); padding: 15px 30px;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <a href="/" style="font-family: 'Cinzel', serif; font-size: 1.6rem; color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 2px;">
+                SWARIYA <span style="color: #c5a059; font-weight: 400;">WEDDINGS</span>
+            </a>
+            <nav style="display: flex; gap: 25px; align-items: center;">
+                <a href="/" style="color: #ccc; text-decoration: none; font-size: 0.9rem; font-weight: 500;">Home</a>
+                <a href="/destination-wedding-planner-india.html" style="color: #c5a059; text-decoration: none; font-size: 0.9rem; font-weight: 600;">Destinations</a>
+                <a href="/venues.html" style="color: #ccc; text-decoration: none; font-size: 0.9rem; font-weight: 500;">Venues</a>
+                <a href="/wedding-budget-calculator.html" style="color: #ccc; text-decoration: none; font-size: 0.9rem; font-weight: 500;">Calculator</a>
+                <a href="/wedding-brief-builder.html" style="color: #ccc; text-decoration: none; font-size: 0.9rem; font-weight: 500;">Brief Builder</a>
+                <a href="/reviews.html" style="color: #ccc; text-decoration: none; font-size: 0.9rem; font-weight: 500;">Reviews</a>
+                <a href="{wa_url}" target="_blank" style="background: #c5a059; color: #000; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-size: 0.85rem; font-weight: 700;">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-banner">
+        <div style="max-width: 900px; margin: 0 auto;">
+            <div class="luxury-badge"><i class="fa-solid fa-crown" style="margin-right: 5px;"></i> Bespoke Wedding Planning</div>
+            <h1 class="hero-title">{h1}</h1>
+            <p class="hero-subtitle">{subtitle}</p>
+            <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                <a href="{wa_url}" target="_blank" class="cta-btn-gold">
+                    <i class="fa-brands fa-whatsapp" style="margin-right: 8px;"></i> Plan Your Wedding
+                </a>
+                <a href="/wedding-budget-calculator.html" style="border: 1px solid #c5a059; color: #c5a059; padding: 16px 28px; border-radius: 50px; text-decoration: none; font-weight: 600; text-transform: uppercase; font-size: 0.9rem;">
+                    Calculate Budget
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <main style="max-width: 1100px; margin: 50px auto; padding: 0 20px;">
+        <!-- Overview Grid -->
+        <div class="content-card">
+            <h2 style="font-family: 'Cinzel', serif; font-size: 1.8rem; color: #c5a059; margin-bottom: 10px;">
+                Wedding Planning Blueprint: {loc_name}
+            </h2>
+            <p style="color: #bbb; line-height: 1.8; font-size: 1.05rem;">
+                {meta_desc} Swariya Weddings delivers high-touch, turnkey wedding production designed specifically for couples seeking an extraordinary celebration in {loc_name}. From architectural mandap installations to artist hospitality, our team handles every dimension of your wedding with 100% fiduciary transparency and zero vendor markups.
+            </p>
+
+            <div class="spec-grid">
+                <div class="spec-item">
+                    <div class="spec-label">Estimated Budget</div>
+                    <div class="spec-value">{budget}</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-label">Guest Scale</div>
+                    <div class="spec-value">{capacity}</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-label">Location / State</div>
+                    <div class="spec-value">{city}, {state}</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-label">Pricing Model</div>
+                    <div class="spec-value" style="color: #c5a059;">0% Markup Fiduciary</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Venues & Logistics -->
+        <div class="content-card">
+            <h2 style="font-family: 'Cinzel', serif; font-size: 1.8rem; color: #fff; margin-bottom: 15px;">
+                Iconic Venues & Properties in {loc_name}
+            </h2>
+            <p style="color: #bbb; line-height: 1.7; margin-bottom: 20px;">
+                Our seasoned destination producers maintain established relationships with premier luxury venues in {loc_name}. We secure preferred dates, negotiate direct trade room rates, and coordinate vendor setup clearances.
+            </p>
+            <ul class="venues-list">
+                {venues_list_html}
+            </ul>
+
+            <div style="margin-top: 30px; padding: 20px; background: rgba(197, 160, 89, 0.08); border-left: 3px solid #c5a059; border-radius: 0 8px 8px 0;">
+                <h3 style="font-family: 'Cinzel', serif; font-size: 1.1rem; color: #c5a059; margin-bottom: 8px;">
+                    <i class="fa-solid fa-compass" style="margin-right: 6px;"></i> Local Logistics & Production Insights
+                </h3>
+                <p style="color: #ccc; font-size: 0.95rem; line-height: 1.6; margin: 0;">
+                    {logistics}
+                </p>
+            </div>
+        </div>
+
+        <!-- 3-Step Process -->
+        <div class="content-card" style="text-align: center;">
+            <h2 style="font-family: 'Cinzel', serif; font-size: 1.8rem; color: #c5a059; margin-bottom: 25px;">
+                How We Plan Your Wedding in {loc_name}
+            </h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px; text-align: left;">
+                <div style="padding: 20px; background: rgba(255,255,255,0.02); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                    <div style="font-family: 'Cinzel', serif; font-size: 2rem; color: #c5a059; margin-bottom: 10px;">01</div>
+                    <h3 style="font-size: 1.1rem; color: #fff; margin-bottom: 8px;">Vision & Budget Alignment</h3>
+                    <p style="color: #aaa; font-size: 0.9rem; line-height: 1.6;">We define your aesthetic brief, guest parameters, and allocate transparent budgets with our live calculator.</p>
+                </div>
+                <div style="padding: 20px; background: rgba(255,255,255,0.02); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                    <div style="font-family: 'Cinzel', serif; font-size: 2rem; color: #c5a059; margin-bottom: 10px;">02</div>
+                    <h3 style="font-size: 1.1rem; color: #fff; margin-bottom: 8px;">Venue & 3D Spatial Decor</h3>
+                    <p style="color: #aaa; font-size: 0.9rem; line-height: 1.6;">We conduct venue walkthroughs, secure buyout dates, and render 3D architectural mockups of mandaps and stages.</p>
+                </div>
+                <div style="padding: 20px; background: rgba(255,255,255,0.02); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                    <div style="font-family: 'Cinzel', serif; font-size: 2rem; color: #c5a059; margin-bottom: 10px;">03</div>
+                    <h3 style="font-size: 1.1rem; color: #fff; margin-bottom: 8px;">Flawless Day-of Execution</h3>
+                    <p style="color: #aaa; font-size: 0.9rem; line-height: 1.6;">A 20+ member on-ground team manages VIP hospitality, artist soundchecks, and precise Muhurtham timing.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="content-card">
+            <h2 style="font-family: 'Cinzel', serif; font-size: 1.8rem; color: #c5a059; margin-bottom: 25px;">
+                Frequently Asked Questions ({loc_name})
+            </h2>
+            {faq_cards_html}
+        </div>
+
+        <!-- Bottom CTA Banner -->
+        <div style="background: linear-gradient(135deg, rgba(197, 160, 89, 0.2) 0%, rgba(20, 20, 20, 0.9) 100%); border: 1px solid #c5a059; border-radius: 12px; padding: 50px 30px; text-align: center;">
+            <h2 style="font-family: 'Cinzel', serif; font-size: 2.2rem; color: #fff; margin-bottom: 15px;">
+                Begin Planning Your Wedding in {loc_name}
+            </h2>
+            <p style="color: #ccc; max-width: 650px; margin: 0 auto 30px; font-size: 1.05rem; line-height: 1.6;">
+                Connect with our senior wedding producers on WhatsApp for immediate date availability, curated venue lookbooks, and itemized 2026 cost estimates.
+            </p>
+            <a href="{wa_url}" target="_blank" class="cta-btn-gold" style="font-size: 1.1rem; padding: 18px 45px;">
+                <i class="fa-brands fa-whatsapp" style="margin-right: 10px;"></i> Chat with Senior Planner
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer style="background: #050505; border-top: 1px solid rgba(255,255,255,0.1); padding: 50px 20px 30px; text-align: center; margin-top: 80px;">
+        <div style="max-width: 1100px; margin: 0 auto;">
+            <div style="font-family: 'Cinzel', serif; font-size: 1.4rem; color: #fff; margin-bottom: 15px;">
+                SWARIYA WEDDINGS
+            </div>
+            <p style="color: #888; font-size: 0.9rem; max-width: 600px; margin: 0 auto 25px;">
+                Pan-India Luxury & Destination Wedding Planners. Headquartered in HSR Layout, Bengaluru. 150+ Weddings Executed | 500+ Happy Clients | 4.9/5 Rating.
+            </p>
+            <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 25px; flex-wrap: wrap;">
+                <a href="/" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Home</a>
+                <a href="/destination-wedding-planner-india.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Destinations</a>
+                <a href="/venues.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Venues</a>
+                <a href="/wedding-budget-calculator.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Budget Calculator</a>
+                <a href="/client-portal.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Client Portal</a>
+                <a href="/reviews.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">Reviews</a>
+                <a href="/about.html" style="color: #aaa; text-decoration: none; font-size: 0.85rem;">About</a>
+            </div>
+            <p style="color: #555; font-size: 0.8rem; margin: 0;">
+                &copy; 2026 Swariya Weddings. All Rights Reserved. Fiduciary 0% Markup Luxury Wedding Production.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+"""
+    output_path = os.path.join(root_dir, f"{slug}.html")
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    return slug
+
+def main():
+    root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    print(f"Loading 3,000 Micro-Markets dataset...")
+    markets = get_3000_micromarkets()
+    total = len(markets)
+    print(f"Loaded {total} unique records. Starting multi-threaded HTML generator...")
+
+    tasks = [(m, idx, root_dir) for idx, m in enumerate(markets)]
+
+    with ThreadPoolExecutor(max_workers=16) as executor:
+        results = list(executor.map(generate_single_page, tasks))
+
+    print(f"✅ Generated {len(results)} Luxury HTML pages successfully in '{root_dir}'!")
+
+if __name__ == "__main__":
+    main()
