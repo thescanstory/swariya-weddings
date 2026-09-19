@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/pricing", "destination": "/wedding-budget-calculator.html", "permanent": true },
+    { "source": "/calculator", "destination": "/wedding-budget-calculator.html", "permanent": true },
+    { "source": "/brief-builder", "destination": "/wedding-brief-builder.html", "permanent": true },
+    { "source": "/moodboard", "destination": "/wedding-brief-builder.html", "permanent": true },
+    { "source": "/portal", "destination": "/client-portal.html", "permanent": true },
+    { "source": "/os", "destination": "/client-portal.html", "permanent": true },
+    { "source": "/destinations", "destination": "/destination-wedding-planner-india.html", "permanent": true },
+    { "source": "/destination-weddings", "destination": "/destination-wedding-planner-india.html", "permanent": true },
+    { "source": "/cost-guide", "destination": "/bengaluru-wedding-cost-guide-2026.html", "permanent": true },
+    { "source": "/bangalore-cost-guide", "destination": "/bengaluru-wedding-cost-guide-2026.html", "permanent": true },
+    { "source": "/venue-comparison", "destination": "/venue-finder.html", "permanent": true },
+    { "source": "/compare-venues", "destination": "/venue-finder.html", "permanent": true },
+    { "source": "/guides", "destination": "/blog/guides/index.html", "permanent": true },
+    { "source": "/wedding-guides", "destination": "/blog/guides/index.html", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}
