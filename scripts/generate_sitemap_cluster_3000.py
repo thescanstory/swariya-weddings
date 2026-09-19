@@ -59,14 +59,17 @@ def generate_sitemaps():
 
     # Populate main sitemap
     for cp in core_pages:
-        url = f"{BASE_URL}/{cp}" if cp else f"{BASE_URL}/"
-        clusters["sitemap-main.xml"].append((url, "1.0" if not cp else "0.9", "weekly"))
+        clean_cp = cp.replace(".html", "") if cp.endswith(".html") else cp
+        url = f"{BASE_URL}/{clean_cp}" if clean_cp else f"{BASE_URL}/"
+        clusters["sitemap-main.xml"].append((url, "1.0" if not clean_cp else "0.9", "weekly"))
 
     for vp in existing_venues:
-        clusters["sitemap-venues-luxury.xml"].append((f"{BASE_URL}/{vp}", "0.85", "monthly"))
+        clean_vp = vp.replace(".html", "") if vp.endswith(".html") else vp
+        clusters["sitemap-venues-luxury.xml"].append((f"{BASE_URL}/{clean_vp}", "0.85", "monthly"))
 
     for bp in existing_blogs:
-        clusters["sitemap-cost-guides-2026.xml"].append((f"{BASE_URL}/{bp}", "0.8", "monthly"))
+        clean_bp = bp.replace(".html", "") if bp.endswith(".html") else bp
+        clusters["sitemap-cost-guides-2026.xml"].append((f"{BASE_URL}/{clean_bp}", "0.8", "monthly"))
 
     # Map category to sitemap file
     cat_mapping = {
@@ -90,7 +93,7 @@ def generate_sitemaps():
     for m in markets:
         cat = m.get("category", "bengaluru-corridors")
         target_sitemap = cat_mapping.get(cat, "sitemap-bengaluru-corridors.xml")
-        page_url = f"{BASE_URL}/{m['slug']}.html"
+        page_url = f"{BASE_URL}/{m['slug']}"
         clusters[target_sitemap].append((page_url, "0.85", "monthly"))
 
     # Write each child sitemap

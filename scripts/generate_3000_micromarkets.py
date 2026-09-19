@@ -53,7 +53,7 @@ def generate_single_page(args):
         }
     ]
 
-    canonical_url = f"https://swariyaweddings.com/{slug}.html"
+    canonical_url = f"https://swariyaweddings.com/{slug}"
     wa_msg = f"Hi Swariya Weddings, I'm planning a luxury wedding in {loc_name} (Budget: {budget}). I'd like to check date availability and venue options."
     wa_url = f"https://wa.me/918050573382?text={urllib.parse.quote(wa_msg)}"
 
