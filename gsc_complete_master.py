@@ -61,11 +61,13 @@ def main():
 
         # Step 2: URL Inspection & Indexing
         urls_to_index = [
-            "https://swariyaweddings.com/bengaluru-wedding-cost-guide-2026.html",
-            "https://swariyaweddings.com/reviews.html",
-            "https://swariyaweddings.com/ask.html",
-            "https://swariyaweddings.com/kannada-wedding-planner-bengaluru.html",
-            "https://swariyaweddings.com/venues/the-tamarind-tree-bangalore.html"
+            "https://swariyaweddings.com/",
+            "https://swariyaweddings.com/wedding-budget-calculator",
+            "https://swariyaweddings.com/wedding-planner-in-sadashivanagar-bangalore",
+            "https://swariyaweddings.com/royal-destination-wedding-planner-in-udaipur-lake-pichola-rajasthan",
+            "https://swariyaweddings.com/destination-wedding-planner-in-candolim-beachfront-goa",
+            "https://swariyaweddings.com/specialist-planner-for-nri-luxury-destination-wedding",
+            "https://swariyaweddings.com/wedding-cost-at-taj-lake-palace-udaipur-udaipur"
         ]
 
         log(f"\n[2/2] Inspecting & Requesting Indexing for {len(urls_to_index)} priority pages...")
