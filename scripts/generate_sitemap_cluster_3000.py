@@ -35,8 +35,14 @@ def generate_sitemaps():
     ]
 
     # Additional editorial / venue pages if they exist
-    existing_venues = [os.path.relpath(p, root_dir) for p in glob.glob(os.path.join(root_dir, "venues", "*.html"))]
-    existing_blogs = [os.path.relpath(p, root_dir) for p in glob.glob(os.path.join(root_dir, "blog", "**", "*.html"), recursive=True)]
+    existing_venues = [
+        os.path.relpath(p, root_dir) for p in glob.glob(os.path.join(root_dir, "venues", "*.html"))
+        if not p.endswith("template.html") and not p.endswith("index.html")
+    ]
+    existing_blogs = [
+        os.path.relpath(p, root_dir) for p in glob.glob(os.path.join(root_dir, "blog", "**", "*.html"), recursive=True)
+        if not p.endswith("template.html") and not p.endswith("index.html")
+    ]
 
     clusters = {
         "sitemap-main.xml": [],
