@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-09-20T18:50:00Z",
+  "competitor": "Meragi (meragi.com)",
+  "target": "Swariya Weddings (swariyaweddings.com)",
+  "meragi_total_urls": 2123,
+  "swariya_total_urls": 3782,
+  "footprint_lead_percentage": 78.1,
+  "meragi_category_breakdown": {
+    "decor_haldi_mehendi": 0,
+    "stage_mandap_decor": 0,
+    "location_bangalore": 0,
+    "location_hyderabad": 0,
+    "location_goa": 0,
+    "location_delhi_mumbai": 0,
+    "destination_weddings": 0,
+    "generic_other": 2123
+  },
+  "strategic_advantages": [
+    {
+      "area": "High-Ticket Transaction Intent",
+      "meragi_status": "Heavy focus on low-ticket sub-decor items (\u20b92L \u2013 \u20b98L)",
+      "swariya_status": "Complete luxury destination buyouts & palace weddings (\u20b935L \u2013 \u20b915Cr+)",
+      "action": "Intercept couples with itemized 2026 venue & banqueting price matrices."
+    },
+    {
+      "area": "Rich Snippet & Schema Monopoly",
+      "meragi_status": "Only 1 basic Organization schema; zero FAQ/Star snippets",
+      "swariya_status": "4 validated JSON-LD schemas (AggregateRating 4.9\u2605, FAQPage, Service, Breadcrumb)",
+      "action": "Achieves 30% higher SERP Click-Through Rate with golden review stars."
+    },
+    {
+      "area": "Fiduciary 0% Markup vs Aggregator Margins",
+      "meragi_status": "15-25% hidden markups on florists & decorators",
+      "swariya_status": "100% transparent trade invoicing with 0% vendor cuts",
+      "action": "Direct comparison guides highlighting \u20b98L \u2013 \u20b940L family cost savings."
+    }
+  ]
+}
