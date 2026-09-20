@@ -20,7 +20,11 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-User-agent: CCBot
+# Ahrefs Crawlers (Ahrefs Webmaster Tools Site Audit)
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: AhrefsSiteAudit
 Allow: /
 
 Sitemap: https://swariyaweddings.com/sitemap.xml
