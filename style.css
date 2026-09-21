@@ -116,7 +116,7 @@ section > .section-label:first-child,
     -webkit-backdrop-filter: blur(14px);
     border-bottom: 1px solid var(--border-gold);
     box-shadow: 0 4px 20px rgba(10, 28, 24, 0.04);
-    padding: 18px 0;
+    padding: 16px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -127,17 +127,20 @@ section > .section-label:first-child,
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1240px;
 }
 
 .logo {
     font-size: 22px;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     color: var(--dark-luxury);
     position: relative;
     padding-right: 14px;
     font-family: var(--font-heading);
     transition: color 0.3s ease;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .logo::after {
@@ -161,7 +164,14 @@ section > .section-label:first-child,
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 32px;
+    gap: clamp(10px, 1.4vw, 22px);
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-flex;
     align-items: center;
 }
 
@@ -170,22 +180,24 @@ section > .section-label:first-child,
     color: #4A4A4A;
     font-size: 13.5px;
     font-weight: 500;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.3px;
     transition: all 0.25s ease;
     position: relative;
     padding: 6px 0;
+    white-space: nowrap;
+    display: inline-block;
 }
 
-.nav-links a:hover {
+.nav-links a:not(.btn-contact):hover {
     color: var(--primary);
 }
 
-.nav-links a.active {
+.nav-links a.active:not(.btn-contact) {
     color: var(--primary);
     font-weight: 600;
 }
 
-.nav-links a.active::after {
+.nav-links a.active:not(.btn-contact)::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -200,24 +212,27 @@ section > .section-label:first-child,
     font-family: var(--font-body) !important;
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
     color: #ffffff !important;
-    padding: 8px 22px;
+    padding: 9px 22px !important;
     border-radius: 30px;
-    text-decoration: none;
-    font-size: 13.5px;
-    font-weight: 500;
-    letter-spacing: 0.4px;
+    text-decoration: none !important;
+    font-size: 13.5px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.3px;
     text-transform: none;
     box-shadow: 0 4px 14px rgba(139, 26, 26, 0.25);
     border: 1px solid rgba(212, 175, 55, 0.35);
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-    display: inline-flex;
+    display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    line-height: 1.4;
+    white-space: nowrap;
+    line-height: 1.2 !important;
+    cursor: pointer;
+    margin-left: 6px;
 }
 
 .btn-contact:hover {
-    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%) !important;
     color: var(--dark-luxury) !important;
     transform: translateY(-2px);
     box-shadow: 0 6px 18px rgba(212, 175, 55, 0.35);
@@ -228,14 +243,14 @@ section > .section-label:first-child,
     display: none;
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1;
     color: var(--dark);
     cursor: pointer;
     padding: 4px 8px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .nav-toggle {
         display: block;
     }
@@ -247,12 +262,12 @@ section > .section-label:first-child,
         left: 0;
         right: 0;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: stretch;
         gap: 0;
         background: #fff;
         border-bottom: 1px solid var(--border);
-        box-shadow: 0 12px 20px rgba(0,0,0,0.08);
-        padding: 10px 20px 20px;
+        box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+        padding: 12px 24px 24px;
     }
 
     .nav-links.open {
@@ -263,19 +278,25 @@ section > .section-label:first-child,
         width: 100%;
         padding: 12px 0;
         border-bottom: 1px solid var(--border);
+        display: block;
     }
 
     .nav-links li:last-child {
         border-bottom: none;
-        padding-top: 16px;
+        padding-top: 18px;
     }
 
     .nav-links a {
         font-size: 15px;
+        display: block;
     }
 
     .btn-contact {
-        display: inline-block;
+        display: inline-flex !important;
+        width: 100%;
+        padding: 12px 24px !important;
+        text-align: center;
+        margin-left: 0;
     }
 }
 
