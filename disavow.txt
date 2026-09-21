@@ -1,0 +1,12 @@
+# Google Search Console Disavow File for Swariya Weddings (swariyaweddings.com)
+# Generated: 2026-09-21
+# Purpose: Disavow toxic scraper domains and spam link farms identified in SEMrush Backlink Audit
+
+domain:8coint.com
+domain:backlink-top.shop
+domain:best-seo-domains.com
+domain:bestirishcasinoonline.online
+domain:bestonlinecasinogamescanada.online
+domain:standout.work
+domain:shizune.co
+domain:talentmate.com

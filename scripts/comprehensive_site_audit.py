@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import glob
 import xml.etree.ElementTree as ET
 
 def run_comprehensive_audit():
@@ -143,13 +144,16 @@ def run_comprehensive_audit():
 
     # Sitemap check
     sitemap_urls = set()
-    if os.path.exists("sitemap.xml"):
-        tree = ET.parse("sitemap.xml")
-        root_el = tree.getroot()
-        for elem in root_el.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url"):
-            loc = elem.find("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
-            if loc is not None and loc.text:
-                sitemap_urls.add(loc.text.strip())
+    sitemap_files = glob.glob("sitemap*.xml")
+    for sm in sitemap_files:
+        try:
+            tree = ET.parse(sm)
+            root_el = tree.getroot()
+            for loc in root_el.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
+                if loc.text:
+                    sitemap_urls.add(loc.text.strip())
+        except Exception:
+            pass
 
     # PRINT AUDIT RESULTS
     print("📋 1. SEO & META TAG INTEGRITY")

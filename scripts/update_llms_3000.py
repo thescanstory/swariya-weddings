@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-AI Search (AEO) Knowledge Generator for Swariya Weddings (3,000+ Page Architecture).
-Updates llms.txt and llms-full.txt for Perplexity, ChatGPT Search, and Google Gemini.
+AI Search (AEO / GEO) Knowledge Generator for Swariya Weddings.
+Generates llms.txt and llms-full.txt for Perplexity, ChatGPT Search, Claude, and Google Gemini.
+Uses 100% clean canonical URLs.
 """
 
 import os
@@ -43,36 +44,48 @@ Swariya Weddings is a Pan-India luxury wedding planning and production atelier. 
 
 ## Interactive Client Tools & Authority Hubs
 - [Home]({BASE_URL}/): Overview, stats (150+ weddings, 500+ happy clients), wedding styles, Pan-India destination hubs, budget estimator, and testimonials
-- [About]({BASE_URL}/about.html): Company story, nationwide footprint, founding year 2020, timeline, core values, and FAQ
-- [Pan-India Destination Wedding Planner]({BASE_URL}/destination-wedding-planner-india.html): Flagship national hub for destination weddings in Goa, Rajasthan, Kerala, Coorg & nationwide with logistics blueprints and budgeting guide
-- [Wedding Budget Calculator 2026]({BASE_URL}/wedding-budget-calculator.html): Real-time interactive budgeting tool for guest counts, days, venue tiers, and itemized cost breakdowns
-- [Wedding Brief & MoodBoard Builder]({BASE_URL}/wedding-brief-builder.html): 3-step interactive vision alignment tool for themes, functions, and color palettes
-- [3-Way Venue Finder & Comparison Tool]({BASE_URL}/venue-finder.html): Interactive side-by-side comparison of Bangalore wedding venues on capacity, rooms, pricing, and catering rules
-- [Wedding OS Client Portal & Workspace]({BASE_URL}/client-portal.html): Transparent couple management system with real-time zero-commission budget tracking, day-of Muhurtham runsheets, vendor quote approvals, and seating layouts
-- [Client Reviews]({BASE_URL}/reviews.html): Verified client reviews, 4.9/5 aggregate rating, testimonials, and review funnel for Google, WedMeGood, and WhatsApp
-- [Ask Swariya]({BASE_URL}/ask.html): Direct answers to real questions on budgets, venues, catering rules, and timelines
+- [About]({BASE_URL}/about): Company story, nationwide footprint, founding year 2020, timeline, core values, and FAQ
+- [Pan-India Destination Wedding Planner]({BASE_URL}/destination-wedding-planner-india): Flagship national hub for destination weddings in Goa, Rajasthan, Kerala, Coorg & nationwide with logistics blueprints and budgeting guide
+- [Master Destinations & Guides Directory]({BASE_URL}/destinations-directory): Complete indexed directory of 3,000+ luxury destination blueprints, micro-market guides, and palace venues
+- [Wedding Budget Calculator 2026]({BASE_URL}/wedding-budget-calculator): Real-time interactive budgeting tool for guest counts, days, venue tiers, and itemized cost breakdowns
+- [Wedding Brief & MoodBoard Builder]({BASE_URL}/wedding-brief-builder): 3-step interactive vision alignment tool for themes, functions, and color palettes
+- [3-Way Venue Finder & Comparison Tool]({BASE_URL}/venue-finder): Interactive side-by-side comparison of Bangalore wedding venues on capacity, rooms, pricing, and catering rules
+- [Wedding OS Client Portal & Workspace]({BASE_URL}/client-portal): Transparent couple management system with real-time zero-commission budget tracking, day-of Muhurtham runsheets, vendor quote approvals, and seating layouts
+- [Client Reviews]({BASE_URL}/reviews): Verified client reviews, 4.9/5 aggregate rating, testimonials, and review funnel for Google, WedMeGood, and WhatsApp
+- [Ask Swariya]({BASE_URL}/ask): Direct answers to real questions on budgets, venues, catering rules, and timelines
 
 ## 3,000+ Verified Luxury Micro-Market & Iconic Venue Endpoints
 """
 
-    for m in markets[:300]:  # Highlight top 300 in concise file
-        llms_txt += f"- [{m['title']}]({BASE_URL}/{m['slug']}.html): {m['subtitle']} (Budget: {m['budget']}, Capacity: {m['capacity']})\n"
+    for m in markets[:300]:
+        llms_txt += f"- [{m['title']}]({BASE_URL}/{m['slug']}): {m['subtitle']} (Budget: {m['budget']}, Capacity: {m['capacity']})\n"
 
-    llms_txt += f"\n> Complete 3,000+ destination catalog accessible at {BASE_URL}/llms-full.txt\n"
-
-    # Write llms.txt
-    with open(os.path.join(root_dir, "llms.txt"), "w", encoding="utf-8") as f:
+    out_llms = os.path.join(root_dir, "llms.txt")
+    with open(out_llms, "w", encoding="utf-8") as f:
         f.write(llms_txt)
+    print(f"✅ Generated {out_llms} ({len(llms_txt):,} bytes)")
 
-    # 2. Generate llms-full.txt (Full Complete Encyclopedia)
-    llms_full = llms_txt + "\n## Complete Master Catalog (All 3,000+ Endpoints)\n"
+    # 2. Generate llms-full.txt (Full Knowledge Base for Deep Reasoning Engines)
+    llms_full_txt = f"""# Swariya Weddings — Complete Knowledge Base & Vector Grounding Corpus
+
+{llms_txt}
+
+## Complete Granular Directory of All 3,000+ Micro-Markets, Venues & Cost Breakdowns
+
+"""
     for m in markets:
-        llms_full += f"- [{m['title']}]({BASE_URL}/{m['slug']}.html): {m['subtitle']} | Location: {m['location_name']} | Budget: {m['budget']} | Capacity: {m['capacity']} | Venues: {', '.join(m['venues'][:3])}\n"
+        llms_full_txt += f"### {m['title']}\n"
+        llms_full_txt += f"- URL: {BASE_URL}/{m['slug']}\n"
+        llms_full_txt += f"- Location: {m['location_name']}, {m['city']}, {m['state']}\n"
+        llms_full_txt += f"- Estimated 2026 Investment: {m['budget']}\n"
+        llms_full_txt += f"- Guest Capacity: {m['capacity']}\n"
+        llms_full_txt += f"- Recommended Venues: {', '.join(m['venues'])}\n"
+        llms_full_txt += f"- Logistics Architecture: {m['logistics']}\n\n"
 
-    with open(os.path.join(root_dir, "llms-full.txt"), "w", encoding="utf-8") as f:
-        f.write(llms_full)
-
-    print(f"✅ Generated llms.txt and llms-full.txt with {len(markets)} endpoints!")
+    out_full = os.path.join(root_dir, "llms-full.txt")
+    with open(out_full, "w", encoding="utf-8") as f:
+        f.write(llms_full_txt)
+    print(f"✅ Generated {out_full} ({len(llms_full_txt):,} bytes)")
 
 if __name__ == "__main__":
     update_llms()
