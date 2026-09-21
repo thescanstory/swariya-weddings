@@ -465,7 +465,7 @@ MICROMARKETS = [
         "state": "Karnataka",
         "budget_range": "₹50 Lakhs – ₹3 Crores",
         "guest_capacity": "150 to 1,000+ Guests",
-        "venues": ["The Ritz-Carlton Bangalore", "Bangalore Club Corridors", "Bowring Institute Lawns", "St. Patrick's Cathedral"],
+        "venues": ["The Ritz-Carlton Bangalore", "Bangalore Club Corridors", "Bowring Institute Lawns", "St. Mark's Cathedral"],
         "logistics": "Historic cantonment architecture perfect for classic Christian weddings, Parsi soirees, and vintage English garden receptions.",
         "hero_img": "images/16.jpg",
         "faqs": [
