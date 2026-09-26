@@ -1,35 +1,19 @@
+# robots.txt for Swariya Weddings
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
 
-# AI / answer engine crawlers (explicitly welcomed for AEO)
+# Allow AI answer engines so ChatGPT, Perplexity, Claude and Gemini can cite you
 User-agent: GPTBot
 Allow: /
-
-User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
 Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
 User-agent: PerplexityBot
 Allow: /
-
+User-agent: ClaudeBot
+Allow: /
 User-agent: Google-Extended
 Allow: /
 
-# Ahrefs Crawlers (Ahrefs Webmaster Tools Site Audit)
-User-agent: AhrefsBot
-Allow: /
-
-User-agent: AhrefsSiteAudit
-Allow: /
-
 Sitemap: https://swariyaweddings.com/sitemap.xml
-
-# Disallow admin/private areas (none for static site)
-Disallow: /admin/
-Disallow: /private/
-
