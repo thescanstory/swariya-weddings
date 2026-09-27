@@ -1,0 +1,94 @@
+{
+  "redirects": {
+    "http://swariyaweddings.com": {
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    "http://www.swariyaweddings.com": {
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    "https://www.swariyaweddings.com": {
+      "status": 200,
+      "final_url": "https://www.swariyaweddings.com"
+    },
+    "https://swariyaweddings.com": {
+      "status": 200,
+      "final_url": "https://swariyaweddings.com"
+    }
+  },
+  "core_web_vitals": {
+    "dom_elements": 900,
+    "fcp_ms": 1232,
+    "dom_interactive_ms": 1309,
+    "dom_complete_ms": 1789,
+    "networkidle_load_time_sec": 2.3
+  },
+  "broken_links": [],
+  "schemas": {
+    "count": 4,
+    "types": [
+      "WebPage",
+      "Organization",
+      [
+        "LocalBusiness",
+        "ProfessionalService"
+      ],
+      "FAQPage"
+    ]
+  },
+  "heading_hierarchy": {
+    "h1": [
+      "Luxury Wedding Planners in Bangalore & Destination Celebrations"
+    ],
+    "h2": [
+      "A legacy of trust and joy across India",
+      "Simple steps to your dream wedding",
+      "Pick a wedding style, we'll shortlist venues",
+      "Curating Weddings Across India",
+      "How a Celebration Takes Shape",
+      "What our clients say",
+      "Browse from our curated wedding venues",
+      "Real Weddings, Real Moments",
+      "Wedding Planners in Bangalore: Cost, Venues & Service Guide",
+      "Frequently Asked Questions",
+      "Wedding Inspiration & Expert Tips",
+      "Get a ballpark wedding budget in 10 seconds",
+      "We plan. You celebrate your forever.",
+      "Swariya Weddings on Google"
+    ],
+    "h3": [
+      "150+",
+      "500+",
+      "6+",
+      "Quick Inquiry",
+      "Palace & Heritage",
+      "Garden & Outdoor",
+      "Pan-India Destination",
+      "Intimate Ceremony",
+      "Beachside & Heritage Villas",
+      "Udaipur & Jaipur Palaces",
+      "Kumarakom & Kochi",
+      "Coffee Estates & Wilderness",
+      "Hand-Drawn Sketches & Cultural Mapping",
+      "3D Layouts & Direct Material Sampling",
+      "Overnight Master Installation",
+      "Srishti Vilasa",
+      "Kalanivasth",
+      "The Secret Grove",
+      "RITAM - The Wedding Venue",
+      "1. How Much Do Wedding Planners in Bangalore Cost? (2026 Fee Breakdown)",
+      "2. Top Wedding Venues in Bangalore We Plan & Produce",
+      "3. Cultural Ritual Choreography & Regional Specializations",
+      "The Biggest Challenges Couples Face While Planning a Wedding",
+      "How to Plan a Stress-Free Wedding: 7 Expert Tips Every Couple Should Know",
+      "Wedding Trends 2025: Fresh Ideas for D\u00e9cor",
+      "The Ultimate Wedding Checklist: From Engagement to Your Big Day",
+      "Fill in your details and we'll be in touch.",
+      "\ud83d\udccd Studio Location & Contact",
+      "Swariya Weddings",
+      "Bangalore Venues & Cost",
+      "Cultural Wedding Planning",
+      "Destination & Resources"
+    ]
+  },
+  "missing_alts": []
+}
