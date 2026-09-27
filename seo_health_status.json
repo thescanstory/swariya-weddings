@@ -1,0 +1,61 @@
+{
+    "timestamp": "2026-09-27T19:18:00Z",
+    "http_health": {
+        "https://swariyaweddings.com/wedding-planners-in-bangalore.html": {
+            "status_code": 0,
+            "ok": false,
+            "error": "HTTP Error 308: Permanent Redirect"
+        },
+        "https://swariyaweddings.com/top-wedding-planners-in-bangalore-comparison.html": {
+            "status_code": 0,
+            "ok": false,
+            "error": "HTTP Error 308: Permanent Redirect"
+        },
+        "https://swariyaweddings.com/kannada-wedding-planner-bengaluru.html": {
+            "status_code": 0,
+            "ok": false,
+            "error": "HTTP Error 308: Permanent Redirect"
+        },
+        "https://swariyaweddings.com/sitemap.html": {
+            "status_code": 0,
+            "ok": false,
+            "error": "HTTP Error 308: Permanent Redirect"
+        },
+        "https://swariyaweddings.com/sitemap-bangalore-500.xml": {
+            "status_code": 200,
+            "ok": true
+        },
+        "https://swariyaweddings.com/sitemap.xml": {
+            "status_code": 200,
+            "ok": true
+        }
+    },
+    "sitemap_status": {
+        "general": "Success"
+    },
+    "indexing_metrics": {},
+    "serp_rankings": {
+        "wedding planners in bangalore": {
+            "swariya_visible": false,
+            "matched_links_count": 0
+        },
+        "kannada wedding planner in bangalore": {
+            "swariya_visible": false,
+            "matched_links_count": 0
+        },
+        "top wedding planners in bangalore comparison": {
+            "swariya_visible": false,
+            "matched_links_count": 0
+        },
+        "site:swariyaweddings.com wedding planners in bangalore": {
+            "swariya_visible": true,
+            "matched_links_count": 17
+        }
+    },
+    "critical_alerts": [
+        "HTTP Alert: https://swariyaweddings.com/wedding-planners-in-bangalore.html returned 0 / HTTP Error 308: Permanent Redirect",
+        "HTTP Alert: https://swariyaweddings.com/top-wedding-planners-in-bangalore-comparison.html returned 0 / HTTP Error 308: Permanent Redirect",
+        "HTTP Alert: https://swariyaweddings.com/kannada-wedding-planner-bengaluru.html returned 0 / HTTP Error 308: Permanent Redirect",
+        "HTTP Alert: https://swariyaweddings.com/sitemap.html returned 0 / HTTP Error 308: Permanent Redirect"
+    ]
+}

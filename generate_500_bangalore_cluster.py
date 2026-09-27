@@ -310,7 +310,7 @@ DESTINATIONS = [
 print("Starting generation of 500 hyper-targeted Bangalore SEO landing pages...")
 
 def generate_page(title, h1, meta_desc, slug, category, context_text, pricing_tier, faq_items, related_links):
-    canonical_url = f"https://swariyaweddings.com/{slug}.html"
+    canonical_url = f"https://swariyaweddings.com/{slug}"
     
     faq_schema = {
         "@context": "https://schema.org",
@@ -749,12 +749,13 @@ sitemap_xml_path = os.path.join(OUTPUT_DIR, "sitemap-bangalore-500.xml")
 sitemap_xml_content = ['<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for p in ALL_PAGES:
     sitemap_xml_content.append(f'''  <url>
-    <loc>https://swariyaweddings.com/{p["slug"]}.html</loc>
+    <loc>https://swariyaweddings.com/{p["slug"]}</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>''')
 sitemap_xml_content.append('</urlset>')
+
 
 with open(sitemap_xml_path, "w", encoding="utf-8") as f:
     f.write("\n".join(sitemap_xml_content))
