@@ -72,6 +72,7 @@ for cname, pages in cluster_pages.items():
         new_crosslink_block = f"""        <section class="related-guides-grid" style="margin: 40px auto; max-width: 1100px; padding: 25px; background: #FAF6F0; border: 1px solid #E8DFD5; border-radius: 10px;">
             <h3 style="font-family: serif; font-size: 1.25rem; margin-bottom: 12px; color: #1C1917;">Explore Related {cname}</h3>
             <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                <a href="/wedding-planners-in-bangalore" style="display: inline-block; margin: 4px 6px; padding: 6px 12px; background: #8B1A1A; color: #FFF; border-radius: 16px; font-size: 0.82rem; text-decoration: none; font-weight: bold;">✦ Wedding Planners in Bangalore (Master Hub) &rarr;</a>
                 {links_html}
                 <a href="/destinations-directory" style="display: inline-block; margin: 4px 6px; padding: 6px 12px; background: #C5A059; color: #FFF; border-radius: 16px; font-size: 0.82rem; text-decoration: none; font-weight: bold;">View All 3,000+ Guides &rarr;</a>
             </div>
