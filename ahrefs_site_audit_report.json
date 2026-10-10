@@ -1,0 +1,161 @@
+{
+    "summary": {
+        "total_pages_crawled": 4189,
+        "health_score": 89.3,
+        "errors_count": 1059,
+        "warnings_count": 123,
+        "notices_count": 271,
+        "passed_checks_count": 0
+    },
+    "issues": {
+        "errors": [
+            {
+                "check": "Broken Internal Links",
+                "count": 1059,
+                "severity": "Error"
+            }
+        ],
+        "warnings": [
+            {
+                "check": "Duplicate Title Tags",
+                "count": 115,
+                "affected_urls": 436,
+                "severity": "Warning"
+            },
+            {
+                "check": "Thin Content (<250 words)",
+                "count": 3,
+                "severity": "Warning"
+            },
+            {
+                "check": "Missing Structured Data (Schema.org)",
+                "count": 4,
+                "severity": "Warning"
+            },
+            {
+                "check": "Canonical URL with .html (Redirect hop)",
+                "count": 1,
+                "severity": "Warning"
+            }
+        ],
+        "notices": [
+            {
+                "check": "Title Tag Too Long (>70 chars)",
+                "count": 241,
+                "severity": "Notice"
+            },
+            {
+                "check": "Meta Description Too Long (>175 chars)",
+                "count": 27,
+                "severity": "Notice"
+            },
+            {
+                "check": "Images Missing Alt Text",
+                "count": 1,
+                "total_images": 150,
+                "severity": "Notice"
+            },
+            {
+                "check": "Missing Open Graph Image",
+                "count": 2,
+                "severity": "Notice"
+            }
+        ]
+    },
+    "sample_details": {
+        "missing_meta_desc": [],
+        "long_title_samples": [
+            [
+                "live-music-dj-and-celebrity-artists-in-whitefield-bangalore.html",
+                "Live Music, DJ & Celebrity Artists in Whitefield Bangalore | Swariya 4.9\u2605",
+                73
+            ],
+            [
+                "wedding-planner-for-windflower-prakruthi-resort-bangalore.html",
+                "Wedding Planner for Windflower Prakruthi Resort Bangalore | Swariya 4.9\u2605",
+                72
+            ],
+            [
+                "wedding-planner-for-keys-select-whitefield-bangalore.html",
+                "Wedding Planner for Keys Select Hotel Whitefield Bangalore | Swariya 4.9\u2605",
+                73
+            ],
+            [
+                "destination-wedding-in-ooty-nilgiris-hills-heritage-royal-celebration-from-bangalore.html",
+                "Heritage Royal Celebration in Ooty & Nilgiris from Bangalore | Swariya 4.9\u2605",
+                75
+            ],
+            [
+                "mangalorean-bunt-wedding-planner-in-bangalore.html",
+                "Mangalorean Bunt (Buntara Vivaha) Wedding Planner in Bangalore | Swariya 4.9\u2605",
+                77
+            ]
+        ],
+        "thin_content_samples": [
+            [
+                "blog.html",
+                207
+            ],
+            [
+                "venue-finder.html",
+                146
+            ],
+            [
+                "competitor-audit-dashboard.html",
+                226
+            ]
+        ],
+        "duplicate_title_samples": [
+            {
+                "title": "Pre-Wedding & Sangeet Guide for The Oberoi | Swariya",
+                "count": 3,
+                "samples": [
+                    "pre-wedding-and-cocktail-venue-guide-the-oberoi-amarvilas-agra-agra.html",
+                    "pre-wedding-and-cocktail-venue-guide-the-oberoi-rajvilas-jaipur-jaipur.html",
+                    "pre-wedding-and-cocktail-venue-guide-the-oberoi-sukhvilas-spa-resort-new-chandigarh.html"
+                ]
+            },
+            {
+                "title": "Wedding Cost at Four Seasons Hotel Bengaluru at | Swariya",
+                "count": 2,
+                "samples": [
+                    "3-day-destination-wedding-cost-at-four-seasons-hotel-bengaluru-at-embassy-one-bangalore.html",
+                    "wedding-cost-at-four-seasons-hotel-bengaluru-at-embassy-one-bangalore.html"
+                ]
+            },
+            {
+                "title": "Wedding Reception & Sangeet Planning at Taj | Swariya",
+                "count": 5,
+                "samples": [
+                    "wedding-reception-and-sangeet-at-taj-holiday-village-resort-spa-candolim.html",
+                    "wedding-reception-and-sangeet-at-taj-falaknuma-palace-hyderabad-hyderabad.html",
+                    "wedding-reception-and-sangeet-at-taj-yeshwantpur-bengaluru-bangalore.html"
+                ]
+            },
+            {
+                "title": "Wedding Cost at Angsana Oasis Spa & Resort | Swariya",
+                "count": 2,
+                "samples": [
+                    "wedding-cost-at-angsana-oasis-spa-resort-rajanukunte-bangalore.html",
+                    "3-day-destination-wedding-cost-at-angsana-oasis-spa-resort-rajanukunte-bangalore.html"
+                ]
+            },
+            {
+                "title": "Traditional Wedding Planning & Master Catering in | Swariya",
+                "count": 50,
+                "samples": [
+                    "traditional-wedding-rituals-and-catering-in-thane-and-pokhran-road-mumbai.html",
+                    "traditional-wedding-rituals-and-catering-in-gandipet-and-osman-sagar-lake-hyderabad.html",
+                    "traditional-wedding-rituals-and-catering-in-koregaon-park-and-kalyani-nagar-pune.html"
+                ]
+            }
+        ],
+        "canonical_issues_samples": [
+            [
+                "sitemap.html",
+                "https://swariyaweddings.com/sitemap.html",
+                "Contains .html extension"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "serp_results": {
+        "swariya weddings": {
+            "visible": true,
+            "organic_rank": 1,
+            "matched_urls": [
+                "http://www.swariyaweddings.com/",
+                "https://swariyaweddings.com/#:~:text=Swariya%20is%20a%20leading%20wedding,creative%20d%C3%A9cor%2C%20and%20seamless%20coordination.",
+                "https://swariyaweddings.com/top-wedding-planners-in-bangalore-comparison.html",
+                "https://swariyaweddings.com/"
+            ]
+        },
+        "swariya weddings bangalore": {
+            "visible": true,
+            "organic_rank": 9,
+            "matched_urls": [
+                "https://swariyaweddings.com/top-wedding-planners-in-bangalore-comparison.html",
+                "http://www.swariyaweddings.com/",
+                "https://swariyaweddings.com/top-wedding-planners-in-bangalore-comparison.html#:~:text=Overview%3A%20Founded%20in%202020%2C%20Swariya,Tamil)%20with%20contemporary%20luxury%20decor."
+            ]
+        },
+        "kannada wedding planner in bangalore": {
+            "visible": false,
+            "organic_rank": "Not in top 10",
+            "matched_urls": []
+        },
+        "wedding planners in bangalore": {
+            "visible": false,
+            "organic_rank": "Not in top 10",
+            "matched_urls": []
+        },
+        "site:swariyaweddings.com": {
+            "visible": true,
+            "organic_rank": 1,
+            "matched_urls": [
+                "https://swariyaweddings.com/blog/guides/wedding-planner-chennai.html#:~:text=Wedding%20Planner%20in%20Chennai%3A%20Full,backbone%20of%20the%20venue%20market.",
+                "/search?q=site:swariyaweddings.com&sca_esv=c2d1ccc686b89df9&gl=in&hl=en&sxsrf=APpeQnua7a38YYL9QH3uaXk18piexbO27g:1790614857301&source=lnt&tbs=qdr:h&sa=X&ved=2ahUKEwicpv6T4JGXAxViXWwGHc7VDdcQpwV6BAgHEAY",
+                "/search?q=site:swariyaweddings.com&sca_esv=c2d1ccc686b89df9&gl=in&hl=en&sxsrf=APpeQnua7a38YYL9QH3uaXk18piexbO27g:1790614857301&source=lnt&tbs=qdr:y&sa=X&ved=2ahUKEwicpv6T4JGXAxViXWwGHc7VDdcQpwV6BAgHEAo",
+                "https://swariyaweddings.com/top-wedding-planners-in-bangalore-comparison.html",
+                "https://swariyaweddings.com/blog/ultimate-wedding-checklist.html"
+            ]
+        }
+    },
+    "gsc_data": {}
+}

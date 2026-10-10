@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetMore.OS | Global B2B Lead Engine, Cold Outbound & Launch Growth Matrix</title>
+    <meta name="description" content="Predictable B2B pipeline, cold email infrastructure, Product Hunt alternatives, and full-funnel outbound engine for high-growth tech, SaaS, and global founders.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-primary: #06090e;
+            --bg-secondary: #0d121d;
+            --bg-card: rgba(18, 25, 38, 0.7);
+            --bg-card-hover: rgba(26, 36, 54, 0.85);
+            --border-glass: rgba(255, 255, 255, 0.08);
+            --border-glow: rgba(99, 102, 241, 0.3);
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --primary-glow: rgba(99, 102, 241, 0.25);
+            --accent-cyan: #06b6d4;
+            --accent-emerald: #10b981;
+            --accent-amber: #f59e0b;
+            
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --text-subtle: #64748b;
+            
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+            
+            --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 15%, rgba(99, 102, 241, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 85% 65%, rgba(6, 182, 212, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 50% 90%, rgba(16, 185, 129, 0.06) 0%, transparent 50%);
+            background-attachment: fixed;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Top Banner - International Trust */
+        .intl-ticker {
+            background: linear-gradient(90deg, rgba(99, 102, 241, 0.15), rgba(6, 182, 212, 0.15));
+            border-bottom: 1px solid var(--border-glass);
+            padding: 8px 0;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+        .intl-ticker .badge {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--accent-emerald);
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin-right: 8px;
+            font-size: 0.75rem;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-glass);
+            backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(6, 9, 14, 0.85);
+        }
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .logo span {
+            background: linear-gradient(135deg, var(--primary-light), var(--accent-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+        }
+        .nav-links a:hover {
+            color: #fff;
+        }
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .currency-switch {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-sm);
+            color: var(--text-muted);
+            padding: 6px 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            outline: none;
+        }
+
+        /* Buttons */
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), #4f46e5);
+            color: #fff;
+            padding: 10px 22px;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 4px 20px var(--primary-glow);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            cursor: pointer;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 28px rgba(99, 102, 241, 0.45);
+        }
+        .btn-secondary {
+            background: var(--bg-card);
+            color: var(--text-main);
+            padding: 10px 22px;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: 1px solid var(--border-glass);
+            transition: all 0.2s ease;
+        }
+        .btn-secondary:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0 60px;
+            text-align: center;
+            position: relative;
+        }
+        .hero-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 16px;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid var(--border-glow);
+            border-radius: 30px;
+            font-size: 0.85rem;
+            color: var(--primary-light);
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.15;
+            font-weight: 800;
+            letter-spacing: -1.5px;
+            max-width: 960px;
+            margin: 0 auto 20px;
+        }
+        .hero h1 .gradient-text {
+            background: linear-gradient(135deg, #ffffff 30%, var(--primary-light) 70%, var(--accent-cyan) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            max-width: 720px;
+            margin: 0 auto 36px;
+        }
+        .hero-cta-group {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 48px;
+        }
+        
+        /* Global Timezone & Trust Strip */
+        .trust-strip {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 32px;
+            padding: 16px 24px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-md);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+        .trust-item i {
+            color: var(--accent-emerald);
+        }
+
+        /* Section Headings */
+        .section-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .section-tag {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent-cyan);
+            margin-bottom: 8px;
+            display: block;
+        }
+        .section-title {
+            font-size: 2.4rem;
+            font-weight: 800;
+            letter-spacing: -0.8px;
+            margin-bottom: 12px;
+        }
+        .section-subtitle {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            max-width: 620px;
+            margin: 0 auto;
+        }
+
+        /* Section Wrappers */
+        section {
+            padding: 80px 0;
+            border-top: 1px solid var(--border-glass);
+        }
+
+        /* Glass Cards */
+        .glass-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+            backdrop-filter: blur(16px);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        .glass-card:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(99, 102, 241, 0.4);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Grid Layouts */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+        }
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        /* 1. Cold Email Engine Architecture */
+        .setup-step {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .step-num {
+            background: rgba(99, 102, 241, 0.15);
+            color: var(--primary-light);
+            border: 1px solid var(--border-glow);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-family: var(--font-mono);
+            flex-shrink: 0;
+        }
+        .step-content h4 {
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+        }
+        .step-content p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+        
+        /* Terminal Code Mockup */
+        .terminal-box {
+            background: #020408;
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: #e2e8f0;
+            line-height: 1.7;
+        }
+        .terminal-header {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .terminal-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        .dot-red { background: #ef4444; }
+        .dot-yellow { background: #f59e0b; }
+        .dot-green { background: #10b981; }
+        .text-green { color: var(--accent-emerald); }
+        .text-cyan { color: var(--accent-cyan); }
+        .text-indigo { color: var(--primary-light); }
+
+        /* 2. Product Hunt Alternatives Directory Table */
+        .table-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .filter-buttons {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-glass);
+            color: var(--text-muted);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .filter-btn.active, .filter-btn:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            border: 1px solid var(--border-glass);
+        }
+        .custom-table th, .custom-table td {
+            padding: 16px 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-glass);
+        }
+        .custom-table th {
+            background: rgba(13, 18, 29, 0.8);
+            font-weight: 700;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .custom-table tbody tr:hover {
+            background: rgba(99, 102, 241, 0.05);
+        }
+        .platform-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 700;
+            color: #fff;
+        }
+        .tag-dr {
+            background: rgba(6, 182, 212, 0.15);
+            color: var(--accent-cyan);
+            padding: 3px 8px;
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            font-family: var(--font-mono);
+            font-weight: 600;
+        }
+
+        /* 3. Portfolio & Case Studies */
+        .portfolio-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .case-tag {
+            font-size: 0.75rem;
+            font-family: var(--font-mono);
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 20px;
+            background: rgba(99, 102, 241, 0.15);
+            color: var(--primary-light);
+            display: inline-block;
+            margin-bottom: 14px;
+        }
+        .case-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin: 20px 0;
+            padding: 16px;
+            background: var(--bg-secondary);
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border-glass);
+        }
+        .metric-item .val {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--accent-emerald);
+            font-family: var(--font-mono);
+        }
+        .metric-item .lbl {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        /* 4. Interactive ROI Calculator */
+        .calculator-box {
+            background: linear-gradient(135deg, rgba(18, 25, 38, 0.9), rgba(13, 18, 29, 0.95));
+            border: 1px solid var(--border-glow);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 36px;
+        }
+        .slider-group {
+            margin-bottom: 24px;
+        }
+        .slider-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .slider-header span {
+            color: var(--primary-light);
+            font-family: var(--font-mono);
+        }
+        input[type=range] {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            outline: none;
+            accent-color: var(--primary);
+        }
+        .calc-result-card {
+            background: #06090e;
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-md);
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .result-amount {
+            font-size: 3rem;
+            font-weight: 800;
+            font-family: var(--font-mono);
+            color: var(--accent-emerald);
+            margin: 10px 0;
+        }
+
+        /* 5. International Client Guarantees (Trust Grid) */
+        .intl-badge-icon {
+            font-size: 2rem;
+            color: var(--primary-light);
+            margin-bottom: 16px;
+        }
+
+        /* Footer */
+        footer {
+            background: #030508;
+            border-top: 1px solid var(--border-glass);
+            padding: 60px 0 30px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr repeat(3, 1fr);
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .footer-col h5 {
+            color: #fff;
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+        .footer-col ul {
+            list-style: none;
+        }
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+        .footer-col ul li a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .footer-col ul li a:hover {
+            color: #fff;
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero h1 { font-size: 2.6rem; }
+            .grid-3, .grid-4 { grid-template-columns: repeat(2, 1fr); }
+            .calculator-box { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 2rem; }
+            .grid-3, .grid-4, .grid-2 { grid-template-columns: 1fr; }
+            .nav-links { display: none; }
+            .footer-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- International Timezone & SLA Ticker -->
+    <div class="intl-ticker">
+        <div class="container">
+            <span class="badge"><i class="fas fa-check-circle"></i> GLOBAL READY</span>
+            Working seamlessly across <strong>US (EST/PST)</strong>, <strong>UK (GMT)</strong>, <strong>Europe (CET)</strong> & <strong>UAE (GST)</strong> • Invoicing in USD ($), GBP (£), EUR (€) & AED
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <a href="#" class="logo">
+                <i class="fas fa-bolt text-indigo"></i>
+                GetMore<span>.OS</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#cold-email">Cold Email Engine</a></li>
+                <li><a href="#launch-matrix">Product Hunt Alternatives</a></li>
+                <li><a href="#portfolio">Case Studies</a></li>
+                <li><a href="#experience">Why US/UK Brands Choose Us</a></li>
+                <li><a href="#calculator">ROI Calculator</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <select class="currency-switch" id="currencySelect" onchange="updateCurrency(this.value)">
+                    <option value="USD">$ USD</option>
+                    <option value="GBP">£ GBP</option>
+                    <option value="EUR">€ EUR</option>
+                    <option value="AED">AED</option>
+                </select>
+                <a href="#book-audit" class="btn-primary">Book Outbound Audit <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-pill">
+                <i class="fas fa-globe-americas"></i> Full-Stack Growth & B2B Outbound System for Global Startups
+            </div>
+            
+            <h1>
+                We Build Predictable <span class="gradient-text">B2B Outbound Pipelines</span> & High-Impact Launch Engines
+            </h1>
+            
+            <p>
+                From dedicated cold email infrastructure (0% spam, 100% primary inbox) to multi-platform product launches and international lead acquisition for B2B SaaS, tech founders, and agencies.
+            </p>
+
+            <div class="hero-cta-group">
+                <a href="#book-audit" class="btn-primary" style="padding: 14px 28px; font-size: 1.05rem;">
+                    <i class="fas fa-calendar-check"></i> Schedule 15-Min Strategy Session
+                </a>
+                <a href="#launch-matrix" class="btn-secondary" style="padding: 14px 28px; font-size: 1.05rem;">
+                    <i class="fas fa-rocket"></i> Explore Launch Alternatives
+                </a>
+            </div>
+
+            <!-- Trust Strip -->
+            <div class="trust-strip">
+                <div class="trust-item"><i class="fas fa-shield-alt"></i> 100% SPF/DKIM/DMARC Compliant</div>
+                <div class="trust-item"><i class="fas fa-clock"></i> 4+ Hrs Live Timezone Overlap</div>
+                <div class="trust-item"><i class="fas fa-file-contract"></i> Strict Mutual NDA & IP Protection</div>
+                <div class="trust-item"><i class="fas fa-chart-line"></i> $1.8M+ Pipeline Generated</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 1: Cold Email & B2B Lead Setup Engine -->
+    <section id="cold-email">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">INFRASTRUCTURE & OUTBOUND</span>
+                <h2 class="section-title">Enterprise-Grade Cold Email & B2B Lead Setup</h2>
+                <p class="section-subtitle">
+                    Never burn your primary domain. We engineer isolated, auto-rotated secondary inboxes, verified lead waterfalls, and AI-personalized outreach.
+                </p>
+            </div>
+
+            <div class="grid-2">
+                <!-- Architecture Steps -->
+                <div>
+                    <div class="setup-step">
+                        <div class="step-num">01</div>
+                        <div class="step-content">
+                            <h4>Isolated Secondary Domains & DNS Hardening</h4>
+                            <p>We configure 5–20 lookalike domains on Google Workspace & Outlook with strict SPF, DKIM, DMARC (p=reject), custom tracking domains, and MX records.</p>
+                        </div>
+                    </div>
+
+                    <div class="setup-step">
+                        <div class="step-num">02</div>
+                        <div class="step-content">
+                            <h4>Automated Smart Warmup & Sender Rotation</h4>
+                            <p>21-day algorithmic warmup with human-like reply behaviors, gradual ramp-up limits (30 emails/day/inbox), and instant spam reputation monitoring.</p>
+                        </div>
+                    </div>
+
+                    <div class="setup-step">
+                        <div class="step-num">03</div>
+                        <div class="step-content">
+                            <h4>Waterfall Lead Enrichment (Clay + Apollo + LinkedIn)</h4>
+                            <p>Triple-verified data stack ensuring &lt;2% bounce rates, intent triggers (hiring, funding, tech stack usage), and deep personalization variables.</p>
+                        </div>
+                    </div>
+
+                    <div class="setup-step">
+                        <div class="step-num">04</div>
+                        <div class="step-content">
+                            <h4>High-Converting Copy & Objection Handling</h4>
+                            <p>Concise, value-first 3-touch frameworks optimized for C-level executives in North America, UK, and Europe.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live Deliverability Mockup -->
+                <div class="terminal-box">
+                    <div class="terminal-header">
+                        <div class="terminal-dot dot-red"></div>
+                        <div class="terminal-dot dot-yellow"></div>
+                        <div class="terminal-dot dot-green"></div>
+                        <span style="margin-left: 8px; font-size: 0.75rem; color: var(--text-muted);">dns_outbound_engine.sh — Active Configuration</span>
+                    </div>
+                    <code>
+                        <span class="text-cyan">$</span> check-domain-health --target outbound.getmore.os<br>
+                        <span class="text-green">✔ SPF Record:</span> v=spf1 include:_spf.google.com ~all [PASS]<br>
+                        <span class="text-green">✔ DKIM Signature:</span> 2048-bit Google Workspace Key [VERIFIED]<br>
+                        <span class="text-green">✔ DMARC Policy:</span> v=DMARC1; p=quarantine; sp=quarantine [100%]<br>
+                        <span class="text-green">✔ MX & PTR Records:</span> Validated against Google Server IP [OK]<br>
+                        <span class="text-indigo">----------------------------------------------------</span><br>
+                        <span class="text-cyan">$</span> fetch-campaign-kpis --period "last_30_days"<br>
+                        <span class="text-main">> Total Inboxes Active:</span> <span class="text-cyan">18 Inboxes</span><br>
+                        <span class="text-main">> Emails Delivered:</span> <span class="text-green">14,240 (99.6% Primary Tab)</span><br>
+                        <span class="text-main">> Bounce Rate:</span> <span class="text-green">0.82% (Threshold &lt; 2.0%)</span><br>
+                        <span class="text-main">> Unique Reply Rate:</span> <span class="text-cyan">8.4% (Positive Intent: 64%)</span><br>
+                        <span class="text-main">> Qualified Demos Booked:</span> <span class="text-green">52 Meetings on Stripe/Cal</span>
+                    </code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: Product Hunt Alternatives Matrix -->
+    <section id="launch-matrix" style="background: rgba(13, 18, 29, 0.4);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">LAUNCH & DISTRIBUTION PLATFORMS</span>
+                <h2 class="section-title">Product Hunt Alternatives Directory & Launch Matrix</h2>
+                <p class="section-subtitle">
+                    Don't rely solely on Product Hunt. Distribute your SaaS across high-DA launch engines, developer communities, and curated directories for compound SEO & early adopters.
+                </p>
+            </div>
+
+            <div class="table-controls">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterLaunches('all', this)">All Platforms</button>
+                    <button class="filter-btn" onclick="filterLaunches('saas', this)">B2B SaaS</button>
+                    <button class="filter-btn" onclick="filterLaunches('dev', this)">Developer Tools</button>
+                    <button class="filter-btn" onclick="filterLaunches('ai', this)">AI & Automation</button>
+                    <button class="filter-btn" onclick="filterLaunches('community', this)">Founder Communities</button>
+                </div>
+                <div style="font-size: 0.85rem; color: var(--text-muted);">
+                    <i class="fas fa-info-circle"></i> 20+ Platforms Curated & Monitored
+                </div>
+            </div>
+
+            <div style="overflow-x: auto;">
+                <table class="custom-table" id="launchTable">
+                    <thead>
+                        <tr>
+                            <th>Platform Name</th>
+                            <th>Category</th>
+                            <th>Domain Rating (DR)</th>
+                            <th>Est. Monthly Traffic</th>
+                            <th>Launch Strategy / Benefit</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-cat="saas dev">
+                            <td>
+                                <div class="platform-badge">
+                                    <i class="fas fa-rocket text-indigo"></i> Uneed.best
+                                </div>
+                            </td>
+                            <td><span class="platform-badge" style="font-size: 0.8rem; color: var(--primary-light);">SaaS / Tools</span></td>
+                            <td><span class="tag-dr">DR 72</span></td>
+                            <td>120K+ Tech Early Adopters</td>
+                            <td>Dofollow backlink, top 5 daily badges, permanent directory listing</td>
+                            <td><span class="text-green" style="font-size: 0.85rem; font-weight: 600;">High Conversion</span></td>
+                        </tr>
+                        <tr data-cat="dev ai">
+                            <td>
+                                <div class="platform-badge">
+                                    <i class="fas fa-code text-cyan"></i> DevHunt.org
+                                </div>
+                            </td>
+                            <td><span class="platform-badge" style="font-size: 0.8rem; color: var(--accent-cyan);">Dev Tools / Open Source</span></td>
+                            <td><span class="tag-dr">DR 68</span></td>
+                            <td>85K+ Developers & Engineers</td>
+                            <td>Open-source friendly, developer-led voting, Discord promotion</td>
+                            <td><span class="text-green" style="font-size: 0.85rem; font-weight: 600;">High Intent</span></td>
+                        </tr>
+                        <tr data-cat="saas community">
+                            <td>
+                                <div class="platform-badge">
+                                    <i class="fas fa-layer-group text-indigo"></i> BetaList.com
+                                </div>
+                            </td>
+                            <td><span class="platform-badge" style="font-size: 0.8rem; color: var(--primary-light);">Pre-launch / Beta</span></td>
+                            <td><span class="tag-dr">DR 84</span></td>
+                            <td>250K+ Tech Enthusiasts</td>
+                            <td>Ideal for early waitlists, high domain authority link equity</td>
+                            <td><span class="text-green" style="font-size: 0.85rem; font-weight: 600;">SEO Gold</span></td>
+                        </tr>
+                        <tr data-cat="community dev">
+                            <td>
+                                <div class="platform-badge">
+                                    <i class="fab fa-hacker-news" style="color: #ff6600;"></i> Hacker News (Show HN)
+                                </div>
+                            </td>
+                            <td><span class="platform-badge" style="font-size: 0.8rem; color: var(--accent-amber);">Tech Founders / Devs</span></td>
+                            <td><span class="tag-dr">DR 92</span></td>
+                            <td>4M+ Global Tech Founders</td>
+                            <td>Zero fluff, technical feedback, organic viral distribution</td>
+                            <td><span class="text-green" style="font-size: 0.85rem; font-weight: 600;">Viral Potential</span></td>
+                        </tr>
+                        <tr data-cat="ai saas">
+                            <td>
+                                <div class="platform-badge">
+                                    <i class="fas fa-brain text-cyan"></i> Futurepedia & AI Directories
+                                </div>
+                            </td>
+                            <td><span class="platform-badge" style="font-size: 0.8rem; color: var(--accent-cyan);">AI Tools</span></td>
+                            <td><span class="tag-dr">DR 79</span></td>
+                            <td>1.8M+ Monthly Searches</td>
+                            <td>Targeted search traffic from users with immediate software intent</td>
+                            <td><span class="text-green" style="font-size: 0.85rem; font-weight: 600;">Direct Buyers</span></td>
+                        </tr>
+                        <tr data-cat="saas community">
+                            <td>
+                                <div class="platform-badge">
+                                    <i class="fas fa-compass text-indigo"></i> MicroLaunch.net
+                                </div>
+                            </td>
+                            <td><span class="platform-badge" style="font-size: 0.8rem; color: var(--primary-light);">Indie / Micro-SaaS</span></td>
+                            <td><span class="tag-dr">DR 64</span></td>
+                            <td>45K+ Startup Founders</td>
+                            <td>Fair algorithm, 30-day exposure window, monthly awards</td>
+                            <td><span class="text-green" style="font-size: 0.85rem; font-weight: 600;">Steady Traffic</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Portfolio & Case Studies -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PROVEN TRACK RECORD</span>
+                <h2 class="section-title">Client Case Studies & Pipeline Delivered</h2>
+                <p class="section-subtitle">
+                    Real campaign performance breakdowns for North American, European, and APAC B2B companies.
+                </p>
+            </div>
+
+            <div class="grid-3">
+                <!-- Card 1 -->
+                <div class="portfolio-card glass-card">
+                    <div>
+                        <span class="case-tag">US FINTECH SAAS</span>
+                        <h3 class="case-title">Booked 44 CFO Meetings in 60 Days</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">
+                            Built cold outbound infrastructure targeting Series A/B CFOs across North America using custom trigger events (new funding rounds & finance team expansions).
+                        </p>
+                    </div>
+                    <div>
+                        <div class="metrics-grid">
+                            <div class="metric-item">
+                                <div class="val">$380K</div>
+                                <div class="lbl">Pipeline Generated</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="val">9.2%</div>
+                                <div class="lbl">Reply Rate</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="val">0.4%</div>
+                                <div class="lbl">Bounce Rate</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="val">44</div>
+                                <div class="lbl">Qualified Demos</div>
+                            </div>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--accent-cyan);"><i class="fas fa-check-circle"></i> Google Workspace + Clay Enrichment Stack</div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="portfolio-card glass-card">
+                    <div>
+                        <span class="case-tag">UK DEV-TOOL PLATFORM</span>
+                        <h3 class="case-title">Multi-Platform Launch + $140K ARR Inbound</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">
+                            Orchestrated synchronized launch across Uneed, DevHunt, Hacker News, and targeted outbound to VPs of Engineering in London & Europe.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="metrics-grid">
+                            <div class="metric-item">
+                                <div class="val">#1 Top</div>
+                                <div class="lbl">Launch Ranking</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="val">3,800+</div>
+                                <div class="lbl">Signups in 7 Days</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="val">68</div>
+                                <div class="lbl">Enterprise Trials</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="val">18</div>
+                                <div class="lbl">Closed Accounts</div>
+                            </div>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--accent-emerald);"><i class="fas fa-check-circle"></i> Organic Launch + Multi-Touch Outbound</div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="portfolio-card glass-card">
+                    <div>
+                        <span class="case-tag">GLOBAL RECRUITMENT TECH</span>
+                        <h3 class="case-title">Enterprise HR Lead Generation in UAE & US</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">
+                            Deployed 12 secondary domains with hyper-personalized video snippet outreach targeting Enterprise Heads of People and Talent Acquisition.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="metrics-grid">
+                            <div class="metric-item">
+                                <div class="val">$520K</div>
+                                <div class="lbl">Qualified Pipeline</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="val">11.4%</div>
+                                <div class="lbl">Positive Reply</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="val">58</div>
+                                <div class="lbl">Enterprise Demos</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="val">99.8%</div>
+                                <div class="lbl">Inbox Placement</div>
+                            </div>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--primary-light);"><i class="fas fa-check-circle"></i> 12 Inboxes + Automated Rotation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: Interactive ROI Pipeline Calculator -->
+    <section id="calculator" style="background: rgba(13, 18, 29, 0.5);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ESTIMATE YOUR IMPACT</span>
+                <h2 class="section-title">Interactive Outbound Pipeline ROI Calculator</h2>
+                <p class="section-subtitle">
+                    Estimate monthly qualified meetings and pipeline potential based on your average deal size and outbound volume.
+                </p>
+            </div>
+
+            <div class="calculator-box">
+                <div>
+                    <!-- Slider 1 -->
+                    <div class="slider-group">
+                        <div class="slider-header">
+                            <label>Monthly Verified Prospects Reached</label>
+                            <span id="volumeVal">3,000</span>
+                        </div>
+                        <input type="range" id="volumeInput" min="1000" max="15000" step="500" value="3000" oninput="calculateROI()">
+                    </div>
+
+                    <!-- Slider 2 -->
+                    <div class="slider-group">
+                        <div class="slider-header">
+                            <label>Target Audience Reply Rate (%)</label>
+                            <span id="replyVal">6.5%</span>
+                        </div>
+                        <input type="range" id="replyInput" min="2" max="12" step="0.5" value="6.5" oninput="calculateROI()">
+                    </div>
+
+                    <!-- Slider 3 -->
+                    <div class="slider-group">
+                        <div class="slider-header">
+                            <label>Average Contract Value (ACV / Deal Size)</label>
+                            <span id="acvVal">$8,000</span>
+                        </div>
+                        <input type="range" id="acvInput" min="2000" max="50000" step="1000" value="8000" oninput="calculateROI()">
+                    </div>
+
+                    <div style="font-size: 0.85rem; color: var(--text-muted);">
+                        <i class="fas fa-shield-alt text-indigo"></i> Based on conservative 20% meeting conversion on positive replies and 15% sales close rate.
+                    </div>
+                </div>
+
+                <!-- Result Card -->
+                <div class="calc-result-card">
+                    <div style="font-size: 0.9rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">
+                        Estimated Monthly Pipeline
+                    </div>
+                    <div class="result-amount" id="pipelineResult">$312,000</div>
+                    <div style="font-size: 1.1rem; color: var(--primary-light); font-weight: 600; margin-bottom: 16px;" id="demosResult">
+                        ~ 39 Qualified Meetings / Month
+                    </div>
+                    <a href="#book-audit" class="btn-primary" style="justify-content: center;">
+                        Claim This Pipeline Capacity
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: Why International Clients Choose Us -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">GLOBAL COLLABORATION</span>
+                <h2 class="section-title">Built Specifically for US, UK, EU & Global Founders</h2>
+                <p class="section-subtitle">
+                    We eliminate friction in timezone collaboration, contract legality, currency invoicing, and data security.
+                </p>
+            </div>
+
+            <div class="grid-4">
+                <div class="glass-card">
+                    <i class="fas fa-clock intl-badge-icon"></i>
+                    <h4>Timezone Synchronized</h4>
+                    <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 8px;">
+                        Guaranteed 4+ hours of active real-time overlap for US EST/PST, UK GMT, and European business hours.
+                    </p>
+                </div>
+
+                <div class="glass-card">
+                    <i class="fas fa-file-invoice-dollar intl-badge-icon"></i>
+                    <h4>Global Invoicing & Stripe</h4>
+                    <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 8px;">
+                        Simple, friction-free invoicing via Stripe, Wise, or International Wire in USD ($), GBP (£), EUR (€), and AED.
+                    </p>
+                </div>
+
+                <div class="glass-card">
+                    <i class="fas fa-user-shield intl-badge-icon"></i>
+                    <h4>Strict IP & Mutual NDAs</h4>
+                    <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 8px;">
+                        All lead lists, data enrichments, messaging copy, and client workflows remain 100% your exclusive intellectual property.
+                    </p>
+                </div>
+
+                <div class="glass-card">
+                    <i class="fas fa-comments intl-badge-icon"></i>
+                    <h4>Async Slack & Loom Comms</h4>
+                    <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 8px;">
+                        Dedicated private Slack channel, weekly Loom video executive summaries, and live KPI dashboards.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: High-Converting Intake & Booking -->
+    <section id="book-audit" style="background: linear-gradient(180deg, var(--bg-primary) 0%, #030508 100%);">
+        <div class="container">
+            <div class="glass-card" style="max-width: 840px; margin: 0 auto; border-color: var(--border-glow); padding: 48px;">
+                <div style="text-align: center; margin-bottom: 36px;">
+                    <span class="section-tag">START YOUR ENGINE</span>
+                    <h2 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 10px;">Book a 15-Minute Outbound Diagnostic</h2>
+                    <p style="color: var(--text-muted);">
+                        We'll analyze your current domain health, review your TAM / ICP list, and map out a tailored outbound & launch blueprint.
+                    </p>
+                </div>
+
+                <form onsubmit="handleFormSubmit(event)" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div>
+                        <label style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 6px;">Your Name *</label>
+                        <input type="text" required placeholder="Alex Rivera" style="width: 100%; padding: 12px 16px; background: var(--bg-secondary); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff;">
+                    </div>
+
+                    <div>
+                        <label style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 6px;">Work Email *</label>
+                        <input type="email" required placeholder="alex@company.com" style="width: 100%; padding: 12px 16px; background: var(--bg-secondary); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff;">
+                    </div>
+
+                    <div>
+                        <label style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 6px;">Company Website / URL *</label>
+                        <input type="url" required placeholder="https://company.com" style="width: 100%; padding: 12px 16px; background: var(--bg-secondary); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff;">
+                    </div>
+
+                    <div>
+                        <label style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 6px;">Primary Goal *</label>
+                        <select style="width: 100%; padding: 12px 16px; background: var(--bg-secondary); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff;">
+                            <option>Cold Email & B2B Outbound Lead Engine</option>
+                            <option>Product Hunt & Directory Launch Matrix</option>
+                            <option>Full Infrastructure Setup (DNS, Warmup, Clay)</option>
+                            <option>Comprehensive Go-To-Market Growth</option>
+                        </select>
+                    </div>
+
+                    <div style="grid-column: span 2;">
+                        <label style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 6px;">Target Geographic Market</label>
+                        <input type="text" placeholder="e.g., US SaaS Companies, UK Tech Founders, EU Enterprise" style="width: 100%; padding: 12px 16px; background: var(--bg-secondary); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff;">
+                    </div>
+
+                    <div style="grid-column: span 2; margin-top: 10px;">
+                        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; padding: 16px; font-size: 1.05rem;">
+                            <i class="fas fa-paper-plane"></i> Request Outbound Diagnostic & Strategy Call
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#" class="logo" style="margin-bottom: 14px;">
+                        <i class="fas fa-bolt text-indigo"></i> GetMore<span>.OS</span>
+                    </a>
+                    <p style="font-size: 0.85rem; line-height: 1.6; max-width: 320px;">
+                        Enterprise cold email infrastructure, high-converting outbound systems, and multi-platform launch playbooks engineered for high-growth global teams.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Outbound Engine</h5>
+                    <ul>
+                        <li><a href="#cold-email">Secondary Domains</a></li>
+                        <li><a href="#cold-email">DNS Authentication</a></li>
+                        <li><a href="#cold-email">Clay Lead Enrichment</a></li>
+                        <li><a href="#cold-email">Inbox Deliverability</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Launch Matrix</h5>
+                    <ul>
+                        <li><a href="#launch-matrix">Uneed.best Directory</a></li>
+                        <li><a href="#launch-matrix">DevHunt Platform</a></li>
+                        <li><a href="#launch-matrix">BetaList Launch</a></li>
+                        <li><a href="#launch-matrix">Show HN Strategy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Global Trust</h5>
+                    <ul>
+                        <li><a href="#experience">Timezone Policy</a></li>
+                        <li><a href="#experience">Mutual NDA / IP</a></li>
+                        <li><a href="#experience">Stripe / USD Billing</a></li>
+                        <li><a href="#calculator">ROI Calculator</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="border-top: 1px solid var(--border-glass); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; font-size: 0.8rem;">
+                <div>© 2026 GetMore.OS Growth Systems. All rights reserved.</div>
+                <div>Global Invoicing & Legal Entity Ready • US / UK / EU / UAE / APAC</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Script -->
+    <script>
+        let currentCurrency = 'USD';
+        const currencySymbols = {
+            'USD': '$',
+            'GBP': '£',
+            'EUR': '€',
+            'AED': 'AED '
+        };
+
+        function updateCurrency(curr) {
+            currentCurrency = curr;
+            calculateROI();
+        }
+
+        function calculateROI() {
+            const volume = parseInt(document.getElementById('volumeInput').value);
+            const replyRate = parseFloat(document.getElementById('replyInput').value) / 100;
+            const acv = parseInt(document.getElementById('acvInput').value);
+            const sym = currencySymbols[currentCurrency] || '$';
+
+            document.getElementById('volumeVal').textContent = volume.toLocaleString();
+            document.getElementById('replyVal').textContent = (replyRate * 100).toFixed(1) + '%';
+            document.getElementById('acvVal').textContent = sym + acv.toLocaleString();
+
+            const totalReplies = volume * replyRate;
+            const qualifiedMeetings = Math.round(totalReplies * 0.20);
+            const estimatedDeals = Math.max(1, Math.round(qualifiedMeetings * 0.15));
+            const pipeline = qualifiedMeetings * acv;
+
+            document.getElementById('demosResult').textContent = `~ ${qualifiedMeetings} Qualified Meetings / Month (${estimatedDeals} Closed Deals)`;
+            document.getElementById('pipelineResult').textContent = sym + pipeline.toLocaleString();
+        }
+
+        function filterLaunches(category, btn) {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const rows = document.querySelectorAll('#launchTable tbody tr');
+            rows.forEach(row => {
+                const cats = row.getAttribute('data-cat') || '';
+                if (category === 'all' || cats.includes(category)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            alert('Thank you! Your outbound diagnostic request has been received. Our team will contact you within 4 hours with your tailored strategy.');
+        }
+
+        // Initialize calculator
+        calculateROI();
+    </script>
+        <section class="related-guides-grid" style="margin: 40px auto; max-width: 1100px; padding: 25px; background: #FAF6F0; border: 1px solid #E8DFD5; border-radius: 10px;">
+            <h3 style="font-family: serif; font-size: 1.25rem; margin-bottom: 12px; color: #1C1917;">Explore Related Signature Destinations & Guides</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                <a href="/wedding-planners-in-bangalore" style="display: inline-block; margin: 4px 6px; padding: 6px 12px; background: #8B1A1A; color: #FFF; border-radius: 16px; font-size: 0.82rem; text-decoration: none; font-weight: bold;">✦ Wedding Planners in Bangalore (Master Hub) &rarr;</a>
+                <a href="/gmb_audit_report_swariya" style="display: inline-block; margin: 4px 6px; padding: 6px 12px; background: #FFF; border: 1px solid #E8DFD5; border-radius: 16px; font-size: 0.82rem; color: #2C2723; text-decoration: none;">Gmb_Audit_Report_Swariya</a><a href="/heritage-venue-and-planner-in-ahmedabad-heritage-city" style="display: inline-block; margin: 4px 6px; padding: 6px 12px; background: #FFF; border: 1px solid #E8DFD5; border-radius: 16px; font-size: 0.82rem; color: #2C2723; text-decoration: none;">Heritage Venue And Planner In Ahmed</a><a href="/heritage-venue-and-planner-in-amritsar-heritage-and-haveli" style="display: inline-block; margin: 4px 6px; padding: 6px 12px; background: #FFF; border: 1px solid #E8DFD5; border-radius: 16px; font-size: 0.82rem; color: #2C2723; text-decoration: none;">Heritage Venue And Planner In Amrit</a><a href="/heritage-venue-and-planner-in-bhopal-lakefront-heritage" style="display: inline-block; margin: 4px 6px; padding: 6px 12px; background: #FFF; border: 1px solid #E8DFD5; border-radius: 16px; font-size: 0.82rem; color: #2C2723; text-decoration: none;">Heritage Venue And Planner In Bhopa</a><a href="/heritage-venue-and-planner-in-chandigarh-luxury-corridors" style="display: inline-block; margin: 4px 6px; padding: 6px 12px; background: #FFF; border: 1px solid #E8DFD5; border-radius: 16px; font-size: 0.82rem; color: #2C2723; text-decoration: none;">Heritage Venue And Planner In Chand</a><a href="/heritage-venue-and-planner-in-coimbatore-kongunadu-corridors" style="display: inline-block; margin: 4px 6px; padding: 6px 12px; background: #FFF; border: 1px solid #E8DFD5; border-radius: 16px; font-size: 0.82rem; color: #2C2723; text-decoration: none;">Heritage Venue And Planner In Coimb</a>
+                <a href="/destinations-directory" style="display: inline-block; margin: 4px 6px; padding: 6px 12px; background: #C5A059; color: #FFF; border-radius: 16px; font-size: 0.82rem; text-decoration: none; font-weight: bold;">View All 3,000+ Guides &rarr;</a>
+            </div>
+        </section>
+</body>
+</html>

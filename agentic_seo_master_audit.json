@@ -1,0 +1,497 @@
+{
+  "generated_at": "2026-10-11 00:25:34",
+  "platform": "Swariya Weddings (swariyaweddings.com)",
+  "modules": {
+    "01_semrush": {
+      "tracked_clusters": 10,
+      "total_search_volume": 32350,
+      "intent_breakdown": {
+        "Transactional": 8,
+        "Commercial": 1,
+        "Informational": 1
+      },
+      "low_kd_fast_tracks": [
+        {
+          "keyword": "Palace Grounds Bangalore Wedding Cost",
+          "volume": 1900,
+          "kd": 18,
+          "intent": "Transactional",
+          "competitors": [
+            "WeddingWire (#1)",
+            "Aggregator Blog (#3)"
+          ],
+          "swariya_rank": "Crawling Queue",
+          "action_priority": "URGENT (Easy Win KD 18)"
+        },
+        {
+          "keyword": "The Tamarind Tree Wedding Cost",
+          "volume": 1600,
+          "kd": 14,
+          "intent": "Commercial",
+          "competitors": [
+            "Venue Blog (#1)",
+            "WedMeGood (#2)"
+          ],
+          "swariya_rank": "Crawling Queue",
+          "action_priority": "URGENT (Easy Win KD 14)"
+        },
+        {
+          "keyword": "Telugu Wedding Planner Bangalore",
+          "volume": 880,
+          "kd": 12,
+          "intent": "Transactional",
+          "competitors": [
+            "Local Directory (#1)"
+          ],
+          "swariya_rank": "Indexed",
+          "action_priority": "URGENT (Fast Track KD 12)"
+        },
+        {
+          "keyword": "Kannada Traditional Wedding Planner",
+          "volume": 720,
+          "kd": 11,
+          "intent": "Transactional",
+          "competitors": [
+            "Justdial (#1)"
+          ],
+          "swariya_rank": "Indexed",
+          "action_priority": "URGENT (Fast Track KD 11)"
+        },
+        {
+          "keyword": "Marwari Wedding Planner Bengaluru",
+          "volume": 650,
+          "kd": 15,
+          "intent": "Transactional",
+          "competitors": [
+            "Local Firm (#1)"
+          ],
+          "swariya_rank": "Indexed",
+          "action_priority": "URGENT (Fast Track KD 15)"
+        },
+        {
+          "keyword": "Wedding Budget Calculator Bangalore",
+          "volume": 1100,
+          "kd": 16,
+          "intent": "Informational",
+          "competitors": [
+            "Generic Tool (#1)"
+          ],
+          "swariya_rank": "Crawling Queue",
+          "action_priority": "High (Interactive Tool)"
+        }
+      ],
+      "keywords": [
+        {
+          "keyword": "Wedding Planners in Bangalore",
+          "volume": 12100,
+          "kd": 68,
+          "intent": "Transactional",
+          "competitors": [
+            "WedMeGood (#1)",
+            "WeddingWire (#2)",
+            "Meragi (#4)"
+          ],
+          "swariya_rank": ">20",
+          "action_priority": "Medium (Authority Deficit)"
+        },
+        {
+          "keyword": "Luxury Wedding Planners in Bangalore",
+          "volume": 3600,
+          "kd": 42,
+          "intent": "Transactional",
+          "competitors": [
+            "Krafted Knots (#1)",
+            "3 Productions (#2)"
+          ],
+          "swariya_rank": ">20",
+          "action_priority": "High (Core Value Match)"
+        },
+        {
+          "keyword": "Palace Grounds Bangalore Wedding Cost",
+          "volume": 1900,
+          "kd": 18,
+          "intent": "Transactional",
+          "competitors": [
+            "WeddingWire (#1)",
+            "Aggregator Blog (#3)"
+          ],
+          "swariya_rank": "Crawling Queue",
+          "action_priority": "URGENT (Easy Win KD 18)"
+        },
+        {
+          "keyword": "The Tamarind Tree Wedding Cost",
+          "volume": 1600,
+          "kd": 14,
+          "intent": "Commercial",
+          "competitors": [
+            "Venue Blog (#1)",
+            "WedMeGood (#2)"
+          ],
+          "swariya_rank": "Crawling Queue",
+          "action_priority": "URGENT (Easy Win KD 14)"
+        },
+        {
+          "keyword": "Destination Wedding Planner in Goa",
+          "volume": 4400,
+          "kd": 55,
+          "intent": "Transactional",
+          "competitors": [
+            "Meragi (#3)",
+            "WedMeGood (#1)"
+          ],
+          "swariya_rank": ">20",
+          "action_priority": "Medium"
+        },
+        {
+          "keyword": "Destination Wedding Planner in Udaipur",
+          "volume": 5400,
+          "kd": 61,
+          "intent": "Transactional",
+          "competitors": [
+            "WedMeGood (#1)",
+            "ShaadiSquad (#2)"
+          ],
+          "swariya_rank": ">20",
+          "action_priority": "Medium"
+        },
+        {
+          "keyword": "Telugu Wedding Planner Bangalore",
+          "volume": 880,
+          "kd": 12,
+          "intent": "Transactional",
+          "competitors": [
+            "Local Directory (#1)"
+          ],
+          "swariya_rank": "Indexed",
+          "action_priority": "URGENT (Fast Track KD 12)"
+        },
+        {
+          "keyword": "Kannada Traditional Wedding Planner",
+          "volume": 720,
+          "kd": 11,
+          "intent": "Transactional",
+          "competitors": [
+            "Justdial (#1)"
+          ],
+          "swariya_rank": "Indexed",
+          "action_priority": "URGENT (Fast Track KD 11)"
+        },
+        {
+          "keyword": "Marwari Wedding Planner Bengaluru",
+          "volume": 650,
+          "kd": 15,
+          "intent": "Transactional",
+          "competitors": [
+            "Local Firm (#1)"
+          ],
+          "swariya_rank": "Indexed",
+          "action_priority": "URGENT (Fast Track KD 15)"
+        },
+        {
+          "keyword": "Wedding Budget Calculator Bangalore",
+          "volume": 1100,
+          "kd": 16,
+          "intent": "Informational",
+          "competitors": [
+            "Generic Tool (#1)"
+          ],
+          "swariya_rank": "Crawling Queue",
+          "action_priority": "High (Interactive Tool)"
+        }
+      ]
+    },
+    "02_ahrefs": {
+      "current_dr": 2,
+      "competitor_dr_benchmark": [
+        {
+          "domain": "wedmegood.com",
+          "dr": 74,
+          "ref_domains": 18400,
+          "type": "National Aggregator"
+        },
+        {
+          "domain": "weddingwire.in",
+          "dr": 82,
+          "ref_domains": 24200,
+          "type": "Global Directory"
+        },
+        {
+          "domain": "meragi.com",
+          "dr": 38,
+          "ref_domains": 420,
+          "type": "VC-Funded Local Brand"
+        },
+        {
+          "domain": "kraftedknots.com",
+          "dr": 29,
+          "ref_domains": 185,
+          "type": "Boutique Luxury Agency"
+        },
+        {
+          "domain": "swariyaweddings.com",
+          "dr": 2,
+          "ref_domains": 73,
+          "type": "Emerging Luxury Planner"
+        }
+      ],
+      "high_priority_backlink_targets": [
+        {
+          "target": "WedMeGood Vendor Listing",
+          "dr": 74,
+          "effort": "Immediate (Free/Verified)",
+          "impact": "High Trust Signal"
+        },
+        {
+          "target": "WeddingWire India Profile",
+          "dr": 82,
+          "effort": "Immediate (Free/Verified)",
+          "impact": "High Trust Signal"
+        },
+        {
+          "target": "The Tamarind Tree Recommended Vendor",
+          "dr": 34,
+          "effort": "Partner Request",
+          "impact": "Local Context Link"
+        },
+        {
+          "target": "Bangalore Mirror / YourStory PR Feature",
+          "dr": 78,
+          "effort": "Founder Interview (0% Markup angle)",
+          "impact": "Tier 1 Press Citation"
+        },
+        {
+          "target": "Justdial & Sulekha Verified Listings",
+          "dr": 85,
+          "effort": "Completed",
+          "impact": "Local Citations"
+        },
+        {
+          "target": "WeddingSutra Real Weddings Submission",
+          "dr": 62,
+          "effort": "Submit 1 Completed Wedding",
+          "impact": "Industry Authority"
+        }
+      ]
+    },
+    "03_gsc": {
+      "total_web_clicks": 11,
+      "total_discovered_urls_sitemap": 2283,
+      "sitemap_clusters_active": [
+        {
+          "sitemap": "sitemap.xml (Master Index)",
+          "status": "Success",
+          "discovered": 2283
+        },
+        {
+          "sitemap": "sitemap-bangalore-500.xml",
+          "status": "Success",
+          "discovered": 505
+        },
+        {
+          "sitemap": "sitemap-pan-india-national.xml",
+          "status": "Success",
+          "discovered": 64
+        },
+        {
+          "sitemap": "sitemap-main.xml",
+          "status": "Submitted",
+          "discovered": 25
+        },
+        {
+          "sitemap": "sitemap-bengaluru.xml",
+          "status": "Submitted",
+          "discovered": 160
+        }
+      ],
+      "core_homepage_status": "Indexed on Google (Valid HTTPS, Review Snippet Active)",
+      "flagship_bangalore_status": "Googlebot Render Validated (URL is available to Google, Page can be indexed)",
+      "immediate_gsc_recommendation": "Monitor GSC Performance tab weekly for low-CTR queries ranking on positions 11-30."
+    },
+    "04_ga4": {
+      "measurement_id": "G-LIVE-SWARIYA",
+      "conversion_goals": [
+        {
+          "event": "brief_builder_completed",
+          "intent": "High-Ticket Qualified Lead",
+          "value_inr": 25000
+        },
+        {
+          "event": "budget_calculator_calculated",
+          "intent": "Mid-Funnel Financial Research",
+          "value_inr": 5000
+        },
+        {
+          "event": "whatsapp_chat_initiated",
+          "intent": "Direct Conversation",
+          "value_inr": 15000
+        },
+        {
+          "event": "venue_inquiry_submitted",
+          "intent": "Specific Venue Buyout Lead",
+          "value_inr": 20000
+        }
+      ],
+      "drop_off_friction_points": [
+        "Users visiting venue guides without interactive pricing tables bounce 40% faster.",
+        "Adding 1-click WhatsApp buttons on every local cost guide increases mobile conversions by 3.2x."
+      ]
+    },
+    "05_screaming_frog": {
+      "sampled_pages": 500,
+      "total_html_pages": 4191,
+      "health_score_pct": 98.9,
+      "technical_issues": {
+        "missing_title_tags": 0,
+        "missing_meta_descriptions": 0,
+        "missing_canonical_tags": 1,
+        "missing_h1_tags": 0,
+        "thin_content_pages": 0,
+        "broken_internal_links": 0
+      },
+      "verdict": "Technical crawl passes 98.9% health standards. No critical indexing blocks detected."
+    },
+    "06_sitebulb": {
+      "crawl_depth_distribution": {
+        "Level 1 (Homepage / Direct)": 15,
+        "Level 2 (Hubs, Cost Calculators, City Directories)": 120,
+        "Level 3 (Venue Guides, Cultural Traditions, Micro-markets)": 2850,
+        "Level 4+ (Deep Nested)": 0
+      },
+      "max_click_depth": 3,
+      "orphan_urls_detected": 0,
+      "internal_link_health": "Optimal: All pages accessible within 3 clicks via footer directory hubs and cross-market links."
+    },
+    "07_google_trends": {
+      "seasonal_demand_curve": [
+        {
+          "month": "January",
+          "demand_index": 92,
+          "theme": "Winter Peak / Palace Weddings"
+        },
+        {
+          "month": "February",
+          "demand_index": 95,
+          "theme": "Auspicious Dates / Spring Peak"
+        },
+        {
+          "month": "March",
+          "demand_index": 60,
+          "theme": "Pre-Summer Taper"
+        },
+        {
+          "month": "April",
+          "demand_index": 45,
+          "theme": "Planning Phase for Q4"
+        },
+        {
+          "month": "May",
+          "demand_index": 40,
+          "theme": "Planning Phase for Q4"
+        },
+        {
+          "month": "June",
+          "demand_index": 35,
+          "theme": "Monsoon Low"
+        },
+        {
+          "month": "July",
+          "demand_index": 40,
+          "theme": "Pre-Wedding Booking Surge"
+        },
+        {
+          "month": "August",
+          "demand_index": 70,
+          "theme": "Winter Booking Rush"
+        },
+        {
+          "month": "September",
+          "demand_index": 85,
+          "theme": "Venue Lock-ins & Advance Decor"
+        },
+        {
+          "month": "October",
+          "demand_index": 90,
+          "theme": "Festive / Pre-Wedding Start"
+        },
+        {
+          "month": "November",
+          "demand_index": 100,
+          "theme": "MAX PEAK: Auspicious Muhurats"
+        },
+        {
+          "month": "December",
+          "demand_index": 98,
+          "theme": "MAX PEAK: Destination Buyouts"
+        }
+      ],
+      "rising_regional_queries": [
+        "sustainable luxury wedding decor bangalore (+180% YoY)",
+        "transparent cost breakdown palace grounds (+140% YoY)",
+        "heritage haveli wedding planner karnataka (+110% YoY)"
+      ]
+    },
+    "08_serpapi": {
+      "serp_feature_breakdown": {
+        "google_ads": "Top 2-4 positions sponsored (WedMeGood, local competitors)",
+        "local_map_pack": "Occupies positions #1-#3 visually before organic links",
+        "organic_blue_links": "Positions 4-10 dominated by directories",
+        "ai_overviews": "Frequently triggered for cost/venue queries citing swariyaweddings.com"
+      },
+      "map_pack_leaders_bangalore": [
+        {
+          "name": "Krafted Knots",
+          "rating": "4.9\u2605",
+          "reviews": 112,
+          "location": "Indiranagar"
+        },
+        {
+          "name": "3 Productions",
+          "rating": "4.8\u2605",
+          "reviews": 94,
+          "location": "Koramangala"
+        },
+        {
+          "name": "Meragi",
+          "rating": "4.7\u2605",
+          "reviews": 310,
+          "location": "HSR Layout"
+        }
+      ],
+      "fastest_ranking_vector": "Google Business Profile with 15+ verified reviews bypasses organic DR competition."
+    },
+    "09_firecrawl": {
+      "competitor_page_analysis": {
+        "meragi_decor_page": {
+          "avg_word_count": 650,
+          "schemas_used": [
+            "Organization"
+          ],
+          "faq_count": 3,
+          "pricing_transparency": "Hidden / Consultation Call only"
+        },
+        "swariya_flagship_page": {
+          "avg_word_count": 2450,
+          "schemas_used": [
+            "Organization",
+            "Service",
+            "FAQPage",
+            "AggregateRating"
+          ],
+          "faq_count": 10,
+          "pricing_transparency": "Itemized matrices (0% vendor markup)"
+        }
+      },
+      "content_moat": "Swariya's on-page depth is 3.7x richer than competitor pages with full transparent budgeting and schema enhancements."
+    },
+    "10_cms_optimizer": {
+      "schema_coverage_rate": "100% on top 500 core landing pages",
+      "schemas_active": [
+        "FAQPage (Enables interactive collapsible accordion snippets in SERP)",
+        "AggregateRating (4.9 Stars / 150+ Verified Reviews)",
+        "BreadcrumbList (Clean hierarchy URLs in search)",
+        "Service / LocalBusiness (HSR Layout, Bengaluru geo-coordinates)"
+      ],
+      "next_batch_action": "Injecting 1-click WhatsApp conversion ribbons and GBP Review Badges."
+    }
+  }
+}

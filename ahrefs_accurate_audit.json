@@ -1,0 +1,47 @@
+{
+    "health_score": 92.4,
+    "total_pages": 4189,
+    "errors": [
+        {
+            "issue": "Broken Internal Links (404s)",
+            "count": 500
+        }
+    ],
+    "warnings": [
+        {
+            "issue": "Duplicate Title Tags",
+            "clusters": 115,
+            "affected_urls": 436
+        },
+        {
+            "issue": "Thin Content (<250 words)",
+            "count": 3
+        },
+        {
+            "issue": "Missing Structured Data (Schema)",
+            "count": 4
+        }
+    ],
+    "notices": [
+        {
+            "issue": "Title Too Long (>75 chars)",
+            "count": 114
+        },
+        {
+            "issue": "Meta Description Too Long (>180 chars)",
+            "count": 21
+        },
+        {
+            "issue": "Images Missing Alt Text",
+            "count": 1,
+            "total_images": 150
+        },
+        {
+            "issue": "Missing Open Graph Image",
+            "count": 2
+        }
+    ],
+    "total_errors": 500,
+    "total_warnings": 443,
+    "total_notices": 138
+}
