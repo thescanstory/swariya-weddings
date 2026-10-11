@@ -3,6 +3,17 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.swariyaweddings.com"
+        }
+      ],
+      "destination": "https://swariyaweddings.com/:path*",
+      "permanent": true
+    },
     { "source": "/pricing", "destination": "/wedding-budget-calculator", "permanent": true },
     { "source": "/calculator", "destination": "/wedding-budget-calculator", "permanent": true },
     { "source": "/brief-builder", "destination": "/wedding-brief-builder", "permanent": true },
