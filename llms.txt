@@ -1,32 +1,84 @@
-# Swariya Weddings
+# Swariya Weddings — Luxury Wedding Planners in Bengaluru
 
-> Pan-India luxury and destination wedding planners headquartered in Bengaluru. End-to-end planning across Goa, Rajasthan, Kerala, Coorg and more, with zero vendor markups.
+> Swariya Weddings is a premier zero-commission luxury wedding planning agency founded in 2020,
+> headquartered in HSR Layout, Bengaluru. We specialize in bespoke Kannada, Telugu, Tamil,
+> and Marwari weddings, luxury palace celebrations, and destination weddings across India.
 
-## Key facts
-- Website: https://swariyaweddings.com/
-- Based in: Bengaluru, Karnataka, India
-- Serves: Bengaluru, Mysuru, Hyderabad, Chennai, Goa, Udaipur, Jaipur, Kerala, Coorg
-- Contact: +91-8050573382
-- Price range: ₹12L – ₹1Cr+
+## Core Brand & Service Hubs
+- [Home](https://swariyaweddings.com/): Official flagship homepage, client reviews, 0% commission transparent pricing model.
+- [Wedding Planners in Bangalore](https://swariyaweddings.com/wedding-planners-in-bangalore): Bangalore master guide, 2026 cost data, top venues, ritual coordination.
+- [About Swariya](https://swariyaweddings.com/about): Founding story, zero-vendor-commission pledge, production team.
+- [Planning Services](https://swariyaweddings.com/services): End-to-end design, vendor management, budget optimization, guest hospitality.
+- [Curated Venues Hub](https://swariyaweddings.com/venues): Comprehensive reviews of 60+ 5-star hotels and heritage estates.
+- [Real Client Reviews](https://swariyaweddings.com/reviews): Verified 4.9-star client experiences on Google and WedMeGood.
+- [Wedding Budget Calculator](https://swariyaweddings.com/wedding-budget-calculator): Real-time Bengaluru cost estimator across guest sizes.
+- [Wedding Brief Builder](https://swariyaweddings.com/wedding-brief-builder): Interactive design, moodboard & concept generator.
+- [2026 Bengaluru Cost Benchmark](https://swariyaweddings.com/bengaluru-wedding-cost-guide-2026): Definitive industry pricing guide for luxury venues, catering, and decor.
+- [Top Planners Comparison Guide](https://swariyaweddings.com/top-wedding-planners-in-bangalore-comparison): Side-by-side comparison of Bangalore wedding planning models.
 
-## What we do
-- Wedding Planner in Bangalore
-- Luxury Wedding Planner Bangalore
-- Destination Wedding Planner India
-- Wedding Planners in Bangalore with Price
-- Best Wedding Planner in Bangalore
+## Top 60 Curated Venue Guides
+- [The Tamarind Tree Heritage Estate Wedding Guide](https://swariyaweddings.com/venues/the-tamarind-tree-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [The Leela Palace Bengaluru 5-Star Wedding Guide](https://swariyaweddings.com/venues/the-leela-palace-bengaluru): Capacity, rental costs, catering policies, and insider planning tips.
+- [Taj West End Bengaluru Heritage Luxury Guide](https://swariyaweddings.com/venues/taj-west-end-bengaluru): Capacity, rental costs, catering policies, and insider planning tips.
+- [Amita Rasa Nandi Hills Contemporary Wedding Venue](https://swariyaweddings.com/venues/amita-rasa-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Gayatri Vihar Palace Grounds Grand Wedding Guide](https://swariyaweddings.com/venues/gayatri-vihar-palace-grounds): Capacity, rental costs, catering policies, and insider planning tips.
+- [Templetree Leisure Boutique Eco-Resort Guide](https://swariyaweddings.com/venues/templetree-leisure-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [ITC Gardenia Luxury Hotel Wedding Guide](https://swariyaweddings.com/venues/itc-gardenia-bengaluru): Capacity, rental costs, catering policies, and insider planning tips.
+- [JW Marriott Bengaluru City Center Wedding Guide](https://swariyaweddings.com/venues/jw-marriott-bengaluru): Capacity, rental costs, catering policies, and insider planning tips.
+- [The Grape Garden Open-Air Lawn Venue Guide](https://swariyaweddings.com/venues/the-grape-garden-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Clarks Exotica Convention Resort & Spa](https://swariyaweddings.com/venues/clarks-exotica-resort-bangalore-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Angsana Oasis Resort & Spa Wedding Guide](https://swariyaweddings.com/venues/angsana-oasis-resort-bangalore-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Signature Club Resort Devanahalli Guide](https://swariyaweddings.com/venues/signature-club-resort-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Miraya Greens Sprawling Lawn Venue Guide](https://swariyaweddings.com/venues/miraya-greens-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Moongate International Center Wedding Venue](https://swariyaweddings.com/venues/moongate-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Jade 735 Boutique Private Retreat Wedding Guide](https://swariyaweddings.com/venues/jade-735-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Royal Palms Exclusive Garden Venue Guide](https://swariyaweddings.com/venues/royal-palms-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Royalton Leisure Bannerghatta Wedding Guide](https://swariyaweddings.com/venues/royalton-leisure-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Samavana Forest Aesthetic Wedding Venue](https://swariyaweddings.com/venues/samavana-wedding-venue-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Shankaraa Foundation Cultural Heritage Venue](https://swariyaweddings.com/venues/shankaraa-foundation-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [White Mist by Happy Retreats Nandi Foothills](https://swariyaweddings.com/venues/white-mist-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Windflower Prakruthi Resort Devanahalli](https://swariyaweddings.com/venues/windflower-prakruthi-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Wiwaha Wedding Venue Kanakapura Road](https://swariyaweddings.com/venues/wiwaha-wedding-venue-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Tharavadu Mane Traditional Kerala Architecture Venue](https://swariyaweddings.com/venues/tharavadu-mane-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Gitanjali Wedding Venue Guide](https://swariyaweddings.com/venues/gitanjali-wedding-venue-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Goldfinch Retreat Yelahanka Wedding Guide](https://swariyaweddings.com/venues/goldfinch-retreat-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [Area 83 Adventure & Lakeside Wedding Retreat](https://swariyaweddings.com/venues/area-83-bangalore): Capacity, rental costs, catering policies, and insider planning tips.
+- [The Tamara Coorg Rainforest Luxury Wedding Guide](https://swariyaweddings.com/venues/the-tamara-coorg-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Taj Madikeri Resort & Spa Coorg Wedding Guide](https://swariyaweddings.com/venues/taj-madikeri-resort-coorg-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Evolve Back Kamalapura Palace Hampi Wedding Guide](https://swariyaweddings.com/venues/evolve-back-hampi-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Evolve Back Kuruba Safari Lodge Kabini](https://swariyaweddings.com/venues/evolve-back-kabini-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [The Oberoi Udaivilas Udaipur Palace Wedding Guide](https://swariyaweddings.com/venues/the-oberoi-udaivilas-udaipur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [The Leela Palace Udaipur Lake Pichola Wedding](https://swariyaweddings.com/venues/the-leela-palace-udaipur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Jagmandir Island Palace Udaipur Wedding Guide](https://swariyaweddings.com/venues/jagmandir-island-palace-udaipur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Shiv Niwas Palace Heritage Wedding Guide](https://swariyaweddings.com/venues/shiv-niwas-palace-udaipur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Rambagh Palace Jaipur Royal Wedding Guide](https://swariyaweddings.com/venues/rambagh-palace-jaipur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Fairmont Jaipur Grand Rajasthani Wedding Guide](https://swariyaweddings.com/venues/fairmont-jaipur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [The Oberoi Rajvilas Jaipur Luxury Wedding](https://swariyaweddings.com/venues/the-oberoi-rajvilas-jaipur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Jai Mahal Palace Jaipur Mughal Gardens Wedding](https://swariyaweddings.com/venues/jai-mahal-palace-jaipur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Alila Fort Bishangarh 230-Year-Old Warrior Fortress](https://swariyaweddings.com/venues/alila-fort-bishangarh-jaipur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Samode Palace Heritage Shekhawati Art Wedding](https://swariyaweddings.com/venues/samode-palace-jaipur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Umaid Bhawan Palace Jodhpur Royal Residence](https://swariyaweddings.com/venues/umaid-bhawan-palace-jodhpur-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Suryagarh Jaisalmer Thar Desert Fortress Wedding](https://swariyaweddings.com/venues/suryagarh-jaisalmer-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [The Leela Goa Cavelossim Beach Wedding Guide](https://swariyaweddings.com/venues/the-leela-goa-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Taj Exotica Resort & Spa Goa Benaulim Wedding](https://swariyaweddings.com/venues/taj-exotica-resort-goa-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [W Goa Vagator Beachfront Contemporary Wedding](https://swariyaweddings.com/venues/w-goa-vagator-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Grand Hyatt Goa Bambolim Bay Wedding Guide](https://swariyaweddings.com/venues/grand-hyatt-goa-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Alila Diwa Goa South Goa Paddy Fields & Beach](https://swariyaweddings.com/venues/alila-diwa-goa-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Caravela Beach Resort Varca Goa Wedding](https://swariyaweddings.com/venues/caravela-beach-resort-goa-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [The St. Regis Goa Resort Mobor Luxury Wedding](https://swariyaweddings.com/venues/st-regis-goa-resort-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [ITC Grand Goa Resort & Spa Arossim Beach](https://swariyaweddings.com/venues/itc-grand-goa-resort-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [The Leela Kovalam Cliff-Top Sea View Wedding](https://swariyaweddings.com/venues/the-leela-kovalam-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Taj Green Cove Resort & Spa Kovalam Wedding](https://swariyaweddings.com/venues/taj-green-cove-resort-kovalam-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Grand Hyatt Kochi Bolgatty Backwater Wedding](https://swariyaweddings.com/venues/grand-hyatt-kochi-bolgatty-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Brunton Boatyard Fort Kochi Colonial Heritage](https://swariyaweddings.com/venues/brunton-boatyard-kochi-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Kumarakom Lake Resort Kerala Backwaters Wedding](https://swariyaweddings.com/venues/kumarakom-lake-resort-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Coconut Lagoon CGH Earth Traditional Heritage](https://swariyaweddings.com/venues/coconut-lagoon-kumarakom-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [The Taj Mahal Palace Mumbai Gateway of India](https://swariyaweddings.com/venues/the-taj-mahal-palace-mumbai-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Taj Lands End Bandra Arabian Sea Views](https://swariyaweddings.com/venues/taj-lands-end-mumbai-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Taj Falaknuma Palace Hyderabad Nizam Royal Wedding](https://swariyaweddings.com/venues/taj-falaknuma-palace-hyderabad-wedding): Capacity, rental costs, catering policies, and insider planning tips.
+- [Lalitha Mahal Palace Mysore Italian Renaissance](https://swariyaweddings.com/venues/lalitha-mahal-palace-mysore-wedding): Capacity, rental costs, catering policies, and insider planning tips.
 
-## Main pages
-- [Wedding Planner in Bangalore](https://swariyaweddings.com/)
-- [Destination Wedding Planner India](https://swariyaweddings.com/destination-wedding-planner-india)
-- [Wedding Planners in Bangalore with Price](https://swariyaweddings.com/bengaluru-wedding-cost-guide-2026)
-- [Kannada Wedding Planner](https://swariyaweddings.com/kannada-wedding-planner-bengaluru)
-- [Wedding Venues in Bangalore](https://swariyaweddings.com/venues)
-- [Question Keywords (AEO)](https://swariyaweddings.com/blog/guides/)
-
-## Common questions we answer
-- How much does a wedding planner cost in bangalore?
-- How much does a destination wedding in goa cost?
-- How far in advance should i book a wedding planner?
-- What does a wedding planner do in india?
-- Best months for a wedding in bangalore?
+## Contact
+- Phone: +91-8050573382
+- Email: contact@swariyaweddings.com
+- Address: #343, 9th Main, 22nd Cross Rd, 7th Sector, HSR Layout, Bengaluru - 560102

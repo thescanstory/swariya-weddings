@@ -26,8 +26,10 @@
     { "source": "/bangalore-cost-guide", "destination": "/bengaluru-wedding-cost-guide-2026", "permanent": true },
     { "source": "/venue-comparison", "destination": "/venue-finder", "permanent": true },
     { "source": "/compare-venues", "destination": "/venue-finder", "permanent": true },
-    { "source": "/guides", "destination": "/blog/guides", "permanent": true },
-    { "source": "/wedding-guides", "destination": "/blog/guides", "permanent": true }
+    { "source": "/wedding-guides", "destination": "/blog/guides", "permanent": true },
+    { "source": "/sitemap-(.*)\\.xml", "destination": "/sitemap.xml", "permanent": true },
+    { "source": "/wedding-venue-selection-and-booking-in-:slug-bangalore", "destination": "/wedding-planners-in-:slug-bangalore", "permanent": true },
+    { "source": "/zero-commission-wedding-planning-in-:slug-bangalore", "destination": "/wedding-planners-in-:slug-bangalore", "permanent": true }
   ],
   "headers": [
     {
