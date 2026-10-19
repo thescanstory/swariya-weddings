@@ -5,8 +5,8 @@ import requests
 import time
 
 zip_path = "/tmp/swariya_deploy.zip"
-exclude_dirs = {".git", ".gemini", "node_modules", ".agents", "scratch", ".system_generated", ".netlify"}
-exclude_extensions = {".py", ".pyc", ".log", ".tmp"}
+exclude_dirs = {".git", ".gemini", "node_modules", ".agents", "scratch", ".system_generated", ".netlify", ".vercel", "legacy_sitemaps_archive", "swariya pictures", "reels"}
+exclude_extensions = {".py", ".pyc", ".log", ".tmp", ".mp4", ".ts", ".map"}
 
 print("Creating deploy zip package...")
 file_count = 0
@@ -14,10 +14,13 @@ with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
     for root, dirs, files in os.walk("."):
         dirs[:] = [d for d in dirs if d not in exclude_dirs]
         for f in files:
-            ext = os.path.splitext(f)[1]
+            ext = os.path.splitext(f)[1].lower()
             if ext in exclude_extensions and not f.startswith("sw"):
                 continue
             if f.endswith(".zip") or f.endswith(".tar.gz") or f == ".DS_Store":
+                continue
+            # Exclude debug/inspection screenshots in root
+            if root == "." and ext == ".png" and not f.startswith("favicon") and not f.startswith("apple-touch"):
                 continue
             file_path = os.path.join(root, f)
             arcname = os.path.relpath(file_path, ".")

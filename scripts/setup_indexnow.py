@@ -30,6 +30,9 @@ def collect_all_urls():
     
     urls = [
         f"https://{HOST}/",
+        f"https://{HOST}/wedding-planners-in-bangalore",
+        f"https://{HOST}/partners",
+        f"https://{HOST}/press",
         f"https://{HOST}/wedding-budget-calculator",
         f"https://{HOST}/wedding-brief-builder",
         f"https://{HOST}/venue-finder",
@@ -37,8 +40,8 @@ def collect_all_urls():
         f"https://{HOST}/reviews"
     ]
     
-    # Read all sitemap-*.xml files
-    sitemap_files = [f for f in os.listdir(root_dir) if f.startswith("sitemap-") and f.endswith(".xml")]
+    # Read sitemap.xml and all sitemap-*.xml files
+    sitemap_files = [f for f in os.listdir(root_dir) if (f == "sitemap.xml" or (f.startswith("sitemap-") and f.endswith(".xml")))]
     
     for sm in sitemap_files:
         path = os.path.join(root_dir, sm)

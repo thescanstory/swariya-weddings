@@ -31,6 +31,18 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://swariyaweddings.com/partners</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://swariyaweddings.com/press</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
     <loc>https://swariyaweddings.com/venue-finder</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>

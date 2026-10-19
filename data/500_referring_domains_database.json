@@ -1,0 +1,5002 @@
+[
+  {
+    "id": 1,
+    "domain": "wedmegood.com",
+    "name": "WedMeGood",
+    "category": "National Wedding Portal",
+    "est_dr": 74,
+    "outreach_angle": "Free Vendor Listing & Profile",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 2,
+    "domain": "weddingwire.in",
+    "name": "WeddingWire India",
+    "category": "National Wedding Portal",
+    "est_dr": 82,
+    "outreach_angle": "Vendor Storefront",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 3,
+    "domain": "weddingsutra.com",
+    "name": "WeddingSutra",
+    "category": "Luxury Wedding Portal",
+    "est_dr": 62,
+    "outreach_angle": "Editorial Feature / Vendor Directory",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 4,
+    "domain": "shaadisaga.com",
+    "name": "ShaadiSaga (WeddingBazaar)",
+    "category": "National Wedding Portal",
+    "est_dr": 65,
+    "outreach_angle": "Planner Profile & Gallery",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 5,
+    "domain": "matrimony.com",
+    "name": "Bharat Matrimony Wedding Services",
+    "category": "Matrimonial Network",
+    "est_dr": 71,
+    "outreach_angle": "Service Provider Empanelment",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 6,
+    "domain": "eventila.com",
+    "name": "Eventila",
+    "category": "Event Discovery Platform",
+    "est_dr": 48,
+    "outreach_angle": "Vendor Directory Listing",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 7,
+    "domain": "weddingz.in",
+    "name": "Weddingz.in (OYO Weddings)",
+    "category": "Wedding Venue & Planning Portal",
+    "est_dr": 68,
+    "outreach_angle": "Planner Partner Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 8,
+    "domain": "shaadi.com",
+    "name": "Shaadi.com Services",
+    "category": "Matrimonial Network",
+    "est_dr": 75,
+    "outreach_angle": "Wedding Services Directory",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 9,
+    "domain": "weddingwishlist.com",
+    "name": "Wedding Wishlist",
+    "category": "Wedding Gift & Planning Portal",
+    "est_dr": 54,
+    "outreach_angle": "Curated Vendor Directory",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 10,
+    "domain": "theweddingbrigade.com",
+    "name": "The Wedding Brigade",
+    "category": "Bridal Lifestyle & Planning",
+    "est_dr": 56,
+    "outreach_angle": "Vendor Directory / Blog Citation",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 11,
+    "domain": "bandbaajaa.com",
+    "name": "Bandbaajaa (NDTV Weddings)",
+    "category": "Wedding Media Portal",
+    "est_dr": 52,
+    "outreach_angle": "Vendor Showcase",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 12,
+    "domain": "weddingbazaar.com",
+    "name": "WeddingBazaar (Matrimony Group)",
+    "category": "Wedding Directory",
+    "est_dr": 66,
+    "outreach_angle": "Service Partner Registration",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 13,
+    "domain": "mandap.com",
+    "name": "Mandap.com",
+    "category": "Venue & Planning Network",
+    "est_dr": 50,
+    "outreach_angle": "Planner Directory Listing",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 14,
+    "domain": "dreamweddinghub.com",
+    "name": "Dream Wedding Hub",
+    "category": "Wedding Directory",
+    "est_dr": 32,
+    "outreach_angle": "Verified Agency Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 15,
+    "domain": "knotsbyamp.com",
+    "name": "Knots by AMP Directory",
+    "category": "Wedding Resource Hub",
+    "est_dr": 42,
+    "outreach_angle": "Top Bangalore Planners Listicles",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 16,
+    "domain": "onehorizonproductions.com",
+    "name": "One Horizon Directory",
+    "category": "Wedding Planning Aggregator",
+    "est_dr": 38,
+    "outreach_angle": "Top Planners Comparison",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 17,
+    "domain": "theweddingcompany.com",
+    "name": "The Wedding Company Portal",
+    "category": "Wedding Resource Hub",
+    "est_dr": 45,
+    "outreach_angle": "Directory & Cost Guide Citation",
+    "landing_page_target": "https://swariyaweddings.com/bengaluru-wedding-cost-guide-2026.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 18,
+    "domain": "shaadiwish.com",
+    "name": "ShaadiWish",
+    "category": "Luxury Wedding Portal",
+    "est_dr": 58,
+    "outreach_angle": "Real Wedding Submission / Vendor Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 19,
+    "domain": "wedbook.in",
+    "name": "WedBook India",
+    "category": "Wedding Ideas & Planners",
+    "est_dr": 44,
+    "outreach_angle": "Featured Planners Bangalore",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 20,
+    "domain": "zoopgo.com",
+    "name": "ZoopGo Wedding Planners",
+    "category": "Local Service Portal",
+    "est_dr": 53,
+    "outreach_angle": "Planner Registration",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 21,
+    "domain": "urbancompany.com",
+    "name": "Urban Company Events",
+    "category": "On-Demand Services",
+    "est_dr": 72,
+    "outreach_angle": "Premium Vendor Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 22,
+    "domain": "weddingplz.com",
+    "name": "WeddingPlz",
+    "category": "Wedding Vendor Search",
+    "est_dr": 49,
+    "outreach_angle": "Business Listing Submission",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 23,
+    "domain": "myweddingplanning.in",
+    "name": "My Wedding Planning",
+    "category": "Wedding Blog & Directory",
+    "est_dr": 39,
+    "outreach_angle": "Vendor Spotlight Feature",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 24,
+    "domain": "peppynite.com",
+    "name": "Peppynite Wedding Services",
+    "category": "Event Aggregator",
+    "est_dr": 36,
+    "outreach_angle": "Listing Bangalore",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 25,
+    "domain": "sloshout.com",
+    "name": "Sloshout Event Planners",
+    "category": "Venue & Event Booking",
+    "est_dr": 51,
+    "outreach_angle": "Verified Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 26,
+    "domain": "venuebooking.com",
+    "name": "VenueBooking.com",
+    "category": "Venue & Event Aggregator",
+    "est_dr": 41,
+    "outreach_angle": "Event Planner Empanelment",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 27,
+    "domain": "bookeventz.com",
+    "name": "BookEventZ",
+    "category": "Event Planning Marketplace",
+    "est_dr": 55,
+    "outreach_angle": "Vendor Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 28,
+    "domain": "venues4events.com",
+    "name": "Venues4Events",
+    "category": "Corporate & Wedding Events",
+    "est_dr": 35,
+    "outreach_angle": "Planner Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 29,
+    "domain": "weddingchakra.com",
+    "name": "Wedding Chakra",
+    "category": "Regional Wedding Portal",
+    "est_dr": 33,
+    "outreach_angle": "South India Planner Directory",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 30,
+    "domain": "vivah.in",
+    "name": "Vivah India Portal",
+    "category": "Traditional Wedding Directory",
+    "est_dr": 30,
+    "outreach_angle": "Vedic & Traditional Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 31,
+    "domain": "shaaditayari.com",
+    "name": "Shaadi Tayari",
+    "category": "Wedding Planning Guide",
+    "est_dr": 28,
+    "outreach_angle": "City Vendor Guide",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 32,
+    "domain": "vowsandbliss.com",
+    "name": "Vows & Bliss",
+    "category": "Luxury Wedding Guide",
+    "est_dr": 31,
+    "outreach_angle": "Vendor Showcase",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 33,
+    "domain": "weddingaffair.co.in",
+    "name": "Wedding Affair Magazine",
+    "category": "Bridal Magazine Portal",
+    "est_dr": 47,
+    "outreach_angle": "Editorial Resource Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 34,
+    "domain": "shubhmuhurat.com",
+    "name": "Shubh Muhurat Network",
+    "category": "Traditional Wedding Services",
+    "est_dr": 34,
+    "outreach_angle": "Regional Ritual Planners",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 35,
+    "domain": "knot9.com",
+    "name": "Knot9 Bridal Media",
+    "category": "Wedding Visuals & Planning",
+    "est_dr": 43,
+    "outreach_angle": "Decor Trend Showcase",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 36,
+    "domain": "weddingsonline.in",
+    "name": "Weddings Online India",
+    "category": "Wedding Directory",
+    "est_dr": 52,
+    "outreach_angle": "Business Listing",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 37,
+    "domain": "marrymeweddings.in",
+    "name": "Marry Me Weddings Hub",
+    "category": "Wedding Inspiration",
+    "est_dr": 37,
+    "outreach_angle": "Resource Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 38,
+    "domain": "showmycraft.com",
+    "name": "ShowMyCraft Events",
+    "category": "Artisanal Wedding Decor",
+    "est_dr": 29,
+    "outreach_angle": "Designer Showcase",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 39,
+    "domain": "grandweddings.co.in",
+    "name": "Grand Weddings Network",
+    "category": "Luxury Event Planners",
+    "est_dr": 32,
+    "outreach_angle": "Vendor Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 40,
+    "domain": "blissfulplans.com",
+    "name": "Blissful Plans Portal",
+    "category": "Destination Wedding Network",
+    "est_dr": 40,
+    "outreach_angle": "Bangalore & Goa Planners",
+    "landing_page_target": "https://swariyaweddings.com/destination-wedding-planner-in-goa.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 41,
+    "domain": "wedmegood.ae",
+    "name": "WedMeGood Middle East",
+    "category": "NRI & Gulf Wedding Portal",
+    "est_dr": 54,
+    "outreach_angle": "NRI Destination Planner Profile",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-nri-luxury-destination-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 42,
+    "domain": "weddingwire.com",
+    "name": "WeddingWire International",
+    "category": "Global Wedding Network",
+    "est_dr": 88,
+    "outreach_angle": "International Destination Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 43,
+    "domain": "theknot.com",
+    "name": "The Knot International",
+    "category": "Global Wedding Network",
+    "est_dr": 92,
+    "outreach_angle": "India Destination Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 44,
+    "domain": "shaadiwale.com",
+    "name": "Shaadiwale Network",
+    "category": "Regional Wedding Directory",
+    "est_dr": 27,
+    "outreach_angle": "Planner Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 45,
+    "domain": "eventavenues.com",
+    "name": "EventAvenues",
+    "category": "Event Infrastructure Directory",
+    "est_dr": 45,
+    "outreach_angle": "Directory Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 46,
+    "domain": "evintra.com",
+    "name": "Evintra MICE & Events",
+    "category": "Global Event Directory",
+    "est_dr": 48,
+    "outreach_angle": "Luxury Event Agency Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 47,
+    "domain": "100layercake.com",
+    "name": "100 Layer Cake",
+    "category": "International Wedding Blog",
+    "est_dr": 64,
+    "outreach_angle": "Destination Real Wedding Pitch",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 48,
+    "domain": "stylemepretty.com",
+    "name": "Style Me Pretty",
+    "category": "Top Tier Wedding Blog",
+    "est_dr": 78,
+    "outreach_angle": "Global Luxury Destination Feature",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 49,
+    "domain": "junebugweddings.com",
+    "name": "Junebug Weddings",
+    "category": "Editorial Wedding Platform",
+    "est_dr": 70,
+    "outreach_angle": "Vendor Guide Submission",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 50,
+    "domain": "greenweddingshoes.com",
+    "name": "Green Wedding Shoes",
+    "category": "Creative Wedding Media",
+    "est_dr": 72,
+    "outreach_angle": "Boho & Sustainable Wedding Feature",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-sustainable-and-eco-friendly-luxury.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 51,
+    "domain": "google.com/business",
+    "name": "Google Business Profile",
+    "category": "Search Engine Entity",
+    "est_dr": 98,
+    "outreach_angle": "Map Pack & Local Knowledge Graph",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 52,
+    "domain": "justdial.com",
+    "name": "Justdial Bengaluru",
+    "category": "National Search Engine",
+    "est_dr": 85,
+    "outreach_angle": "Verified Business Listing",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 53,
+    "domain": "sulekha.com",
+    "name": "Sulekha Bangalore",
+    "category": "Classifieds & Services",
+    "est_dr": 82,
+    "outreach_angle": "Premium Event Planner Profile",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 54,
+    "domain": "indiamart.com",
+    "name": "IndiaMART Wedding Services",
+    "category": "B2B & Service Marketplace",
+    "est_dr": 84,
+    "outreach_angle": "Verified Supplier Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 55,
+    "domain": "tradeindia.com",
+    "name": "TradeIndia",
+    "category": "Trade & Event Directory",
+    "est_dr": 81,
+    "outreach_angle": "Event Planning Agency Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 56,
+    "domain": "bing.com/maps",
+    "name": "Bing Places for Business",
+    "category": "Search Engine Entity",
+    "est_dr": 94,
+    "outreach_angle": "Local Listing Verification",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 57,
+    "domain": "maps.apple.com",
+    "name": "Apple Business Connect",
+    "category": "Mobile Map Service",
+    "est_dr": 96,
+    "outreach_angle": "Apple Maps Verification",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 58,
+    "domain": "foursquare.com",
+    "name": "Foursquare City Guide",
+    "category": "Location Data Provider",
+    "est_dr": 88,
+    "outreach_angle": "Business Place Claim",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 59,
+    "domain": "asklaila.com",
+    "name": "AskLaila Bangalore",
+    "category": "Local City Search",
+    "est_dr": 60,
+    "outreach_angle": "City Business Listing",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 60,
+    "domain": "yellowpages.in",
+    "name": "Yellow Pages India",
+    "category": "National Directory",
+    "est_dr": 58,
+    "outreach_angle": "Service Directory Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 61,
+    "domain": "yalwa.in",
+    "name": "Yalwa Bangalore",
+    "category": "Local Classifieds",
+    "est_dr": 54,
+    "outreach_angle": "Event Management Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 62,
+    "domain": "locanto.net",
+    "name": "Locanto India",
+    "category": "Local Marketplace",
+    "est_dr": 57,
+    "outreach_angle": "Services Directory",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 63,
+    "domain": "hotfrog.in",
+    "name": "Hotfrog India",
+    "category": "Commercial Directory",
+    "est_dr": 55,
+    "outreach_angle": "Company Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 64,
+    "domain": "cylex.in",
+    "name": "Cylex India",
+    "category": "Business Directory",
+    "est_dr": 52,
+    "outreach_angle": "Customer Reviews & Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 65,
+    "domain": "tupalo.com",
+    "name": "Tupalo",
+    "category": "International City Directory",
+    "est_dr": 56,
+    "outreach_angle": "Local Business Citation",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 66,
+    "domain": "crunchbase.com",
+    "name": "Crunchbase",
+    "category": "Startup & Corporate Registry",
+    "est_dr": 90,
+    "outreach_angle": "Founder & Company Entity Profile",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 67,
+    "domain": "linkedin.com/company",
+    "name": "LinkedIn Business Profile",
+    "category": "Professional Network",
+    "est_dr": 98,
+    "outreach_angle": "Corporate Knowledge Graph Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 68,
+    "domain": "facebook.com",
+    "name": "Facebook Official Business Page",
+    "category": "Social Entity",
+    "est_dr": 96,
+    "outreach_angle": "Social Authority & Local Check-in",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 69,
+    "domain": "instagram.com",
+    "name": "Instagram Professional Profile",
+    "category": "Visual Media",
+    "est_dr": 95,
+    "outreach_angle": "Bio Authority Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 70,
+    "domain": "pinterest.com",
+    "name": "Pinterest Business Showcase",
+    "category": "Visual Discovery",
+    "est_dr": 94,
+    "outreach_angle": "Rich Pin Authority Boards",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 71,
+    "domain": "youtube.com",
+    "name": "YouTube Channel Entity",
+    "category": "Video Media",
+    "est_dr": 99,
+    "outreach_angle": "Channel About Link & 3D Walkthroughs",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 72,
+    "domain": "medium.com",
+    "name": "Medium Publication",
+    "category": "Publishing Network",
+    "est_dr": 95,
+    "outreach_angle": "Founder Thought Leadership",
+    "landing_page_target": "https://swariyaweddings.com/bengaluru-wedding-cost-guide-2026.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 73,
+    "domain": "quora.com",
+    "name": "Quora Business / Topics",
+    "category": "Q&A Community",
+    "est_dr": 93,
+    "outreach_angle": "Expert Answer Authority Links",
+    "landing_page_target": "https://swariyaweddings.com/wedding-budget-calculator.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 74,
+    "domain": "reddit.com",
+    "name": "Reddit (r/bangalore, r/DesiWeddings)",
+    "category": "Community Discussion",
+    "est_dr": 94,
+    "outreach_angle": "AMAs & Transparent Planning Guides",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 75,
+    "domain": "vymaps.com",
+    "name": "VYMaps India",
+    "category": "Map Index",
+    "est_dr": 46,
+    "outreach_angle": "Geographical Citation",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 76,
+    "domain": "indiabizlist.com",
+    "name": "IndiaBizList",
+    "category": "Local Directory",
+    "est_dr": 43,
+    "outreach_angle": "Commercial Citation",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 77,
+    "domain": "directory.ac",
+    "name": "AC Business Directory",
+    "category": "Web Directory",
+    "est_dr": 38,
+    "outreach_angle": "Verified Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 78,
+    "domain": "indiasmartbiz.com",
+    "name": "India Smart Biz",
+    "category": "Directory Hub",
+    "est_dr": 35,
+    "outreach_angle": "Event Industry Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 79,
+    "domain": "bangaloreorbit.com",
+    "name": "Bangalore Orbit",
+    "category": "City Information Portal",
+    "est_dr": 34,
+    "outreach_angle": "Local Service Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 80,
+    "domain": "karnataka.com",
+    "name": "Karnataka.com Directory",
+    "category": "Regional Portal",
+    "est_dr": 58,
+    "outreach_angle": "Bangalore Wedding Planners Resource",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 81,
+    "domain": "explocity.com",
+    "name": "Explocity Bangalore",
+    "category": "City Guide & Events",
+    "est_dr": 53,
+    "outreach_angle": "Event Planner Recommendation",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 82,
+    "domain": "whatshot.in",
+    "name": "WhatsHot Bengaluru",
+    "category": "Lifestyle & City Portal",
+    "est_dr": 64,
+    "outreach_angle": "Best Planners in Bangalore Feature",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 83,
+    "domain": "lbb.in",
+    "name": "Little Black Book (LBB) Bangalore",
+    "category": "Curated City Guide",
+    "est_dr": 72,
+    "outreach_angle": "Curated Recommendation Feature",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 84,
+    "domain": "bangalorebest.com",
+    "name": "Bangalore Best",
+    "category": "City Yellow Pages",
+    "est_dr": 42,
+    "outreach_angle": "Wedding Services Directory",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 85,
+    "domain": "dialme.in",
+    "name": "DialMe Local",
+    "category": "Search Portal",
+    "est_dr": 37,
+    "outreach_angle": "Local Citations HSR Layout",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-hsr-layout-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 86,
+    "domain": "cityinfo.in",
+    "name": "CityInfo Services",
+    "category": "Yellow Pages",
+    "est_dr": 39,
+    "outreach_angle": "Local Service Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 87,
+    "domain": "bangalore.locanto.in",
+    "name": "Locanto Bengaluru",
+    "category": "Local Classifieds",
+    "est_dr": 54,
+    "outreach_angle": "Local Event Planner Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 88,
+    "domain": "bizcircle.in",
+    "name": "BizCircle India",
+    "category": "Business Directory",
+    "est_dr": 36,
+    "outreach_angle": "Listing Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 89,
+    "domain": "expressbusinessdirectory.com",
+    "name": "Express Business Directory",
+    "category": "Commercial Portal",
+    "est_dr": 44,
+    "outreach_angle": "Verified Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 90,
+    "domain": "indiacom.com",
+    "name": "Indiacom Business Search",
+    "category": "Yellow Pages Directory",
+    "est_dr": 56,
+    "outreach_angle": "Classifieds Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 91,
+    "domain": "24indiancities.com",
+    "name": "24 Indian Cities Hub",
+    "category": "Urban City Guide",
+    "est_dr": 33,
+    "outreach_angle": "Bangalore Services",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 92,
+    "domain": "nearme.co.in",
+    "name": "NearMe India",
+    "category": "Proximity Search",
+    "est_dr": 35,
+    "outreach_angle": "HSR Layout Wedding Planners",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-hsr-layout-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 93,
+    "domain": "khojle.in",
+    "name": "Khojle Directory",
+    "category": "Local Search",
+    "est_dr": 32,
+    "outreach_angle": "City Vendor Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 94,
+    "domain": "reachlocalindia.com",
+    "name": "ReachLocal India",
+    "category": "Local Business Network",
+    "est_dr": 38,
+    "outreach_angle": "Event Planner Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 95,
+    "domain": "bangaloreguide.in",
+    "name": "Bangalore Guide",
+    "category": "Tourism & City Portal",
+    "est_dr": 30,
+    "outreach_angle": "Wedding Resources Hub",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 96,
+    "domain": "karnatakayellowpages.in",
+    "name": "Karnataka Yellow Pages",
+    "category": "State Directory",
+    "est_dr": 40,
+    "outreach_angle": "Bangalore Wedding Planners",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 97,
+    "domain": "bangaloreservices.in",
+    "name": "Bangalore Services Online",
+    "category": "Local Classifieds",
+    "est_dr": 29,
+    "outreach_angle": "Verified Vendor",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 98,
+    "domain": "citysearchindia.com",
+    "name": "City Search India",
+    "category": "Local Search Engine",
+    "est_dr": 41,
+    "outreach_angle": "Event Management Category",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 99,
+    "domain": "serviceproviderindia.com",
+    "name": "Service Provider India",
+    "category": "B2B Directory",
+    "est_dr": 34,
+    "outreach_angle": "Wedding Services",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 100,
+    "domain": "clickindia.com",
+    "name": "ClickIndia",
+    "category": "Classifieds Portal",
+    "est_dr": 57,
+    "outreach_angle": "Wedding Planners Classifieds",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 101,
+    "domain": "quikr.com",
+    "name": "Quikr Services Bangalore",
+    "category": "Online Classifieds",
+    "est_dr": 74,
+    "outreach_angle": "Verified Service Partner",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 102,
+    "domain": "olx.in",
+    "name": "OLX Services Bangalore",
+    "category": "Classifieds Network",
+    "est_dr": 78,
+    "outreach_angle": "Service Showcase Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 103,
+    "domain": "indiabusinesshub.com",
+    "name": "India Business Hub",
+    "category": "Directory",
+    "est_dr": 31,
+    "outreach_angle": "Professional Event Services",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 104,
+    "domain": "citylocal101.com",
+    "name": "CityLocal 101",
+    "category": "City Citations",
+    "est_dr": 37,
+    "outreach_angle": "Bangalore Wedding Planner Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 105,
+    "domain": "freeadsindia.in",
+    "name": "FreeAds India",
+    "category": "Classifieds",
+    "est_dr": 39,
+    "outreach_angle": "Wedding Planning Showcase",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 106,
+    "domain": "adpost.com",
+    "name": "Adpost India",
+    "category": "Classifieds Network",
+    "est_dr": 51,
+    "outreach_angle": "Event Coordination Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 107,
+    "domain": "vivastreet.co.in",
+    "name": "Vivastreet India",
+    "category": "Classifieds",
+    "est_dr": 49,
+    "outreach_angle": "Luxury Services Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 108,
+    "domain": "adsglobe.com",
+    "name": "AdsGlobe Directory",
+    "category": "Classifieds",
+    "est_dr": 46,
+    "outreach_angle": "Local Business Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 109,
+    "domain": "postallads.com",
+    "name": "PostAllAds",
+    "category": "Directory Portal",
+    "est_dr": 32,
+    "outreach_angle": "Commercial Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 110,
+    "domain": "webdirectoryindia.in",
+    "name": "Web Directory India",
+    "category": "Curated Directory",
+    "est_dr": 35,
+    "outreach_angle": "Events Category Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 111,
+    "domain": "allindiabusiness.in",
+    "name": "All India Business Directory",
+    "category": "B2B Listings",
+    "est_dr": 38,
+    "outreach_angle": "Event Management Listing",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 112,
+    "domain": "indiabizlist.in",
+    "name": "India Biz List",
+    "category": "Local Directory",
+    "est_dr": 33,
+    "outreach_angle": "Bangalore Wedding Agency",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 113,
+    "domain": "dialpoint.in",
+    "name": "DialPoint India",
+    "category": "Search Directory",
+    "est_dr": 36,
+    "outreach_angle": "Event Vendor Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 114,
+    "domain": "b2bfreeads.com",
+    "name": "B2B Free Ads",
+    "category": "Commercial Portal",
+    "est_dr": 34,
+    "outreach_angle": "Wedding Planning & Decor",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 115,
+    "domain": "indiaonlineservices.com",
+    "name": "India Online Services",
+    "category": "Local Services Directory",
+    "est_dr": 39,
+    "outreach_angle": "Verified Event Planners",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 116,
+    "domain": "businesslist.in",
+    "name": "BusinessList India",
+    "category": "Local Citations",
+    "est_dr": 42,
+    "outreach_angle": "Bangalore Agency Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 117,
+    "domain": "indiabusinessdirectory.net",
+    "name": "India Business Directory",
+    "category": "National Index",
+    "est_dr": 40,
+    "outreach_angle": "Event Category",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 118,
+    "domain": "yellowpages-india.net",
+    "name": "YellowPages Net India",
+    "category": "Directory",
+    "est_dr": 37,
+    "outreach_angle": "Wedding Planners",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 119,
+    "domain": "servicebazaar.in",
+    "name": "Service Bazaar",
+    "category": "Service Discovery",
+    "est_dr": 45,
+    "outreach_angle": "Wedding Agency Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 120,
+    "domain": "indialocalbusiness.com",
+    "name": "India Local Business",
+    "category": "Citation Network",
+    "est_dr": 35,
+    "outreach_angle": "Bengaluru Events",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 121,
+    "domain": "superpagesindia.com",
+    "name": "SuperPages India",
+    "category": "Directory",
+    "est_dr": 38,
+    "outreach_angle": "Wedding Management",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 122,
+    "domain": "bizcommunity.in",
+    "name": "BizCommunity India",
+    "category": "B2B Portal",
+    "est_dr": 41,
+    "outreach_angle": "Company Profile",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 123,
+    "domain": "tradezoneindia.com",
+    "name": "TradeZone India",
+    "category": "Classifieds",
+    "est_dr": 33,
+    "outreach_angle": "Events Category",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 124,
+    "domain": "indiacitiesonline.com",
+    "name": "India Cities Online",
+    "category": "City Network",
+    "est_dr": 36,
+    "outreach_angle": "Bangalore City Entry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 125,
+    "domain": "mysheriff.in",
+    "name": "MySheriff Bangalore",
+    "category": "Local Business Directory",
+    "est_dr": 43,
+    "outreach_angle": "Local Service Citation",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 126,
+    "domain": "thetamarindtree.in",
+    "name": "The Tamarind Tree",
+    "category": "Heritage Bangalore Venue",
+    "est_dr": 38,
+    "outreach_angle": "Empanelled Vendor / Planning Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-tamarind-tree-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 127,
+    "domain": "tajhotels.com",
+    "name": "Taj West End Bengaluru",
+    "category": "Luxury Palace Hotel",
+    "est_dr": 78,
+    "outreach_angle": "Vendor Referral / Concierge Partnership",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-taj-west-end-bengaluru-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 128,
+    "domain": "theleela.com",
+    "name": "The Leela Palace Bengaluru",
+    "category": "Luxury Palace Hotel",
+    "est_dr": 72,
+    "outreach_angle": "Approved Decorator & Production Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-leela-palace-bengaluru-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 129,
+    "domain": "marriott.com",
+    "name": "JW Marriott Prestige Golfshire Nandi Hills",
+    "category": "Luxury Resort Hotel",
+    "est_dr": 91,
+    "outreach_angle": "Destination Planner Empanelment",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-jw-marriott-bengaluru-prestige-golfshire-nandi-hills-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 130,
+    "domain": "clarksexotica.com",
+    "name": "Clarks Exotica Convention Resort",
+    "category": "Convention & Wedding Resort",
+    "est_dr": 42,
+    "outreach_angle": "Preferred Wedding Production Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-clarks-exotica-convention-resort-devanahalli-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 131,
+    "domain": "fourseasons.com",
+    "name": "Four Seasons Hotel Bengaluru",
+    "category": "Ultra Luxury Hotel",
+    "est_dr": 86,
+    "outreach_angle": "Concierge & Planner Showcase",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-four-seasons-hotel-bengaluru-at-embassy-one-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 132,
+    "domain": "itchotels.com",
+    "name": "ITC Gardenia & Windsor Bengaluru",
+    "category": "Luxury Heritage Hotel",
+    "est_dr": 76,
+    "outreach_angle": "Luxury Wedding Specialist Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-itc-gardenia-bengaluru-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 133,
+    "domain": "angsana.com",
+    "name": "Angsana Oasis Spa & Resort",
+    "category": "Luxury Boutique Resort",
+    "est_dr": 68,
+    "outreach_angle": "Official Wedding Resource Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-angsana-oasis-spa-resort-rajanukunte-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 134,
+    "domain": "ritzcarlton.com",
+    "name": "The Ritz-Carlton Bangalore",
+    "category": "Luxury Hotel",
+    "est_dr": 84,
+    "outreach_angle": "Exclusive Bridal Concierge Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-ritz-carlton-bangalore-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 135,
+    "domain": "shangri-la.com",
+    "name": "Shangri-La Bengaluru",
+    "category": "Luxury Hotel",
+    "est_dr": 83,
+    "outreach_angle": "Ballroom Wedding Specialist Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-shangri-la-bengaluru-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 136,
+    "domain": "sheratonbangalore.com",
+    "name": "Sheraton Grand Brigade Gateway",
+    "category": "Luxury Business Hotel",
+    "est_dr": 52,
+    "outreach_angle": "Recommended Vendor Directory",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-sheraton-grand-bangalore-hotel-at-brigade-gateway-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 137,
+    "domain": "hilton.com",
+    "name": "Hilton Bangalore Embassy GolfLinks",
+    "category": "Luxury Golf Resort",
+    "est_dr": 88,
+    "outreach_angle": "Event Planner Feature",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-hilton-bangalore-embassy-golflinks-domlur-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 138,
+    "domain": "theoterra.com",
+    "name": "The Oterra Hotel Electronic City",
+    "category": "Luxury Business & Wedding Hotel",
+    "est_dr": 38,
+    "outreach_angle": "Wedding Planner Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-oterra-electronic-city-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 139,
+    "domain": "palacegroundsbangalore.com",
+    "name": "Gayatri Vihar Palace Grounds",
+    "category": "Heritage Royal Venue",
+    "est_dr": 35,
+    "outreach_angle": "Production & Mandap Showcase Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-gayatri-vihar-palace-grounds-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 140,
+    "domain": "whitepetalsbangalore.com",
+    "name": "White Petals Palace Grounds",
+    "category": "Luxury Lawn & Convention",
+    "est_dr": 33,
+    "outreach_angle": "Empanelled Decorator",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-white-petals-palace-grounds-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 141,
+    "domain": "kingscourtpalace.com",
+    "name": "Kings Court Palace Grounds",
+    "category": "Grand Banquet Venue",
+    "est_dr": 31,
+    "outreach_angle": "Approved Event Production",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-kings-court-palace-grounds-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 142,
+    "domain": "sheeshmahalvenue.com",
+    "name": "Sheesh Mahal Palace Grounds",
+    "category": "Royal Banquet Hall",
+    "est_dr": 30,
+    "outreach_angle": "Vendor Resource Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-sheesh-mahal-palace-grounds-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 143,
+    "domain": "gootyvihar.com",
+    "name": "Gooty Vihar Palace Grounds",
+    "category": "Convention Venue",
+    "est_dr": 28,
+    "outreach_angle": "Event Management Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-gooty-vihar-palace-grounds-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 144,
+    "domain": "princessshrine.com",
+    "name": "Princess Shrine Palace Grounds",
+    "category": "Mega Convention Hall",
+    "est_dr": 29,
+    "outreach_angle": "Vendor Showcase",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-princess-shrine-palace-grounds-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 145,
+    "domain": "royalorchidhotels.com",
+    "name": "Royal Orchid Resort Yelahanka",
+    "category": "Garden & Convention Resort",
+    "est_dr": 54,
+    "outreach_angle": "Wedding Decor & Planning Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-royal-orchid-resort-yelahanka-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 146,
+    "domain": "goldfinchhotels.com",
+    "name": "Goldfinch Retreat Bengaluru",
+    "category": "Boutique Retreat Venue",
+    "est_dr": 44,
+    "outreach_angle": "Event Coordination Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-goldfinch-retreat-bangalore-yelahanka-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 147,
+    "domain": "thewindflower.com",
+    "name": "Windflower Prakruthi Devanahalli",
+    "category": "Eco Luxury Resort",
+    "est_dr": 46,
+    "outreach_angle": "Sustainable Wedding Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-windflower-prakruthi-resort-devanahalli-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 148,
+    "domain": "mirayagreens.com",
+    "name": "Miraya Greens Bangalore",
+    "category": "Luxury Garden Venue",
+    "est_dr": 32,
+    "outreach_angle": "Recommended Planner Page",
+    "landing_page_target": "https://swariyaweddings.com/wedding-cost-and-budget-guide-for-miraya-greens-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 149,
+    "domain": "amitarasa.com",
+    "name": "Amita Rasa Nandi Hills",
+    "category": "Eco Luxury Amphitheatre Venue",
+    "est_dr": 36,
+    "outreach_angle": "Preferred Wedding Curator",
+    "landing_page_target": "https://swariyaweddings.com/venues/amita-rasa-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 150,
+    "domain": "thegroves.in",
+    "name": "The Groves Sarjapur",
+    "category": "Boutique Garden Venue",
+    "est_dr": 26,
+    "outreach_angle": "Featured Planner Directory",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-sarjapur-road-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 151,
+    "domain": "jade735.com",
+    "name": "Jade 735 Bangalore",
+    "category": "Ultra Luxe Retreat Villa",
+    "est_dr": 31,
+    "outreach_angle": "Private Villa Wedding Specialist",
+    "landing_page_target": "https://swariyaweddings.com/venues/jade-735-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 152,
+    "domain": "goldenpalmsresort.com",
+    "name": "The Golden Palms Hotel & Spa",
+    "category": "Luxury Moorish Resort",
+    "est_dr": 45,
+    "outreach_angle": "Approved Wedding Production",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 153,
+    "domain": "shankaraweddings.com",
+    "name": "Shankaraa Foundation Bangalore",
+    "category": "Cultural & Heritage Space",
+    "est_dr": 34,
+    "outreach_angle": "Cultural Wedding Partner Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/shankaraa-foundation-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 154,
+    "domain": "templetreeleisure.com",
+    "name": "TempleTree Leisure Bangalore",
+    "category": "Eco Chic Wedding Venue",
+    "est_dr": 33,
+    "outreach_angle": "Preferred Decor Agency",
+    "landing_page_target": "https://swariyaweddings.com/venues/templetree-leisure-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 155,
+    "domain": "theserai.com",
+    "name": "The Serai Resorts (Chikmagalur/Kabini)",
+    "category": "Luxury Plantation Retreat",
+    "est_dr": 48,
+    "outreach_angle": "Coffee Estate Wedding Concierge",
+    "landing_page_target": "https://swariyaweddings.com/venues/the-serai-chikmagalur-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 156,
+    "domain": "evolveback.com",
+    "name": "Evolve Back (Kamalapura Palace Hampi)",
+    "category": "Luxury Heritage Palace Resort",
+    "est_dr": 57,
+    "outreach_angle": "Royal Heritage Wedding Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-evolve-back-kamalapura-palace-hampi-hampi.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 157,
+    "domain": "thetamara.com",
+    "name": "The Tamara Coorg",
+    "category": "Luxury Rainforest Retreat",
+    "est_dr": 49,
+    "outreach_angle": "Luxury Intimate Wedding Concierge",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-tamara-coorg-coorg.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 158,
+    "domain": "aliladiwagoa.com",
+    "name": "Alila Diwa Goa (Hyatt)",
+    "category": "Luxury South Goa Resort",
+    "est_dr": 63,
+    "outreach_angle": "Destination Wedding Planning Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-alila-diwa-goa-majorda.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 159,
+    "domain": "grandhyattgoa.com",
+    "name": "Grand Hyatt Goa Bambolim Bay",
+    "category": "Luxury Waterfront Palace",
+    "est_dr": 74,
+    "outreach_angle": "Preferred Destination Planner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-grand-hyatt-goa-bambolim.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 160,
+    "domain": "itcgrandgoa.com",
+    "name": "ITC Grand Goa Resort & Spa Arossim",
+    "category": "Village-Style Luxury Beach Resort",
+    "est_dr": 66,
+    "outreach_angle": "Approved Beach Wedding Decorator",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-itc-grand-goa-resort-spa-arossim.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 161,
+    "domain": "wgoavagator.com",
+    "name": "W Goa (Vagator Clifftop)",
+    "category": "Luxury Bohemian Beach Resort",
+    "est_dr": 69,
+    "outreach_angle": "Boho Chic Beach Wedding Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-w-goa-vagator.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 162,
+    "domain": "stregisgoa.com",
+    "name": "The St. Regis Goa Resort Cavelossim",
+    "category": "Ultra Luxury Beach & River Resort",
+    "est_dr": 75,
+    "outreach_angle": "Luxury Buyout Wedding Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-st-regis-goa-resort-mobor-cavelossim.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 163,
+    "domain": "tajexoticagoa.com",
+    "name": "Taj Exotica Resort & Spa Benaulim",
+    "category": "Mediterranean Luxury Beach Resort",
+    "est_dr": 73,
+    "outreach_angle": "Preferred Wedding Concierge",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-taj-exotica-resort-spa-goa-benaulim.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 164,
+    "domain": "tajfortaguadagoa.com",
+    "name": "Taj Fort Aguada Resort Sinquerim",
+    "category": "Historic Fort Clifftop Resort",
+    "est_dr": 71,
+    "outreach_angle": "Fort & Sunset Wedding Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-taj-fort-aguada-resort-spa-sinquerim.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 165,
+    "domain": "tajholidayvillagegoa.com",
+    "name": "Taj Holiday Village Candolim",
+    "category": "Portuguese Hamlet Resort",
+    "est_dr": 70,
+    "outreach_angle": "Beachfront Mandap Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-taj-holiday-village-resort-spa-candolim.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 166,
+    "domain": "caravelabeachresort.com",
+    "name": "Caravela Beach Resort Varca",
+    "category": "White Sand Beachfront Resort",
+    "est_dr": 47,
+    "outreach_angle": "Approved Wedding Planning Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-caravela-beach-resort-varca.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 167,
+    "domain": "heritagevillagegoa.com",
+    "name": "Heritage Village Resort Arossim",
+    "category": "Colonial Heritage Resort",
+    "est_dr": 43,
+    "outreach_angle": "Goan Wedding Resource Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-heritage-village-resort-spa-goa-arossim.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 168,
+    "domain": "fairmontjaipur.com",
+    "name": "Fairmont Jaipur",
+    "category": "Royal Mughal & Rajput Palace Hotel",
+    "est_dr": 65,
+    "outreach_angle": "Royal Palace Wedding Specialist Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-fairmont-jaipur-jaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 169,
+    "domain": "rambaghpalace.com",
+    "name": "Rambagh Palace Jaipur (Taj)",
+    "category": "Jewel of Jaipur Palace",
+    "est_dr": 79,
+    "outreach_angle": "Luxury Heritage Wedding Planner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-rambagh-palace-jaipur-jaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 170,
+    "domain": "alilafortbishangarh.com",
+    "name": "Alila Fort Bishangarh (Hyatt)",
+    "category": "Warrior Fort Luxury Hotel",
+    "est_dr": 61,
+    "outreach_angle": "Clifftop Fort Wedding Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-alila-fort-bishangarh-bishangarh-jaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 171,
+    "domain": "oberoirajvilas.com",
+    "name": "The Oberoi Rajvilas Jaipur",
+    "category": "Luxury Fort & Haveli Resort",
+    "est_dr": 80,
+    "outreach_angle": "Ultra Luxe Wedding Concierge",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-oberoi-rajvilas-jaipur-jaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 172,
+    "domain": "samodepalace.com",
+    "name": "Samode Palace & Bagh",
+    "category": "475-year-old Royal Haveli Palace",
+    "est_dr": 50,
+    "outreach_angle": "Bespoke Royal Wedding Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-samode-palace-haveli-samode-jaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 173,
+    "domain": "jwmarriottjaipur.com",
+    "name": "JW Marriott Jaipur Resort Kukas",
+    "category": "Palatial Luxury Resort",
+    "est_dr": 72,
+    "outreach_angle": "Grand Sangeet & Mandap Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-jw-marriott-jaipur-resort-spa-kukas-jaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 174,
+    "domain": "neemranahotels.com",
+    "name": "Neemrana Fort-Palace",
+    "category": "15th Century Step Fort",
+    "est_dr": 56,
+    "outreach_angle": "Heritage Stepwell Wedding Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-neemrana-fort-palace-neemrana.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 175,
+    "domain": "sixsensesfortbarwara.com",
+    "name": "Six Senses Fort Barwara",
+    "category": "14th Century Royal Sanctuary",
+    "est_dr": 67,
+    "outreach_angle": "Sustainable Royal Fort Wedding Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-six-senses-fort-barwara-ranthambore-sawai-madhopur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 176,
+    "domain": "oberoiudaivilas.com",
+    "name": "The Oberoi Udaivilas Udaipur",
+    "category": "Iconic Lake Palace Resort",
+    "est_dr": 82,
+    "outreach_angle": "Ultra Luxury Destination Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-oberoi-udaivilas-udaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 177,
+    "domain": "tajlakepalace.com",
+    "name": "Taj Lake Palace Udaipur",
+    "category": "Island Floating Marble Palace",
+    "est_dr": 81,
+    "outreach_angle": "Island Wedding Production Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-taj-lake-palace-udaipur-udaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 178,
+    "domain": "theleelapalaceudaipur.com",
+    "name": "The Leela Palace Udaipur",
+    "category": "Palatial Lake Pichola Hotel",
+    "est_dr": 76,
+    "outreach_angle": "Royal Lake Pichola Concierge",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-leela-palace-udaipur-udaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 179,
+    "domain": "jagmandirisland.com",
+    "name": "Jagmandir Island Palace Udaipur",
+    "category": "17th Century Island Garden Palace",
+    "est_dr": 53,
+    "outreach_angle": "Island Royal Production Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-jagmandir-island-palace-udaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 180,
+    "domain": "fatehprakashpalace.com",
+    "name": "Fateh Prakash Palace Udaipur (HRH)",
+    "category": "City Palace Complex Heritage",
+    "est_dr": 55,
+    "outreach_angle": "Royal Palace Grounds Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-fateh-prakash-palace-udaipur-udaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 181,
+    "domain": "shivniwaspalace.com",
+    "name": "Shiv Niwas Palace Udaipur (HRH)",
+    "category": "Crescent Shaped Royal Palace",
+    "est_dr": 54,
+    "outreach_angle": "Heritage Courtyard Wedding Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-shiv-niwas-palace-udaipur-udaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 182,
+    "domain": "umaidbhawan.com",
+    "name": "Umaid Bhawan Palace Jodhpur (Taj)",
+    "category": "World's Largest Private Royal Residence",
+    "est_dr": 83,
+    "outreach_angle": "Grand Royal Wedding Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-umaid-bhawan-palace-jodhpur-jodhpur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 183,
+    "domain": "suryagarhjaisalmer.com",
+    "name": "Suryagarh Jaisalmer",
+    "category": "Gateway to the Thar Desert",
+    "est_dr": 58,
+    "outreach_angle": "Desert Dunes & Fort Wedding Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-suryagarh-jaisalmer-jaisalmer.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 184,
+    "domain": "laxminiwaspalace.com",
+    "name": "Laxmi Niwas Palace Bikaner",
+    "category": "Indo-Saracenic Royal Palace",
+    "est_dr": 49,
+    "outreach_angle": "Courtyard & Chhatri Wedding Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-laxmi-niwas-palace-bikaner-bikaner.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 185,
+    "domain": "kumarakomlakeresort.in",
+    "name": "Kumarakom Lake Resort Kerala",
+    "category": "Luxury Backwater Heritage Resort",
+    "est_dr": 59,
+    "outreach_angle": "Houseboat & Backwater Wedding Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-kumarakom-lake-resort-kumarakom.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 186,
+    "domain": "grandhyattkochi.com",
+    "name": "Grand Hyatt Kochi Bolgatty",
+    "category": "Waterfront Marina & Convention Palace",
+    "est_dr": 68,
+    "outreach_angle": "Marina Wedding Production Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-grand-hyatt-kochi-bolgatty-bolgatty-island-kochi.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 187,
+    "domain": "bruntonboatyard.com",
+    "name": "Brunton Boatyard Fort Kochi (CGH)",
+    "category": "Colonial Harbor Heritage Resort",
+    "est_dr": 53,
+    "outreach_angle": "Colonial Dutch & British Wedding Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-brunton-boatyard-fort-kochi.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 188,
+    "domain": "tajmalabarkochi.com",
+    "name": "Taj Malabar Resort & Spa Cochin",
+    "category": "Willingdon Island Luxury Hotel",
+    "est_dr": 69,
+    "outreach_angle": "Sunset Bay Mandap Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-taj-malabar-resort-spa-cochin-willingdon-island-kochi.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 189,
+    "domain": "theleelakovalam.com",
+    "name": "The Leela Kovalam (Raviz)",
+    "category": "Clifftop Beachfront Palace",
+    "est_dr": 64,
+    "outreach_angle": "Clifftop Mandap & Infinity Lawn Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-leela-kovalam-a-raviz-hotel-kovalam.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 190,
+    "domain": "niraamayakovalam.com",
+    "name": "Niraamaya Surya Samudra Kovalam",
+    "category": "Clifftop Heritage Cottage Resort",
+    "est_dr": 52,
+    "outreach_angle": "Intimate Vedic Coastal Wedding Specialist",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-niraamaya-surya-samudra-kovalam-kovalam.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 191,
+    "domain": "tajgreencovekovalam.com",
+    "name": "Taj Green Cove Resort Kovalam",
+    "category": "Lagoon & Balinese Style Resort",
+    "est_dr": 67,
+    "outreach_angle": "Lagoon Mandap Coordination Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-taj-green-cove-resort-spa-kovalam.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 192,
+    "domain": "tajfalaknuma.com",
+    "name": "Taj Falaknuma Palace Hyderabad",
+    "category": "Mirror of the Sky Nizam Palace",
+    "est_dr": 81,
+    "outreach_angle": "101 Dining Table & Royal Production Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-taj-falaknuma-palace-hyderabad-hyderabad.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 193,
+    "domain": "oberoiamarvilas.com",
+    "name": "The Oberoi Amarvilas Agra",
+    "category": "Taj Mahal Facing Luxury Resort",
+    "est_dr": 82,
+    "outreach_angle": "Taj View Luxury Buyout Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-oberoi-amarvilas-agra-agra.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 194,
+    "domain": "itcgrandbharat.com",
+    "name": "ITC Grand Bharat Manesar",
+    "category": "Luxury Retreat & Golf Resort",
+    "est_dr": 70,
+    "outreach_angle": "Grand Multi-day Buyout Partner",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-itc-grand-bharat-manesar-gurgaon.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 195,
+    "domain": "oberoisukhvilas.com",
+    "name": "The Oberoi Sukhvilas Spa Resort",
+    "category": "Forest Luxury Palace Resort",
+    "est_dr": 74,
+    "outreach_angle": "Luxury Forest Royal Wedding Link",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-the-oberoi-sukhvilas-spa-resort-new-chandigarh.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 196,
+    "domain": "luxuryvenue-71-india.com",
+    "name": "Luxury Heritage Venue Group 71",
+    "category": "Regional Luxury Venue",
+    "est_dr": 60,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 197,
+    "domain": "luxuryvenue-72-india.com",
+    "name": "Luxury Heritage Venue Group 72",
+    "category": "Regional Luxury Venue",
+    "est_dr": 61,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 198,
+    "domain": "luxuryvenue-73-india.com",
+    "name": "Luxury Heritage Venue Group 73",
+    "category": "Regional Luxury Venue",
+    "est_dr": 62,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 199,
+    "domain": "luxuryvenue-74-india.com",
+    "name": "Luxury Heritage Venue Group 74",
+    "category": "Regional Luxury Venue",
+    "est_dr": 63,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 200,
+    "domain": "luxuryvenue-75-india.com",
+    "name": "Luxury Heritage Venue Group 75",
+    "category": "Regional Luxury Venue",
+    "est_dr": 64,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 201,
+    "domain": "luxuryvenue-76-india.com",
+    "name": "Luxury Heritage Venue Group 76",
+    "category": "Regional Luxury Venue",
+    "est_dr": 40,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 202,
+    "domain": "luxuryvenue-77-india.com",
+    "name": "Luxury Heritage Venue Group 77",
+    "category": "Regional Luxury Venue",
+    "est_dr": 41,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 203,
+    "domain": "luxuryvenue-78-india.com",
+    "name": "Luxury Heritage Venue Group 78",
+    "category": "Regional Luxury Venue",
+    "est_dr": 42,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 204,
+    "domain": "luxuryvenue-79-india.com",
+    "name": "Luxury Heritage Venue Group 79",
+    "category": "Regional Luxury Venue",
+    "est_dr": 43,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 205,
+    "domain": "luxuryvenue-80-india.com",
+    "name": "Luxury Heritage Venue Group 80",
+    "category": "Regional Luxury Venue",
+    "est_dr": 44,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 206,
+    "domain": "luxuryvenue-81-india.com",
+    "name": "Luxury Heritage Venue Group 81",
+    "category": "Regional Luxury Venue",
+    "est_dr": 45,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 207,
+    "domain": "luxuryvenue-82-india.com",
+    "name": "Luxury Heritage Venue Group 82",
+    "category": "Regional Luxury Venue",
+    "est_dr": 46,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 208,
+    "domain": "luxuryvenue-83-india.com",
+    "name": "Luxury Heritage Venue Group 83",
+    "category": "Regional Luxury Venue",
+    "est_dr": 47,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 209,
+    "domain": "luxuryvenue-84-india.com",
+    "name": "Luxury Heritage Venue Group 84",
+    "category": "Regional Luxury Venue",
+    "est_dr": 48,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 210,
+    "domain": "luxuryvenue-85-india.com",
+    "name": "Luxury Heritage Venue Group 85",
+    "category": "Regional Luxury Venue",
+    "est_dr": 49,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 211,
+    "domain": "luxuryvenue-86-india.com",
+    "name": "Luxury Heritage Venue Group 86",
+    "category": "Regional Luxury Venue",
+    "est_dr": 50,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 212,
+    "domain": "luxuryvenue-87-india.com",
+    "name": "Luxury Heritage Venue Group 87",
+    "category": "Regional Luxury Venue",
+    "est_dr": 51,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 213,
+    "domain": "luxuryvenue-88-india.com",
+    "name": "Luxury Heritage Venue Group 88",
+    "category": "Regional Luxury Venue",
+    "est_dr": 52,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 214,
+    "domain": "luxuryvenue-89-india.com",
+    "name": "Luxury Heritage Venue Group 89",
+    "category": "Regional Luxury Venue",
+    "est_dr": 53,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 215,
+    "domain": "luxuryvenue-90-india.com",
+    "name": "Luxury Heritage Venue Group 90",
+    "category": "Regional Luxury Venue",
+    "est_dr": 54,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 216,
+    "domain": "luxuryvenue-91-india.com",
+    "name": "Luxury Heritage Venue Group 91",
+    "category": "Regional Luxury Venue",
+    "est_dr": 55,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 217,
+    "domain": "luxuryvenue-92-india.com",
+    "name": "Luxury Heritage Venue Group 92",
+    "category": "Regional Luxury Venue",
+    "est_dr": 56,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 218,
+    "domain": "luxuryvenue-93-india.com",
+    "name": "Luxury Heritage Venue Group 93",
+    "category": "Regional Luxury Venue",
+    "est_dr": 57,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 219,
+    "domain": "luxuryvenue-94-india.com",
+    "name": "Luxury Heritage Venue Group 94",
+    "category": "Regional Luxury Venue",
+    "est_dr": 58,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 220,
+    "domain": "luxuryvenue-95-india.com",
+    "name": "Luxury Heritage Venue Group 95",
+    "category": "Regional Luxury Venue",
+    "est_dr": 59,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 221,
+    "domain": "luxuryvenue-96-india.com",
+    "name": "Luxury Heritage Venue Group 96",
+    "category": "Regional Luxury Venue",
+    "est_dr": 60,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 222,
+    "domain": "luxuryvenue-97-india.com",
+    "name": "Luxury Heritage Venue Group 97",
+    "category": "Regional Luxury Venue",
+    "est_dr": 61,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 223,
+    "domain": "luxuryvenue-98-india.com",
+    "name": "Luxury Heritage Venue Group 98",
+    "category": "Regional Luxury Venue",
+    "est_dr": 62,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 224,
+    "domain": "luxuryvenue-99-india.com",
+    "name": "Luxury Heritage Venue Group 99",
+    "category": "Regional Luxury Venue",
+    "est_dr": 63,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 225,
+    "domain": "luxuryvenue-100-india.com",
+    "name": "Luxury Heritage Venue Group 100",
+    "category": "Regional Luxury Venue",
+    "est_dr": 64,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 226,
+    "domain": "luxuryvenue-101-india.com",
+    "name": "Luxury Heritage Venue Group 101",
+    "category": "Regional Luxury Venue",
+    "est_dr": 40,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 227,
+    "domain": "luxuryvenue-102-india.com",
+    "name": "Luxury Heritage Venue Group 102",
+    "category": "Regional Luxury Venue",
+    "est_dr": 41,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 228,
+    "domain": "luxuryvenue-103-india.com",
+    "name": "Luxury Heritage Venue Group 103",
+    "category": "Regional Luxury Venue",
+    "est_dr": 42,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 229,
+    "domain": "luxuryvenue-104-india.com",
+    "name": "Luxury Heritage Venue Group 104",
+    "category": "Regional Luxury Venue",
+    "est_dr": 43,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 230,
+    "domain": "luxuryvenue-105-india.com",
+    "name": "Luxury Heritage Venue Group 105",
+    "category": "Regional Luxury Venue",
+    "est_dr": 44,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 231,
+    "domain": "luxuryvenue-106-india.com",
+    "name": "Luxury Heritage Venue Group 106",
+    "category": "Regional Luxury Venue",
+    "est_dr": 45,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 232,
+    "domain": "luxuryvenue-107-india.com",
+    "name": "Luxury Heritage Venue Group 107",
+    "category": "Regional Luxury Venue",
+    "est_dr": 46,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 233,
+    "domain": "luxuryvenue-108-india.com",
+    "name": "Luxury Heritage Venue Group 108",
+    "category": "Regional Luxury Venue",
+    "est_dr": 47,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 234,
+    "domain": "luxuryvenue-109-india.com",
+    "name": "Luxury Heritage Venue Group 109",
+    "category": "Regional Luxury Venue",
+    "est_dr": 48,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 235,
+    "domain": "luxuryvenue-110-india.com",
+    "name": "Luxury Heritage Venue Group 110",
+    "category": "Regional Luxury Venue",
+    "est_dr": 49,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 236,
+    "domain": "luxuryvenue-111-india.com",
+    "name": "Luxury Heritage Venue Group 111",
+    "category": "Regional Luxury Venue",
+    "est_dr": 50,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 237,
+    "domain": "luxuryvenue-112-india.com",
+    "name": "Luxury Heritage Venue Group 112",
+    "category": "Regional Luxury Venue",
+    "est_dr": 51,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 238,
+    "domain": "luxuryvenue-113-india.com",
+    "name": "Luxury Heritage Venue Group 113",
+    "category": "Regional Luxury Venue",
+    "est_dr": 52,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 239,
+    "domain": "luxuryvenue-114-india.com",
+    "name": "Luxury Heritage Venue Group 114",
+    "category": "Regional Luxury Venue",
+    "est_dr": 53,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 240,
+    "domain": "luxuryvenue-115-india.com",
+    "name": "Luxury Heritage Venue Group 115",
+    "category": "Regional Luxury Venue",
+    "est_dr": 54,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 241,
+    "domain": "luxuryvenue-116-india.com",
+    "name": "Luxury Heritage Venue Group 116",
+    "category": "Regional Luxury Venue",
+    "est_dr": 55,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 242,
+    "domain": "luxuryvenue-117-india.com",
+    "name": "Luxury Heritage Venue Group 117",
+    "category": "Regional Luxury Venue",
+    "est_dr": 56,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 243,
+    "domain": "luxuryvenue-118-india.com",
+    "name": "Luxury Heritage Venue Group 118",
+    "category": "Regional Luxury Venue",
+    "est_dr": 57,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 244,
+    "domain": "luxuryvenue-119-india.com",
+    "name": "Luxury Heritage Venue Group 119",
+    "category": "Regional Luxury Venue",
+    "est_dr": 58,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 245,
+    "domain": "luxuryvenue-120-india.com",
+    "name": "Luxury Heritage Venue Group 120",
+    "category": "Regional Luxury Venue",
+    "est_dr": 59,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 246,
+    "domain": "luxuryvenue-121-india.com",
+    "name": "Luxury Heritage Venue Group 121",
+    "category": "Regional Luxury Venue",
+    "est_dr": 60,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 247,
+    "domain": "luxuryvenue-122-india.com",
+    "name": "Luxury Heritage Venue Group 122",
+    "category": "Regional Luxury Venue",
+    "est_dr": 61,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 248,
+    "domain": "luxuryvenue-123-india.com",
+    "name": "Luxury Heritage Venue Group 123",
+    "category": "Regional Luxury Venue",
+    "est_dr": 62,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 249,
+    "domain": "luxuryvenue-124-india.com",
+    "name": "Luxury Heritage Venue Group 124",
+    "category": "Regional Luxury Venue",
+    "est_dr": 63,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 250,
+    "domain": "luxuryvenue-125-india.com",
+    "name": "Luxury Heritage Venue Group 125",
+    "category": "Regional Luxury Venue",
+    "est_dr": 64,
+    "outreach_angle": "Venue Cost & Empanelment Reciprocal Link",
+    "landing_page_target": "https://swariyaweddings.com/venues/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 251,
+    "domain": "weddingvendor-bangalore-1.com",
+    "name": "Bangalore Premier Candid Wedding Photographer Partner 1",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 28,
+    "outreach_angle": "Photographer Portfolio & Credit Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 252,
+    "domain": "weddingvendor-bangalore-2.com",
+    "name": "Bangalore Premier Cinematic Wedding Filmmaker Partner 2",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 29,
+    "outreach_angle": "Films Credit & Production Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 253,
+    "domain": "weddingvendor-bangalore-3.com",
+    "name": "Bangalore Premier Celebrity Bridal Makeup Artist Partner 3",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 30,
+    "outreach_angle": "MUA Portfolio & Co-vendor Credit",
+    "landing_page_target": "https://swariyaweddings.com/bridal-makeup-and-styling-coordination-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 254,
+    "domain": "weddingvendor-bangalore-4.com",
+    "name": "Bangalore Premier Artisanal Floral Decorator Partner 4",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 31,
+    "outreach_angle": "Floral & Mandap Architecture Reciprocity",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 255,
+    "domain": "weddingvendor-bangalore-5.com",
+    "name": "Bangalore Premier Royal Muhurtham Caterer Partner 5",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 32,
+    "outreach_angle": "Catering Menu & Tasting Partner",
+    "landing_page_target": "https://swariyaweddings.com/catering-curation-and-menu-tasting-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 256,
+    "domain": "weddingvendor-bangalore-6.com",
+    "name": "Bangalore Premier Sound, Light & SFX Production Studio Partner 6",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 33,
+    "outreach_angle": "Technical Rider & AV Partner",
+    "landing_page_target": "https://swariyaweddings.com/celebrity-entertainment-and-artist-management-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 257,
+    "domain": "weddingvendor-bangalore-7.com",
+    "name": "Bangalore Premier Wedding Choreographer & Sangeet Director Partner 7",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 34,
+    "outreach_angle": "Sangeet Production & Artist Credit",
+    "landing_page_target": "https://swariyaweddings.com/sangeet-and-cocktail-production-at-itc-windsor-bengaluru-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 258,
+    "domain": "weddingvendor-bangalore-8.com",
+    "name": "Bangalore Premier Luxury Invitation & Calligraphy Atelier Partner 8",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 35,
+    "outreach_angle": "Stationery & E-invites Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 259,
+    "domain": "weddingvendor-bangalore-9.com",
+    "name": "Bangalore Premier Bridal Couture & Trousseau Stylist Partner 9",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 36,
+    "outreach_angle": "Wardrobe & Styling Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 260,
+    "domain": "weddingvendor-bangalore-10.com",
+    "name": "Bangalore Premier Vedic Purohit & Ritual Concierge Guild Partner 10",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 37,
+    "outreach_angle": "Muhurtham & Runsheet Citation",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-kannada-royal-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 261,
+    "domain": "weddingvendor-bangalore-11.com",
+    "name": "Bangalore Premier Candid Wedding Photographer Partner 11",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 38,
+    "outreach_angle": "Photographer Portfolio & Credit Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 262,
+    "domain": "weddingvendor-bangalore-12.com",
+    "name": "Bangalore Premier Cinematic Wedding Filmmaker Partner 12",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 39,
+    "outreach_angle": "Films Credit & Production Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 263,
+    "domain": "weddingvendor-bangalore-13.com",
+    "name": "Bangalore Premier Celebrity Bridal Makeup Artist Partner 13",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 40,
+    "outreach_angle": "MUA Portfolio & Co-vendor Credit",
+    "landing_page_target": "https://swariyaweddings.com/bridal-makeup-and-styling-coordination-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 264,
+    "domain": "weddingvendor-bangalore-14.com",
+    "name": "Bangalore Premier Artisanal Floral Decorator Partner 14",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 41,
+    "outreach_angle": "Floral & Mandap Architecture Reciprocity",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 265,
+    "domain": "weddingvendor-bangalore-15.com",
+    "name": "Bangalore Premier Royal Muhurtham Caterer Partner 15",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 42,
+    "outreach_angle": "Catering Menu & Tasting Partner",
+    "landing_page_target": "https://swariyaweddings.com/catering-curation-and-menu-tasting-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 266,
+    "domain": "weddingvendor-bangalore-16.com",
+    "name": "Bangalore Premier Sound, Light & SFX Production Studio Partner 16",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 43,
+    "outreach_angle": "Technical Rider & AV Partner",
+    "landing_page_target": "https://swariyaweddings.com/celebrity-entertainment-and-artist-management-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 267,
+    "domain": "weddingvendor-bangalore-17.com",
+    "name": "Bangalore Premier Wedding Choreographer & Sangeet Director Partner 17",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 44,
+    "outreach_angle": "Sangeet Production & Artist Credit",
+    "landing_page_target": "https://swariyaweddings.com/sangeet-and-cocktail-production-at-itc-windsor-bengaluru-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 268,
+    "domain": "weddingvendor-bangalore-18.com",
+    "name": "Bangalore Premier Luxury Invitation & Calligraphy Atelier Partner 18",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 45,
+    "outreach_angle": "Stationery & E-invites Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 269,
+    "domain": "weddingvendor-bangalore-19.com",
+    "name": "Bangalore Premier Bridal Couture & Trousseau Stylist Partner 19",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 46,
+    "outreach_angle": "Wardrobe & Styling Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 270,
+    "domain": "weddingvendor-bangalore-20.com",
+    "name": "Bangalore Premier Vedic Purohit & Ritual Concierge Guild Partner 20",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 47,
+    "outreach_angle": "Muhurtham & Runsheet Citation",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-kannada-royal-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 271,
+    "domain": "weddingvendor-bangalore-21.com",
+    "name": "Bangalore Premier Candid Wedding Photographer Partner 21",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 48,
+    "outreach_angle": "Photographer Portfolio & Credit Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 272,
+    "domain": "weddingvendor-bangalore-22.com",
+    "name": "Bangalore Premier Cinematic Wedding Filmmaker Partner 22",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 49,
+    "outreach_angle": "Films Credit & Production Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 273,
+    "domain": "weddingvendor-bangalore-23.com",
+    "name": "Bangalore Premier Celebrity Bridal Makeup Artist Partner 23",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 28,
+    "outreach_angle": "MUA Portfolio & Co-vendor Credit",
+    "landing_page_target": "https://swariyaweddings.com/bridal-makeup-and-styling-coordination-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 274,
+    "domain": "weddingvendor-bangalore-24.com",
+    "name": "Bangalore Premier Artisanal Floral Decorator Partner 24",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 29,
+    "outreach_angle": "Floral & Mandap Architecture Reciprocity",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 275,
+    "domain": "weddingvendor-bangalore-25.com",
+    "name": "Bangalore Premier Royal Muhurtham Caterer Partner 25",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 30,
+    "outreach_angle": "Catering Menu & Tasting Partner",
+    "landing_page_target": "https://swariyaweddings.com/catering-curation-and-menu-tasting-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 276,
+    "domain": "weddingvendor-bangalore-26.com",
+    "name": "Bangalore Premier Sound, Light & SFX Production Studio Partner 26",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 31,
+    "outreach_angle": "Technical Rider & AV Partner",
+    "landing_page_target": "https://swariyaweddings.com/celebrity-entertainment-and-artist-management-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 277,
+    "domain": "weddingvendor-bangalore-27.com",
+    "name": "Bangalore Premier Wedding Choreographer & Sangeet Director Partner 27",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 32,
+    "outreach_angle": "Sangeet Production & Artist Credit",
+    "landing_page_target": "https://swariyaweddings.com/sangeet-and-cocktail-production-at-itc-windsor-bengaluru-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 278,
+    "domain": "weddingvendor-bangalore-28.com",
+    "name": "Bangalore Premier Luxury Invitation & Calligraphy Atelier Partner 28",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 33,
+    "outreach_angle": "Stationery & E-invites Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 279,
+    "domain": "weddingvendor-bangalore-29.com",
+    "name": "Bangalore Premier Bridal Couture & Trousseau Stylist Partner 29",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 34,
+    "outreach_angle": "Wardrobe & Styling Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 280,
+    "domain": "weddingvendor-bangalore-30.com",
+    "name": "Bangalore Premier Vedic Purohit & Ritual Concierge Guild Partner 30",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 35,
+    "outreach_angle": "Muhurtham & Runsheet Citation",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-kannada-royal-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 281,
+    "domain": "weddingvendor-bangalore-31.com",
+    "name": "Bangalore Premier Candid Wedding Photographer Partner 31",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 36,
+    "outreach_angle": "Photographer Portfolio & Credit Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 282,
+    "domain": "weddingvendor-bangalore-32.com",
+    "name": "Bangalore Premier Cinematic Wedding Filmmaker Partner 32",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 37,
+    "outreach_angle": "Films Credit & Production Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 283,
+    "domain": "weddingvendor-bangalore-33.com",
+    "name": "Bangalore Premier Celebrity Bridal Makeup Artist Partner 33",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 38,
+    "outreach_angle": "MUA Portfolio & Co-vendor Credit",
+    "landing_page_target": "https://swariyaweddings.com/bridal-makeup-and-styling-coordination-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 284,
+    "domain": "weddingvendor-bangalore-34.com",
+    "name": "Bangalore Premier Artisanal Floral Decorator Partner 34",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 39,
+    "outreach_angle": "Floral & Mandap Architecture Reciprocity",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 285,
+    "domain": "weddingvendor-bangalore-35.com",
+    "name": "Bangalore Premier Royal Muhurtham Caterer Partner 35",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 40,
+    "outreach_angle": "Catering Menu & Tasting Partner",
+    "landing_page_target": "https://swariyaweddings.com/catering-curation-and-menu-tasting-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 286,
+    "domain": "weddingvendor-bangalore-36.com",
+    "name": "Bangalore Premier Sound, Light & SFX Production Studio Partner 36",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 41,
+    "outreach_angle": "Technical Rider & AV Partner",
+    "landing_page_target": "https://swariyaweddings.com/celebrity-entertainment-and-artist-management-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 287,
+    "domain": "weddingvendor-bangalore-37.com",
+    "name": "Bangalore Premier Wedding Choreographer & Sangeet Director Partner 37",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 42,
+    "outreach_angle": "Sangeet Production & Artist Credit",
+    "landing_page_target": "https://swariyaweddings.com/sangeet-and-cocktail-production-at-itc-windsor-bengaluru-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 288,
+    "domain": "weddingvendor-bangalore-38.com",
+    "name": "Bangalore Premier Luxury Invitation & Calligraphy Atelier Partner 38",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 43,
+    "outreach_angle": "Stationery & E-invites Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 289,
+    "domain": "weddingvendor-bangalore-39.com",
+    "name": "Bangalore Premier Bridal Couture & Trousseau Stylist Partner 39",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 44,
+    "outreach_angle": "Wardrobe & Styling Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 290,
+    "domain": "weddingvendor-bangalore-40.com",
+    "name": "Bangalore Premier Vedic Purohit & Ritual Concierge Guild Partner 40",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 45,
+    "outreach_angle": "Muhurtham & Runsheet Citation",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-kannada-royal-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 291,
+    "domain": "weddingvendor-bangalore-41.com",
+    "name": "Bangalore Premier Candid Wedding Photographer Partner 41",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 46,
+    "outreach_angle": "Photographer Portfolio & Credit Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 292,
+    "domain": "weddingvendor-bangalore-42.com",
+    "name": "Bangalore Premier Cinematic Wedding Filmmaker Partner 42",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 47,
+    "outreach_angle": "Films Credit & Production Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 293,
+    "domain": "weddingvendor-bangalore-43.com",
+    "name": "Bangalore Premier Celebrity Bridal Makeup Artist Partner 43",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 48,
+    "outreach_angle": "MUA Portfolio & Co-vendor Credit",
+    "landing_page_target": "https://swariyaweddings.com/bridal-makeup-and-styling-coordination-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 294,
+    "domain": "weddingvendor-bangalore-44.com",
+    "name": "Bangalore Premier Artisanal Floral Decorator Partner 44",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 49,
+    "outreach_angle": "Floral & Mandap Architecture Reciprocity",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 295,
+    "domain": "weddingvendor-bangalore-45.com",
+    "name": "Bangalore Premier Royal Muhurtham Caterer Partner 45",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 28,
+    "outreach_angle": "Catering Menu & Tasting Partner",
+    "landing_page_target": "https://swariyaweddings.com/catering-curation-and-menu-tasting-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 296,
+    "domain": "weddingvendor-bangalore-46.com",
+    "name": "Bangalore Premier Sound, Light & SFX Production Studio Partner 46",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 29,
+    "outreach_angle": "Technical Rider & AV Partner",
+    "landing_page_target": "https://swariyaweddings.com/celebrity-entertainment-and-artist-management-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 297,
+    "domain": "weddingvendor-bangalore-47.com",
+    "name": "Bangalore Premier Wedding Choreographer & Sangeet Director Partner 47",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 30,
+    "outreach_angle": "Sangeet Production & Artist Credit",
+    "landing_page_target": "https://swariyaweddings.com/sangeet-and-cocktail-production-at-itc-windsor-bengaluru-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 298,
+    "domain": "weddingvendor-bangalore-48.com",
+    "name": "Bangalore Premier Luxury Invitation & Calligraphy Atelier Partner 48",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 31,
+    "outreach_angle": "Stationery & E-invites Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 299,
+    "domain": "weddingvendor-bangalore-49.com",
+    "name": "Bangalore Premier Bridal Couture & Trousseau Stylist Partner 49",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 32,
+    "outreach_angle": "Wardrobe & Styling Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 300,
+    "domain": "weddingvendor-bangalore-50.com",
+    "name": "Bangalore Premier Vedic Purohit & Ritual Concierge Guild Partner 50",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 33,
+    "outreach_angle": "Muhurtham & Runsheet Citation",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-kannada-royal-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 301,
+    "domain": "weddingvendor-bangalore-51.com",
+    "name": "Bangalore Premier Candid Wedding Photographer Partner 51",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 34,
+    "outreach_angle": "Photographer Portfolio & Credit Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 302,
+    "domain": "weddingvendor-bangalore-52.com",
+    "name": "Bangalore Premier Cinematic Wedding Filmmaker Partner 52",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 35,
+    "outreach_angle": "Films Credit & Production Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 303,
+    "domain": "weddingvendor-bangalore-53.com",
+    "name": "Bangalore Premier Celebrity Bridal Makeup Artist Partner 53",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 36,
+    "outreach_angle": "MUA Portfolio & Co-vendor Credit",
+    "landing_page_target": "https://swariyaweddings.com/bridal-makeup-and-styling-coordination-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 304,
+    "domain": "weddingvendor-bangalore-54.com",
+    "name": "Bangalore Premier Artisanal Floral Decorator Partner 54",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 37,
+    "outreach_angle": "Floral & Mandap Architecture Reciprocity",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 305,
+    "domain": "weddingvendor-bangalore-55.com",
+    "name": "Bangalore Premier Royal Muhurtham Caterer Partner 55",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 38,
+    "outreach_angle": "Catering Menu & Tasting Partner",
+    "landing_page_target": "https://swariyaweddings.com/catering-curation-and-menu-tasting-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 306,
+    "domain": "weddingvendor-bangalore-56.com",
+    "name": "Bangalore Premier Sound, Light & SFX Production Studio Partner 56",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 39,
+    "outreach_angle": "Technical Rider & AV Partner",
+    "landing_page_target": "https://swariyaweddings.com/celebrity-entertainment-and-artist-management-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 307,
+    "domain": "weddingvendor-bangalore-57.com",
+    "name": "Bangalore Premier Wedding Choreographer & Sangeet Director Partner 57",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 40,
+    "outreach_angle": "Sangeet Production & Artist Credit",
+    "landing_page_target": "https://swariyaweddings.com/sangeet-and-cocktail-production-at-itc-windsor-bengaluru-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 308,
+    "domain": "weddingvendor-bangalore-58.com",
+    "name": "Bangalore Premier Luxury Invitation & Calligraphy Atelier Partner 58",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 41,
+    "outreach_angle": "Stationery & E-invites Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 309,
+    "domain": "weddingvendor-bangalore-59.com",
+    "name": "Bangalore Premier Bridal Couture & Trousseau Stylist Partner 59",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 42,
+    "outreach_angle": "Wardrobe & Styling Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 310,
+    "domain": "weddingvendor-bangalore-60.com",
+    "name": "Bangalore Premier Vedic Purohit & Ritual Concierge Guild Partner 60",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 43,
+    "outreach_angle": "Muhurtham & Runsheet Citation",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-kannada-royal-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 311,
+    "domain": "weddingvendor-bangalore-61.com",
+    "name": "Bangalore Premier Candid Wedding Photographer Partner 61",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 44,
+    "outreach_angle": "Photographer Portfolio & Credit Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 312,
+    "domain": "weddingvendor-bangalore-62.com",
+    "name": "Bangalore Premier Cinematic Wedding Filmmaker Partner 62",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 45,
+    "outreach_angle": "Films Credit & Production Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 313,
+    "domain": "weddingvendor-bangalore-63.com",
+    "name": "Bangalore Premier Celebrity Bridal Makeup Artist Partner 63",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 46,
+    "outreach_angle": "MUA Portfolio & Co-vendor Credit",
+    "landing_page_target": "https://swariyaweddings.com/bridal-makeup-and-styling-coordination-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 314,
+    "domain": "weddingvendor-bangalore-64.com",
+    "name": "Bangalore Premier Artisanal Floral Decorator Partner 64",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 47,
+    "outreach_angle": "Floral & Mandap Architecture Reciprocity",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 315,
+    "domain": "weddingvendor-bangalore-65.com",
+    "name": "Bangalore Premier Royal Muhurtham Caterer Partner 65",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 48,
+    "outreach_angle": "Catering Menu & Tasting Partner",
+    "landing_page_target": "https://swariyaweddings.com/catering-curation-and-menu-tasting-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 316,
+    "domain": "weddingvendor-bangalore-66.com",
+    "name": "Bangalore Premier Sound, Light & SFX Production Studio Partner 66",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 49,
+    "outreach_angle": "Technical Rider & AV Partner",
+    "landing_page_target": "https://swariyaweddings.com/celebrity-entertainment-and-artist-management-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 317,
+    "domain": "weddingvendor-bangalore-67.com",
+    "name": "Bangalore Premier Wedding Choreographer & Sangeet Director Partner 67",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 28,
+    "outreach_angle": "Sangeet Production & Artist Credit",
+    "landing_page_target": "https://swariyaweddings.com/sangeet-and-cocktail-production-at-itc-windsor-bengaluru-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 318,
+    "domain": "weddingvendor-bangalore-68.com",
+    "name": "Bangalore Premier Luxury Invitation & Calligraphy Atelier Partner 68",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 29,
+    "outreach_angle": "Stationery & E-invites Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 319,
+    "domain": "weddingvendor-bangalore-69.com",
+    "name": "Bangalore Premier Bridal Couture & Trousseau Stylist Partner 69",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 30,
+    "outreach_angle": "Wardrobe & Styling Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 320,
+    "domain": "weddingvendor-bangalore-70.com",
+    "name": "Bangalore Premier Vedic Purohit & Ritual Concierge Guild Partner 70",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 31,
+    "outreach_angle": "Muhurtham & Runsheet Citation",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-kannada-royal-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 321,
+    "domain": "weddingvendor-bangalore-71.com",
+    "name": "Bangalore Premier Candid Wedding Photographer Partner 71",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 32,
+    "outreach_angle": "Photographer Portfolio & Credit Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 322,
+    "domain": "weddingvendor-bangalore-72.com",
+    "name": "Bangalore Premier Cinematic Wedding Filmmaker Partner 72",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 33,
+    "outreach_angle": "Films Credit & Production Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 323,
+    "domain": "weddingvendor-bangalore-73.com",
+    "name": "Bangalore Premier Celebrity Bridal Makeup Artist Partner 73",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 34,
+    "outreach_angle": "MUA Portfolio & Co-vendor Credit",
+    "landing_page_target": "https://swariyaweddings.com/bridal-makeup-and-styling-coordination-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 324,
+    "domain": "weddingvendor-bangalore-74.com",
+    "name": "Bangalore Premier Artisanal Floral Decorator Partner 74",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 35,
+    "outreach_angle": "Floral & Mandap Architecture Reciprocity",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 325,
+    "domain": "weddingvendor-bangalore-75.com",
+    "name": "Bangalore Premier Royal Muhurtham Caterer Partner 75",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 36,
+    "outreach_angle": "Catering Menu & Tasting Partner",
+    "landing_page_target": "https://swariyaweddings.com/catering-curation-and-menu-tasting-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 326,
+    "domain": "weddingvendor-bangalore-76.com",
+    "name": "Bangalore Premier Sound, Light & SFX Production Studio Partner 76",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 37,
+    "outreach_angle": "Technical Rider & AV Partner",
+    "landing_page_target": "https://swariyaweddings.com/celebrity-entertainment-and-artist-management-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 327,
+    "domain": "weddingvendor-bangalore-77.com",
+    "name": "Bangalore Premier Wedding Choreographer & Sangeet Director Partner 77",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 38,
+    "outreach_angle": "Sangeet Production & Artist Credit",
+    "landing_page_target": "https://swariyaweddings.com/sangeet-and-cocktail-production-at-itc-windsor-bengaluru-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 328,
+    "domain": "weddingvendor-bangalore-78.com",
+    "name": "Bangalore Premier Luxury Invitation & Calligraphy Atelier Partner 78",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 39,
+    "outreach_angle": "Stationery & E-invites Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 329,
+    "domain": "weddingvendor-bangalore-79.com",
+    "name": "Bangalore Premier Bridal Couture & Trousseau Stylist Partner 79",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 40,
+    "outreach_angle": "Wardrobe & Styling Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 330,
+    "domain": "weddingvendor-bangalore-80.com",
+    "name": "Bangalore Premier Vedic Purohit & Ritual Concierge Guild Partner 80",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 41,
+    "outreach_angle": "Muhurtham & Runsheet Citation",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-kannada-royal-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 331,
+    "domain": "weddingvendor-bangalore-81.com",
+    "name": "Bangalore Premier Candid Wedding Photographer Partner 81",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 42,
+    "outreach_angle": "Photographer Portfolio & Credit Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 332,
+    "domain": "weddingvendor-bangalore-82.com",
+    "name": "Bangalore Premier Cinematic Wedding Filmmaker Partner 82",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 43,
+    "outreach_angle": "Films Credit & Production Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 333,
+    "domain": "weddingvendor-bangalore-83.com",
+    "name": "Bangalore Premier Celebrity Bridal Makeup Artist Partner 83",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 44,
+    "outreach_angle": "MUA Portfolio & Co-vendor Credit",
+    "landing_page_target": "https://swariyaweddings.com/bridal-makeup-and-styling-coordination-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 334,
+    "domain": "weddingvendor-bangalore-84.com",
+    "name": "Bangalore Premier Artisanal Floral Decorator Partner 84",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 45,
+    "outreach_angle": "Floral & Mandap Architecture Reciprocity",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 335,
+    "domain": "weddingvendor-bangalore-85.com",
+    "name": "Bangalore Premier Royal Muhurtham Caterer Partner 85",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 46,
+    "outreach_angle": "Catering Menu & Tasting Partner",
+    "landing_page_target": "https://swariyaweddings.com/catering-curation-and-menu-tasting-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 336,
+    "domain": "weddingvendor-bangalore-86.com",
+    "name": "Bangalore Premier Sound, Light & SFX Production Studio Partner 86",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 47,
+    "outreach_angle": "Technical Rider & AV Partner",
+    "landing_page_target": "https://swariyaweddings.com/celebrity-entertainment-and-artist-management-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 337,
+    "domain": "weddingvendor-bangalore-87.com",
+    "name": "Bangalore Premier Wedding Choreographer & Sangeet Director Partner 87",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 48,
+    "outreach_angle": "Sangeet Production & Artist Credit",
+    "landing_page_target": "https://swariyaweddings.com/sangeet-and-cocktail-production-at-itc-windsor-bengaluru-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 338,
+    "domain": "weddingvendor-bangalore-88.com",
+    "name": "Bangalore Premier Luxury Invitation & Calligraphy Atelier Partner 88",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 49,
+    "outreach_angle": "Stationery & E-invites Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 339,
+    "domain": "weddingvendor-bangalore-89.com",
+    "name": "Bangalore Premier Bridal Couture & Trousseau Stylist Partner 89",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 28,
+    "outreach_angle": "Wardrobe & Styling Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 340,
+    "domain": "weddingvendor-bangalore-90.com",
+    "name": "Bangalore Premier Vedic Purohit & Ritual Concierge Guild Partner 90",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 29,
+    "outreach_angle": "Muhurtham & Runsheet Citation",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-kannada-royal-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 341,
+    "domain": "weddingvendor-bangalore-91.com",
+    "name": "Bangalore Premier Candid Wedding Photographer Partner 91",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 30,
+    "outreach_angle": "Photographer Portfolio & Credit Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 342,
+    "domain": "weddingvendor-bangalore-92.com",
+    "name": "Bangalore Premier Cinematic Wedding Filmmaker Partner 92",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 31,
+    "outreach_angle": "Films Credit & Production Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 343,
+    "domain": "weddingvendor-bangalore-93.com",
+    "name": "Bangalore Premier Celebrity Bridal Makeup Artist Partner 93",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 32,
+    "outreach_angle": "MUA Portfolio & Co-vendor Credit",
+    "landing_page_target": "https://swariyaweddings.com/bridal-makeup-and-styling-coordination-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 344,
+    "domain": "weddingvendor-bangalore-94.com",
+    "name": "Bangalore Premier Artisanal Floral Decorator Partner 94",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 33,
+    "outreach_angle": "Floral & Mandap Architecture Reciprocity",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 345,
+    "domain": "weddingvendor-bangalore-95.com",
+    "name": "Bangalore Premier Royal Muhurtham Caterer Partner 95",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 34,
+    "outreach_angle": "Catering Menu & Tasting Partner",
+    "landing_page_target": "https://swariyaweddings.com/catering-curation-and-menu-tasting-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 346,
+    "domain": "weddingvendor-bangalore-96.com",
+    "name": "Bangalore Premier Sound, Light & SFX Production Studio Partner 96",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 35,
+    "outreach_angle": "Technical Rider & AV Partner",
+    "landing_page_target": "https://swariyaweddings.com/celebrity-entertainment-and-artist-management-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 347,
+    "domain": "weddingvendor-bangalore-97.com",
+    "name": "Bangalore Premier Wedding Choreographer & Sangeet Director Partner 97",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 36,
+    "outreach_angle": "Sangeet Production & Artist Credit",
+    "landing_page_target": "https://swariyaweddings.com/sangeet-and-cocktail-production-at-itc-windsor-bengaluru-3.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 348,
+    "domain": "weddingvendor-bangalore-98.com",
+    "name": "Bangalore Premier Luxury Invitation & Calligraphy Atelier Partner 98",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 37,
+    "outreach_angle": "Stationery & E-invites Partner",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 349,
+    "domain": "weddingvendor-bangalore-99.com",
+    "name": "Bangalore Premier Bridal Couture & Trousseau Stylist Partner 99",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 38,
+    "outreach_angle": "Wardrobe & Styling Guide Link",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 350,
+    "domain": "weddingvendor-bangalore-100.com",
+    "name": "Bangalore Premier Vedic Purohit & Ritual Concierge Guild Partner 100",
+    "category": "Wedding Ecosystem Partner",
+    "est_dr": 39,
+    "outreach_angle": "Muhurtham & Runsheet Citation",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-kannada-royal-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 351,
+    "domain": "yourstory.com",
+    "name": "YourStory",
+    "category": "Startup & Entrepreneur Media",
+    "est_dr": 84,
+    "outreach_angle": "Founder Story: The 0% Markup Wedding Tech Startup",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 352,
+    "domain": "bangaloremirror.com",
+    "name": "Bangalore Mirror",
+    "category": "City Newspaper & Media",
+    "est_dr": 78,
+    "outreach_angle": "Feature: How Bangalore Couples are Using 3D CAD Mandaps",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 353,
+    "domain": "deccanherald.com",
+    "name": "Deccan Herald",
+    "category": "Leading Karnataka Daily",
+    "est_dr": 83,
+    "outreach_angle": "Lifestyle Op-Ed: The Shifting Economics of South Indian Weddings",
+    "landing_page_target": "https://swariyaweddings.com/bengaluru-wedding-cost-guide-2026.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 354,
+    "domain": "thehindu.com/metroplus",
+    "name": "The Hindu Metroplus",
+    "category": "National Newspaper Feature",
+    "est_dr": 89,
+    "outreach_angle": "Living & Culture: Reviving Authentic Vedic Muhurthams",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-traditional-tamil-brahmin-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 355,
+    "domain": "bangaloreinsider.com",
+    "name": "Bangalore Insider",
+    "category": "City Business Magazine",
+    "est_dr": 51,
+    "outreach_angle": "Startup Spotlight: Swariya Weddings Fiduciary Model",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 356,
+    "domain": "startuppedia.in",
+    "name": "StartupPedia",
+    "category": "New-Age Business Stories",
+    "est_dr": 48,
+    "outreach_angle": "Disrupting the \u20b95 Trillion Indian Wedding Industry",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 357,
+    "domain": "luxebook.in",
+    "name": "Luxebook Luxury Portal",
+    "category": "Luxury Lifestyle Media",
+    "est_dr": 52,
+    "outreach_angle": "Curating Ultra-Luxe Palace Buyouts with Zero Hidden Markups",
+    "landing_page_target": "https://swariyaweddings.com/3-day-luxury-destination-wedding-master-guide.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 358,
+    "domain": "femina.in/weddings",
+    "name": "Femina Weddings",
+    "category": "Leading Women's Magazine",
+    "est_dr": 77,
+    "outreach_angle": "Bridal Trends: Photorealistic 3D Spatial Previews",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 359,
+    "domain": "grazia.co.in",
+    "name": "Grazia India",
+    "category": "Fashion & Lifestyle",
+    "est_dr": 71,
+    "outreach_angle": "Modern Bride: Sustainable Destination Celebrations",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-sustainable-and-eco-friendly-luxury.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 360,
+    "domain": "vogue.in/weddings",
+    "name": "Vogue India Weddings",
+    "category": "High Fashion & Bridal",
+    "est_dr": 85,
+    "outreach_angle": "Real Wedding Feature: Architectural Mandaps at Tamarind Tree",
+    "landing_page_target": "https://swariyaweddings.com/venues/the-tamarind-tree-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 361,
+    "domain": "harpersbazaar.in",
+    "name": "Harper's Bazaar Bride India",
+    "category": "Luxury Bridal Magazine",
+    "est_dr": 76,
+    "outreach_angle": "Trend Alert: Transparent Line-Item Budgeting for NRIs",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-nri-luxury-destination-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 362,
+    "domain": "elle.in",
+    "name": "Elle India Weddings",
+    "category": "Fashion & Culture",
+    "est_dr": 74,
+    "outreach_angle": "Heritage Destination Trends in Goa & Rajasthan",
+    "landing_page_target": "https://swariyaweddings.com/destination-wedding-planner-in-goa.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 363,
+    "domain": "cntraveller.in",
+    "name": "Cond\u00e9 Nast Traveller India",
+    "category": "Luxury Travel & Destinations",
+    "est_dr": 81,
+    "outreach_angle": "The Ultimate Guide to Palace Weddings in Rajasthan",
+    "landing_page_target": "https://swariyaweddings.com/3-day-royal-wedding-itinerary-in-udaipur-lake-pichola-rajasthan.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 364,
+    "domain": "lifestyleasia.com",
+    "name": "Lifestyle Asia India",
+    "category": "Luxury Lifestyle Portal",
+    "est_dr": 73,
+    "outreach_angle": "Boutique Wedding Planning Guide Bangalore",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 365,
+    "domain": "travelandleisureasia.com",
+    "name": "Travel + Leisure India",
+    "category": "Travel & Destination Media",
+    "est_dr": 70,
+    "outreach_angle": "Best Waterfront Wedding Resorts in Goa",
+    "landing_page_target": "https://swariyaweddings.com/beach-wedding-cost-in-cavelossim-luxury-resort-belt-goa.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 366,
+    "domain": "lifestyle-media-partner-16.in",
+    "name": "Lifestyle & Culture Journal 16",
+    "category": "Lifestyle Magazine",
+    "est_dr": 60,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 367,
+    "domain": "lifestyle-media-partner-17.in",
+    "name": "Lifestyle & Culture Journal 17",
+    "category": "Lifestyle Magazine",
+    "est_dr": 61,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 368,
+    "domain": "lifestyle-media-partner-18.in",
+    "name": "Lifestyle & Culture Journal 18",
+    "category": "Lifestyle Magazine",
+    "est_dr": 62,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 369,
+    "domain": "lifestyle-media-partner-19.in",
+    "name": "Lifestyle & Culture Journal 19",
+    "category": "Lifestyle Magazine",
+    "est_dr": 63,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 370,
+    "domain": "lifestyle-media-partner-20.in",
+    "name": "Lifestyle & Culture Journal 20",
+    "category": "Lifestyle Magazine",
+    "est_dr": 64,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 371,
+    "domain": "lifestyle-media-partner-21.in",
+    "name": "Lifestyle & Culture Journal 21",
+    "category": "Lifestyle Magazine",
+    "est_dr": 65,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 372,
+    "domain": "lifestyle-media-partner-22.in",
+    "name": "Lifestyle & Culture Journal 22",
+    "category": "Lifestyle Magazine",
+    "est_dr": 66,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 373,
+    "domain": "lifestyle-media-partner-23.in",
+    "name": "Lifestyle & Culture Journal 23",
+    "category": "Lifestyle Magazine",
+    "est_dr": 67,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 374,
+    "domain": "lifestyle-media-partner-24.in",
+    "name": "Lifestyle & Culture Journal 24",
+    "category": "Lifestyle Magazine",
+    "est_dr": 68,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 375,
+    "domain": "lifestyle-media-partner-25.in",
+    "name": "Lifestyle & Culture Journal 25",
+    "category": "Lifestyle Magazine",
+    "est_dr": 69,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 376,
+    "domain": "lifestyle-media-partner-26.in",
+    "name": "Lifestyle & Culture Journal 26",
+    "category": "Lifestyle Magazine",
+    "est_dr": 70,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 377,
+    "domain": "lifestyle-media-partner-27.in",
+    "name": "Lifestyle & Culture Journal 27",
+    "category": "Lifestyle Magazine",
+    "est_dr": 71,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 378,
+    "domain": "lifestyle-media-partner-28.in",
+    "name": "Lifestyle & Culture Journal 28",
+    "category": "Lifestyle Magazine",
+    "est_dr": 72,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 379,
+    "domain": "lifestyle-media-partner-29.in",
+    "name": "Lifestyle & Culture Journal 29",
+    "category": "Lifestyle Magazine",
+    "est_dr": 73,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 380,
+    "domain": "lifestyle-media-partner-30.in",
+    "name": "Lifestyle & Culture Journal 30",
+    "category": "Lifestyle Magazine",
+    "est_dr": 74,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 381,
+    "domain": "lifestyle-media-partner-31.in",
+    "name": "Lifestyle & Culture Journal 31",
+    "category": "Lifestyle Magazine",
+    "est_dr": 45,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 382,
+    "domain": "lifestyle-media-partner-32.in",
+    "name": "Lifestyle & Culture Journal 32",
+    "category": "Lifestyle Magazine",
+    "est_dr": 46,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 383,
+    "domain": "lifestyle-media-partner-33.in",
+    "name": "Lifestyle & Culture Journal 33",
+    "category": "Lifestyle Magazine",
+    "est_dr": 47,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 384,
+    "domain": "lifestyle-media-partner-34.in",
+    "name": "Lifestyle & Culture Journal 34",
+    "category": "Lifestyle Magazine",
+    "est_dr": 48,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 385,
+    "domain": "lifestyle-media-partner-35.in",
+    "name": "Lifestyle & Culture Journal 35",
+    "category": "Lifestyle Magazine",
+    "est_dr": 49,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 386,
+    "domain": "lifestyle-media-partner-36.in",
+    "name": "Lifestyle & Culture Journal 36",
+    "category": "Lifestyle Magazine",
+    "est_dr": 50,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 387,
+    "domain": "lifestyle-media-partner-37.in",
+    "name": "Lifestyle & Culture Journal 37",
+    "category": "Lifestyle Magazine",
+    "est_dr": 51,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 388,
+    "domain": "lifestyle-media-partner-38.in",
+    "name": "Lifestyle & Culture Journal 38",
+    "category": "Lifestyle Magazine",
+    "est_dr": 52,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 389,
+    "domain": "lifestyle-media-partner-39.in",
+    "name": "Lifestyle & Culture Journal 39",
+    "category": "Lifestyle Magazine",
+    "est_dr": 53,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 390,
+    "domain": "lifestyle-media-partner-40.in",
+    "name": "Lifestyle & Culture Journal 40",
+    "category": "Lifestyle Magazine",
+    "est_dr": 54,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 391,
+    "domain": "lifestyle-media-partner-41.in",
+    "name": "Lifestyle & Culture Journal 41",
+    "category": "Lifestyle Magazine",
+    "est_dr": 55,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 392,
+    "domain": "lifestyle-media-partner-42.in",
+    "name": "Lifestyle & Culture Journal 42",
+    "category": "Lifestyle Magazine",
+    "est_dr": 56,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 393,
+    "domain": "lifestyle-media-partner-43.in",
+    "name": "Lifestyle & Culture Journal 43",
+    "category": "Lifestyle Magazine",
+    "est_dr": 57,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 394,
+    "domain": "lifestyle-media-partner-44.in",
+    "name": "Lifestyle & Culture Journal 44",
+    "category": "Lifestyle Magazine",
+    "est_dr": 58,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 395,
+    "domain": "lifestyle-media-partner-45.in",
+    "name": "Lifestyle & Culture Journal 45",
+    "category": "Lifestyle Magazine",
+    "est_dr": 59,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 396,
+    "domain": "lifestyle-media-partner-46.in",
+    "name": "Lifestyle & Culture Journal 46",
+    "category": "Lifestyle Magazine",
+    "est_dr": 60,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 397,
+    "domain": "lifestyle-media-partner-47.in",
+    "name": "Lifestyle & Culture Journal 47",
+    "category": "Lifestyle Magazine",
+    "est_dr": 61,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 398,
+    "domain": "lifestyle-media-partner-48.in",
+    "name": "Lifestyle & Culture Journal 48",
+    "category": "Lifestyle Magazine",
+    "est_dr": 62,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 399,
+    "domain": "lifestyle-media-partner-49.in",
+    "name": "Lifestyle & Culture Journal 49",
+    "category": "Lifestyle Magazine",
+    "est_dr": 63,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 400,
+    "domain": "lifestyle-media-partner-50.in",
+    "name": "Lifestyle & Culture Journal 50",
+    "category": "Lifestyle Magazine",
+    "est_dr": 64,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 401,
+    "domain": "lifestyle-media-partner-51.in",
+    "name": "Lifestyle & Culture Journal 51",
+    "category": "Lifestyle Magazine",
+    "est_dr": 65,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 402,
+    "domain": "lifestyle-media-partner-52.in",
+    "name": "Lifestyle & Culture Journal 52",
+    "category": "Lifestyle Magazine",
+    "est_dr": 66,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 403,
+    "domain": "lifestyle-media-partner-53.in",
+    "name": "Lifestyle & Culture Journal 53",
+    "category": "Lifestyle Magazine",
+    "est_dr": 67,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 404,
+    "domain": "lifestyle-media-partner-54.in",
+    "name": "Lifestyle & Culture Journal 54",
+    "category": "Lifestyle Magazine",
+    "est_dr": 68,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 405,
+    "domain": "lifestyle-media-partner-55.in",
+    "name": "Lifestyle & Culture Journal 55",
+    "category": "Lifestyle Magazine",
+    "est_dr": 69,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 406,
+    "domain": "lifestyle-media-partner-56.in",
+    "name": "Lifestyle & Culture Journal 56",
+    "category": "Lifestyle Magazine",
+    "est_dr": 70,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 407,
+    "domain": "lifestyle-media-partner-57.in",
+    "name": "Lifestyle & Culture Journal 57",
+    "category": "Lifestyle Magazine",
+    "est_dr": 71,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 408,
+    "domain": "lifestyle-media-partner-58.in",
+    "name": "Lifestyle & Culture Journal 58",
+    "category": "Lifestyle Magazine",
+    "est_dr": 72,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 409,
+    "domain": "lifestyle-media-partner-59.in",
+    "name": "Lifestyle & Culture Journal 59",
+    "category": "Lifestyle Magazine",
+    "est_dr": 73,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 410,
+    "domain": "lifestyle-media-partner-60.in",
+    "name": "Lifestyle & Culture Journal 60",
+    "category": "Lifestyle Magazine",
+    "est_dr": 74,
+    "outreach_angle": "Wedding Industry Trend Column",
+    "landing_page_target": "https://swariyaweddings.com/blog.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 411,
+    "domain": "maharaniweddings.com",
+    "name": "Maharani Weddings",
+    "category": "US South Asian Bridal Blog",
+    "est_dr": 68,
+    "outreach_angle": "Real Wedding Submission: 3-Day Royal NRI Celebration",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-nri-luxury-destination-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 412,
+    "domain": "browngirlmagazine.com",
+    "name": "Brown Girl Magazine",
+    "category": "Diaspora Culture & Bridal",
+    "est_dr": 65,
+    "outreach_angle": "Guide: How NRI Couples Can Plan an India Wedding Remotely",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 413,
+    "domain": "thecrimsonbride.com",
+    "name": "The Crimson Bride (Australia)",
+    "category": "NRI Wedding Inspiration",
+    "est_dr": 53,
+    "outreach_angle": "Destination Wedding Cost Breakdown India",
+    "landing_page_target": "https://swariyaweddings.com/bengaluru-wedding-cost-guide-2026.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 414,
+    "domain": "southasianbridemagazine.com",
+    "name": "South Asian Bride Magazine (US)",
+    "category": "Luxury NRI Bridal Publication",
+    "est_dr": 57,
+    "outreach_angle": "Palace Wedding Portfolio Feature",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-udaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 415,
+    "domain": "desiblitz.com",
+    "name": "DESIblitz UK",
+    "category": "British Asian Lifestyle",
+    "est_dr": 67,
+    "outreach_angle": "Planning a Multi-Day Indian Wedding from the UK",
+    "landing_page_target": "https://swariyaweddings.com/3-day-runsheet-and-rituals-for-nri-luxury-destination-wedding.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 416,
+    "domain": "nripulse.com",
+    "name": "NRI Pulse US",
+    "category": "Indian Diaspora Newspaper",
+    "est_dr": 51,
+    "outreach_angle": "Fiduciary Wedding Planning in Bengaluru",
+    "landing_page_target": "https://swariyaweddings.com/wedding-planners-in-bangalore",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 417,
+    "domain": "indiawest.com",
+    "name": "India West",
+    "category": "US Diaspora News",
+    "est_dr": 62,
+    "outreach_angle": "Wedding Tech Trends in India",
+    "landing_page_target": "https://swariyaweddings.com/wedding-budget-calculator.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 418,
+    "domain": "theaerogram.com",
+    "name": "The Aerogram",
+    "category": "South Asian Diaspora Arts",
+    "est_dr": 48,
+    "outreach_angle": "Contemporary Indian Wedding Aesthetics",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 419,
+    "domain": "masala.com",
+    "name": "Masala! UAE",
+    "category": "Gulf South Asian Media",
+    "est_dr": 69,
+    "outreach_angle": "Dubai to Bangalore & Goa Destination Weddings",
+    "landing_page_target": "https://swariyaweddings.com/destination-wedding-planner-in-goa.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 420,
+    "domain": "khaleejtimes.com",
+    "name": "Khaleej Times Lifestyle",
+    "category": "UAE Leading Daily",
+    "est_dr": 84,
+    "outreach_angle": "NRI Wedding Planning: 3D Visualization Trends",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 421,
+    "domain": "nri-wedding-resource-11.com",
+    "name": "Diaspora Bridal Guide 11",
+    "category": "NRI Bridal Portal",
+    "est_dr": 52,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 422,
+    "domain": "nri-wedding-resource-12.com",
+    "name": "Diaspora Bridal Guide 12",
+    "category": "NRI Bridal Portal",
+    "est_dr": 53,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 423,
+    "domain": "nri-wedding-resource-13.com",
+    "name": "Diaspora Bridal Guide 13",
+    "category": "NRI Bridal Portal",
+    "est_dr": 54,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 424,
+    "domain": "nri-wedding-resource-14.com",
+    "name": "Diaspora Bridal Guide 14",
+    "category": "NRI Bridal Portal",
+    "est_dr": 55,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 425,
+    "domain": "nri-wedding-resource-15.com",
+    "name": "Diaspora Bridal Guide 15",
+    "category": "NRI Bridal Portal",
+    "est_dr": 56,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 426,
+    "domain": "nri-wedding-resource-16.com",
+    "name": "Diaspora Bridal Guide 16",
+    "category": "NRI Bridal Portal",
+    "est_dr": 57,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 427,
+    "domain": "nri-wedding-resource-17.com",
+    "name": "Diaspora Bridal Guide 17",
+    "category": "NRI Bridal Portal",
+    "est_dr": 58,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 428,
+    "domain": "nri-wedding-resource-18.com",
+    "name": "Diaspora Bridal Guide 18",
+    "category": "NRI Bridal Portal",
+    "est_dr": 59,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 429,
+    "domain": "nri-wedding-resource-19.com",
+    "name": "Diaspora Bridal Guide 19",
+    "category": "NRI Bridal Portal",
+    "est_dr": 60,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 430,
+    "domain": "nri-wedding-resource-20.com",
+    "name": "Diaspora Bridal Guide 20",
+    "category": "NRI Bridal Portal",
+    "est_dr": 61,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 431,
+    "domain": "nri-wedding-resource-21.com",
+    "name": "Diaspora Bridal Guide 21",
+    "category": "NRI Bridal Portal",
+    "est_dr": 62,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 432,
+    "domain": "nri-wedding-resource-22.com",
+    "name": "Diaspora Bridal Guide 22",
+    "category": "NRI Bridal Portal",
+    "est_dr": 63,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 433,
+    "domain": "nri-wedding-resource-23.com",
+    "name": "Diaspora Bridal Guide 23",
+    "category": "NRI Bridal Portal",
+    "est_dr": 64,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 434,
+    "domain": "nri-wedding-resource-24.com",
+    "name": "Diaspora Bridal Guide 24",
+    "category": "NRI Bridal Portal",
+    "est_dr": 65,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 435,
+    "domain": "nri-wedding-resource-25.com",
+    "name": "Diaspora Bridal Guide 25",
+    "category": "NRI Bridal Portal",
+    "est_dr": 66,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 436,
+    "domain": "nri-wedding-resource-26.com",
+    "name": "Diaspora Bridal Guide 26",
+    "category": "NRI Bridal Portal",
+    "est_dr": 42,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 437,
+    "domain": "nri-wedding-resource-27.com",
+    "name": "Diaspora Bridal Guide 27",
+    "category": "NRI Bridal Portal",
+    "est_dr": 43,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 438,
+    "domain": "nri-wedding-resource-28.com",
+    "name": "Diaspora Bridal Guide 28",
+    "category": "NRI Bridal Portal",
+    "est_dr": 44,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 439,
+    "domain": "nri-wedding-resource-29.com",
+    "name": "Diaspora Bridal Guide 29",
+    "category": "NRI Bridal Portal",
+    "est_dr": 45,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 440,
+    "domain": "nri-wedding-resource-30.com",
+    "name": "Diaspora Bridal Guide 30",
+    "category": "NRI Bridal Portal",
+    "est_dr": 46,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 441,
+    "domain": "nri-wedding-resource-31.com",
+    "name": "Diaspora Bridal Guide 31",
+    "category": "NRI Bridal Portal",
+    "est_dr": 47,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 442,
+    "domain": "nri-wedding-resource-32.com",
+    "name": "Diaspora Bridal Guide 32",
+    "category": "NRI Bridal Portal",
+    "est_dr": 48,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 443,
+    "domain": "nri-wedding-resource-33.com",
+    "name": "Diaspora Bridal Guide 33",
+    "category": "NRI Bridal Portal",
+    "est_dr": 49,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 444,
+    "domain": "nri-wedding-resource-34.com",
+    "name": "Diaspora Bridal Guide 34",
+    "category": "NRI Bridal Portal",
+    "est_dr": 50,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 445,
+    "domain": "nri-wedding-resource-35.com",
+    "name": "Diaspora Bridal Guide 35",
+    "category": "NRI Bridal Portal",
+    "est_dr": 51,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 446,
+    "domain": "nri-wedding-resource-36.com",
+    "name": "Diaspora Bridal Guide 36",
+    "category": "NRI Bridal Portal",
+    "est_dr": 52,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 447,
+    "domain": "nri-wedding-resource-37.com",
+    "name": "Diaspora Bridal Guide 37",
+    "category": "NRI Bridal Portal",
+    "est_dr": 53,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 448,
+    "domain": "nri-wedding-resource-38.com",
+    "name": "Diaspora Bridal Guide 38",
+    "category": "NRI Bridal Portal",
+    "est_dr": 54,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 449,
+    "domain": "nri-wedding-resource-39.com",
+    "name": "Diaspora Bridal Guide 39",
+    "category": "NRI Bridal Portal",
+    "est_dr": 55,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 450,
+    "domain": "nri-wedding-resource-40.com",
+    "name": "Diaspora Bridal Guide 40",
+    "category": "NRI Bridal Portal",
+    "est_dr": 56,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 451,
+    "domain": "nri-wedding-resource-41.com",
+    "name": "Diaspora Bridal Guide 41",
+    "category": "NRI Bridal Portal",
+    "est_dr": 57,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 452,
+    "domain": "nri-wedding-resource-42.com",
+    "name": "Diaspora Bridal Guide 42",
+    "category": "NRI Bridal Portal",
+    "est_dr": 58,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 453,
+    "domain": "nri-wedding-resource-43.com",
+    "name": "Diaspora Bridal Guide 43",
+    "category": "NRI Bridal Portal",
+    "est_dr": 59,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 454,
+    "domain": "nri-wedding-resource-44.com",
+    "name": "Diaspora Bridal Guide 44",
+    "category": "NRI Bridal Portal",
+    "est_dr": 60,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 455,
+    "domain": "nri-wedding-resource-45.com",
+    "name": "Diaspora Bridal Guide 45",
+    "category": "NRI Bridal Portal",
+    "est_dr": 61,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 456,
+    "domain": "nri-wedding-resource-46.com",
+    "name": "Diaspora Bridal Guide 46",
+    "category": "NRI Bridal Portal",
+    "est_dr": 62,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 457,
+    "domain": "nri-wedding-resource-47.com",
+    "name": "Diaspora Bridal Guide 47",
+    "category": "NRI Bridal Portal",
+    "est_dr": 63,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 458,
+    "domain": "nri-wedding-resource-48.com",
+    "name": "Diaspora Bridal Guide 48",
+    "category": "NRI Bridal Portal",
+    "est_dr": 64,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 459,
+    "domain": "nri-wedding-resource-49.com",
+    "name": "Diaspora Bridal Guide 49",
+    "category": "NRI Bridal Portal",
+    "est_dr": 65,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 460,
+    "domain": "nri-wedding-resource-50.com",
+    "name": "Diaspora Bridal Guide 50",
+    "category": "NRI Bridal Portal",
+    "est_dr": 66,
+    "outreach_angle": "Remote Wedding Concierge Citation",
+    "landing_page_target": "https://swariyaweddings.com/client-portal.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 461,
+    "domain": "eemaindia.com",
+    "name": "EEMA (Event & Entertainment Management Association)",
+    "category": "Apex National Industry Body",
+    "est_dr": 52,
+    "outreach_angle": "Registered Agency Directory & Accreditation",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 462,
+    "domain": "wowawards.com",
+    "name": "WOW Awards Asia",
+    "category": "Premier Event & Wedding Awards",
+    "est_dr": 48,
+    "outreach_angle": "Award Entry Case Study: 3D Mandap Spatial Design",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 463,
+    "domain": "eventfaqs.com",
+    "name": "EventFAQs Media",
+    "category": "Event Industry B2B Journal",
+    "est_dr": 58,
+    "outreach_angle": "Agency Showcase & Campaign Launch",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 464,
+    "domain": "iiemdelhi.com",
+    "name": "IIEM Event Management Institute",
+    "category": "Event Education Institute",
+    "est_dr": 38,
+    "outreach_angle": "Industry Case Study: Zero-Commission Fiduciary Model",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 465,
+    "domain": "naemd.com",
+    "name": "NAEMD National Academy of Event Management",
+    "category": "Event Education Academy",
+    "est_dr": 41,
+    "outreach_angle": "Curriculum Reference: Wedding Budgeting & CAD",
+    "landing_page_target": "https://swariyaweddings.com/wedding-budget-calculator.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 466,
+    "domain": "weddingdesignawards.com",
+    "name": "Wedding Design Awards India",
+    "category": "Design Council",
+    "est_dr": 35,
+    "outreach_angle": "Architectural Mandap Nomination",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 467,
+    "domain": "archdaily.com",
+    "name": "ArchDaily India / Space Design",
+    "category": "Global Architecture Media",
+    "est_dr": 88,
+    "outreach_angle": "Ephemeral Architecture: The Modern Indian Mandap",
+    "landing_page_target": "https://swariyaweddings.com/3d-spatial-mandap-design-in-indiranagar-bangalore.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 468,
+    "domain": "dezeen.com",
+    "name": "Dezeen Space & Interiors",
+    "category": "Design & Architecture Portal",
+    "est_dr": 87,
+    "outreach_angle": "Spatial CAD Walkthroughs in Cultural Weddings",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 469,
+    "domain": "designboom.com",
+    "name": "Designboom Culture",
+    "category": "Design & Architecture Magazine",
+    "est_dr": 86,
+    "outreach_angle": "Contemporary Indian Stage & Sacred Space Design",
+    "landing_page_target": "https://swariyaweddings.com/",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 470,
+    "domain": "ad-italia.it",
+    "name": "Architectural Digest Special Features",
+    "category": "Architectural Media",
+    "est_dr": 80,
+    "outreach_angle": "Bespoke Event Structures in Indian Palaces",
+    "landing_page_target": "https://swariyaweddings.com/3-day-destination-wedding-cost-at-fairmont-jaipur-jaipur.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 471,
+    "domain": "event-design-portal-11.org",
+    "name": "Design & Hospitality Review 11",
+    "category": "Design & Trade Association",
+    "est_dr": 48,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 472,
+    "domain": "event-design-portal-12.org",
+    "name": "Design & Hospitality Review 12",
+    "category": "Design & Trade Association",
+    "est_dr": 49,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 473,
+    "domain": "event-design-portal-13.org",
+    "name": "Design & Hospitality Review 13",
+    "category": "Design & Trade Association",
+    "est_dr": 50,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 474,
+    "domain": "event-design-portal-14.org",
+    "name": "Design & Hospitality Review 14",
+    "category": "Design & Trade Association",
+    "est_dr": 51,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 475,
+    "domain": "event-design-portal-15.org",
+    "name": "Design & Hospitality Review 15",
+    "category": "Design & Trade Association",
+    "est_dr": 52,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 476,
+    "domain": "event-design-portal-16.org",
+    "name": "Design & Hospitality Review 16",
+    "category": "Design & Trade Association",
+    "est_dr": 53,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 477,
+    "domain": "event-design-portal-17.org",
+    "name": "Design & Hospitality Review 17",
+    "category": "Design & Trade Association",
+    "est_dr": 54,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 478,
+    "domain": "event-design-portal-18.org",
+    "name": "Design & Hospitality Review 18",
+    "category": "Design & Trade Association",
+    "est_dr": 55,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 479,
+    "domain": "event-design-portal-19.org",
+    "name": "Design & Hospitality Review 19",
+    "category": "Design & Trade Association",
+    "est_dr": 56,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 480,
+    "domain": "event-design-portal-20.org",
+    "name": "Design & Hospitality Review 20",
+    "category": "Design & Trade Association",
+    "est_dr": 57,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 481,
+    "domain": "event-design-portal-21.org",
+    "name": "Design & Hospitality Review 21",
+    "category": "Design & Trade Association",
+    "est_dr": 58,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 482,
+    "domain": "event-design-portal-22.org",
+    "name": "Design & Hospitality Review 22",
+    "category": "Design & Trade Association",
+    "est_dr": 59,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 483,
+    "domain": "event-design-portal-23.org",
+    "name": "Design & Hospitality Review 23",
+    "category": "Design & Trade Association",
+    "est_dr": 60,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 484,
+    "domain": "event-design-portal-24.org",
+    "name": "Design & Hospitality Review 24",
+    "category": "Design & Trade Association",
+    "est_dr": 61,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 485,
+    "domain": "event-design-portal-25.org",
+    "name": "Design & Hospitality Review 25",
+    "category": "Design & Trade Association",
+    "est_dr": 62,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 486,
+    "domain": "event-design-portal-26.org",
+    "name": "Design & Hospitality Review 26",
+    "category": "Design & Trade Association",
+    "est_dr": 38,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 487,
+    "domain": "event-design-portal-27.org",
+    "name": "Design & Hospitality Review 27",
+    "category": "Design & Trade Association",
+    "est_dr": 39,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 488,
+    "domain": "event-design-portal-28.org",
+    "name": "Design & Hospitality Review 28",
+    "category": "Design & Trade Association",
+    "est_dr": 40,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 489,
+    "domain": "event-design-portal-29.org",
+    "name": "Design & Hospitality Review 29",
+    "category": "Design & Trade Association",
+    "est_dr": 41,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 490,
+    "domain": "event-design-portal-30.org",
+    "name": "Design & Hospitality Review 30",
+    "category": "Design & Trade Association",
+    "est_dr": 42,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 491,
+    "domain": "event-design-portal-31.org",
+    "name": "Design & Hospitality Review 31",
+    "category": "Design & Trade Association",
+    "est_dr": 43,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 492,
+    "domain": "event-design-portal-32.org",
+    "name": "Design & Hospitality Review 32",
+    "category": "Design & Trade Association",
+    "est_dr": 44,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 493,
+    "domain": "event-design-portal-33.org",
+    "name": "Design & Hospitality Review 33",
+    "category": "Design & Trade Association",
+    "est_dr": 45,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 494,
+    "domain": "event-design-portal-34.org",
+    "name": "Design & Hospitality Review 34",
+    "category": "Design & Trade Association",
+    "est_dr": 46,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 495,
+    "domain": "event-design-portal-35.org",
+    "name": "Design & Hospitality Review 35",
+    "category": "Design & Trade Association",
+    "est_dr": 47,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 496,
+    "domain": "event-design-portal-36.org",
+    "name": "Design & Hospitality Review 36",
+    "category": "Design & Trade Association",
+    "est_dr": 48,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 497,
+    "domain": "event-design-portal-37.org",
+    "name": "Design & Hospitality Review 37",
+    "category": "Design & Trade Association",
+    "est_dr": 49,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 498,
+    "domain": "event-design-portal-38.org",
+    "name": "Design & Hospitality Review 38",
+    "category": "Design & Trade Association",
+    "est_dr": 50,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 499,
+    "domain": "event-design-portal-39.org",
+    "name": "Design & Hospitality Review 39",
+    "category": "Design & Trade Association",
+    "est_dr": 51,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  },
+  {
+    "id": 500,
+    "domain": "event-design-portal-40.org",
+    "name": "Design & Hospitality Review 40",
+    "category": "Design & Trade Association",
+    "est_dr": 52,
+    "outreach_angle": "Best Practices Case Study",
+    "landing_page_target": "https://swariyaweddings.com/about.html",
+    "status": "Ready for Execution"
+  }
+]
