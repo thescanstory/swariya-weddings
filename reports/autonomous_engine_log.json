@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-10-19 17:02:24",
+  "anchor_health": {
+    "linked_count": 99,
+    "total_checked": 99,
+    "percentage": 100.0
+  },
+  "serp_status": {
+    "Destination Wedding Planner in India": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Destination Wedding Planner in Goa": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Wedding Planners in Udaipur": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Best Destination Wedding Places in India": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Wedding Planners in Mumbai": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Wedding Planners in Bangalore": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Luxury Wedding Planners in Bangalore": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "The Tamarind Tree Wedding Cost": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Palace Grounds Bangalore Wedding Cost": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Telugu Wedding Planner Bangalore": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Kannada Traditional Wedding Planner": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Wedding Planners in HSR Layout": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    },
+    "Wedding Planners in Indiranagar Bangalore": {
+      "found": false,
+      "status": "Crawl Queue (>20)"
+    }
+  },
+  "referring_domains_pipeline": {
+    "total_targets": 500,
+    "status": "Active Pipeline",
+    "verified_targets": 500
+  },
+  "broadcasted_urls_count": 110
+}

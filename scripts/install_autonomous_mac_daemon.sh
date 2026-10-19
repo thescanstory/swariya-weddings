@@ -2,7 +2,7 @@
 # Install macOS LaunchAgent for Swariya Autonomous SEO Optimizer
 PLIST_PATH="$HOME/Library/LaunchAgents/com.swariya.seo.daemon.plist"
 SCRIPT_PATH="/Users/mac/Documents/swariya-weddings-complete-project/scripts/autonomous_optimizer_daemon.py"
-PYTHON_PATH="/Applications/Xcode.app/Contents/Developer/usr/bin/python3"
+PYTHON_PATH="$(which python3)"
 PROJECT_DIR="/Users/mac/Documents/swariya-weddings-complete-project"
 
 cat <<EOF > "$PLIST_PATH"

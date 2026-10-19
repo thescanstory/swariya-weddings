@@ -24,6 +24,14 @@ REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 os.makedirs(REPORTS_DIR, exist_ok=True)
 
 TARGET_KEYWORDS = [
+    # Pan-India National Keywords
+    "Destination Wedding Planner in India",
+    "Destination Wedding Planner in Goa",
+    "Wedding Planners in Udaipur",
+    "Best Destination Wedding Places in India",
+    "Wedding Planners in Mumbai",
+    
+    # Bangalore & Karnataka Core
     "Wedding Planners in Bangalore",
     "Luxury Wedding Planners in Bangalore",
     "The Tamarind Tree Wedding Cost",
@@ -126,26 +134,49 @@ def run_cycle():
     # 1. Internal link verification
     anchor_health = verify_internal_anchors()
     
-    # 2. Priority URLs to broadcast (All 100 Clean URLs)
-    from build_100_quality_sitemap import SELECTED_100
+    # 2. Priority URLs to broadcast (All clean URLs in sitemap.xml)
+    sitemap_path = os.path.join(BASE_DIR, "sitemap.xml")
     quality_urls = []
-    for filename, _, _, _ in SELECTED_100:
-        if filename == "index.html":
-            quality_urls.append("https://swariyaweddings.com/")
-        else:
-            clean = filename[:-5] if filename.endswith(".html") else filename
-            quality_urls.append(f"https://swariyaweddings.com/{clean}")
+    if os.path.exists(sitemap_path):
+        import xml.etree.ElementTree as ET
+        try:
+            tree = ET.parse(sitemap_path)
+            quality_urls = [loc.text.strip() for loc in tree.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+        except Exception as e:
+            log(f"Error parsing sitemap.xml: {e}")
+            
+    if not quality_urls:
+        quality_urls = [
+            "https://swariyaweddings.com/",
+            "https://swariyaweddings.com/wedding-planners-in-bangalore",
+            "https://swariyaweddings.com/destination-wedding-planner-india",
+            "https://swariyaweddings.com/partners",
+            "https://swariyaweddings.com/press"
+        ]
             
     broadcast_indexnow(quality_urls)
     
     # 3. Check SERP positions
     serp_status = check_serp_ranks()
+
+    # 4. Check Referring Domains Pipeline
+    ref_domains_status = {"total_targets": 500, "status": "Active Pipeline"}
+    db_file = os.path.join(BASE_DIR, "data", "500_referring_domains_database.json")
+    if os.path.exists(db_file):
+        try:
+            with open(db_file, "r") as df:
+                db_data = json.load(df)
+            ref_domains_status["verified_targets"] = len(db_data)
+        except Exception:
+            pass
     
-    # 4. Save state JSON
+    # 5. Save state JSON
     cycle_record = {
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "anchor_health": anchor_health,
-        "serp_status": serp_status
+        "serp_status": serp_status,
+        "referring_domains_pipeline": ref_domains_status,
+        "broadcasted_urls_count": len(quality_urls)
     }
     
     log_file = os.path.join(REPORTS_DIR, "autonomous_engine_log.json")
